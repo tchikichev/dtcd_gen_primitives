@@ -1,0 +1,19 @@
+{
+  "title": "КНС-1",
+  "layout": { "heigth": 40, "width": 16 },
+  "image": "KNS-1.svg",
+  "properties": {
+    "source": {
+      "type": "expression",
+      "expression" : ""
+    }
+  },
+  "ports": [
+    { 
+      "name": "inPort1", 
+      "type": ["IN"], 
+      "position": { "x": 0.0, "y": 0.5 },
+      "expression": ""
+      }
+  ]
+}

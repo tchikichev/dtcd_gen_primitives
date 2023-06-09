@@ -1,0 +1,1 @@
+{"title": "Заземляющий нож включен", "layout": {"heigth": 91, "width": 91}, "image": "icon.svg", "properties": {}, "ports": [{"name": "ioPortLow", "type": ["IN", "OUT"], "position": {"x": 1.0, "y": 0.5}}, {"name": "ioPortTop", "type": ["IN", "OUT"], "position": {"x": 0.0, "y": 0.5}}]}

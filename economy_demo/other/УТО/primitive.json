@@ -1,0 +1,29 @@
+{
+  "title": "УТО",
+  "layout": { "heigth": 100, "width": 100 },
+  "image": "primitive_blue2.svg",
+  "nodeTitle": "<h1><strong>УТО: $sum$ руб.</strong></h1><p><br></p>",
+  "properties": {
+    "sum": {
+      "expression": "let arr = Array(graph.predecessors(graph.nodes.find(node => node.tag.primitiveID=== primitiveID)).map(node => node.tag.primitiveID).toArray().map(nodeID => eval(nodeID).sum))[0]; let sum=0;for (const element of arr) {sum=sum+parseFloat(element)} sum.toFixed(2)",
+      "type": "expression"
+    }
+  },
+  "ports": [
+    { "name": "outPort1", 
+    "type": ["OUT"], 
+    "position": { "x": 0.5, "y": 0 } , 
+    "properties" : {
+      "status": {
+        "type" : "expression",
+        "expression" : "this.sum",
+        "input": {
+          "component": "textarea"
+      },
+        "status" : "complete",
+        "value" : "this.sum"
+      }
+    } 
+  }
+  ]
+}

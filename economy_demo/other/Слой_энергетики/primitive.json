@@ -1,0 +1,24 @@
+{
+  "title": "Исходный Excel",
+  "layout": { "heigth": 60, "width": 60 },
+  "image": "energy-svgrepo-com.svg",
+  "properties": {
+    "source": {
+      "type": "expression",
+      "expression" : ""
+    }
+  },
+  "ports": [
+    { "name": "outPort1", "type": ["OUT"], "position": { "x": 0.5, "y": 0 } ,                         "properties": {
+      "status": {
+          "type": "expression",
+          "expression": "this.source",
+          "input": {
+              "component": "textarea"
+          },
+          "status": "complete",
+          "value": "this.source"
+      }}
+    }
+  ]
+}

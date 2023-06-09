@@ -1,0 +1,35 @@
+{
+    "title": "Отпайка",
+    "layout": {
+        "heigth": 21,
+        "width": 21
+    },
+    "image": "icon.svg",
+    "properties": {
+        "name": {
+            "expression": "//\"Наименование объекта информационной модели\"\n' '",
+            "type": "expression"
+        },
+        "aliasName": {
+            "expression": "//\"Дополнительное наименование идентифицируемого объекта\"\n' '",
+            "type": "expression"
+        },
+        "description": {
+            "expression": "//\"Описание объекта информационной модели\"\n' '",
+            "type": "expression"
+        }
+    },
+    "ports": [
+        {
+            "name": "ioPort",
+            "type": [
+                "IN",
+                "OUT"
+            ],
+            "position": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Уровень 2",
+  "layout": { "heigth": 100, "width": 150 },
+  "image": "lv2.svg",
+  "properties": {
+    "source": {
+      "type": "expression",
+      "expression" : ""
+    }
+  },
+  "ports": [
+    { 
+    "name": "outPort1", 
+    "type": ["OUT"], 
+    "position": { "x": 0.5, "y": 0.0 },
+    "expression": ""
+    }
+  ]
+}

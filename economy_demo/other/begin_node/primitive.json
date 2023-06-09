@@ -1,0 +1,19 @@
+{
+  "title": "Начальная точка",
+  "layout": { "heigth": 32, "width": 32 },
+  "image": "dot_K.svg",
+  "properties": {
+    "source": {
+      "type": "expression",
+      "expression" : ""
+    }
+  },
+  "ports": [
+    { 
+    "name": "outPort1", 
+    "type": ["OUT"], 
+    "position": { "x": 1.0, "y": 0.5 },
+    "expression": "this.source"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "QWERTYU",
+  "layout": {
+    "heigth": 60,
+    "width": 60
+  },
+  "image": "icon.svg",
+  "properties": {
+    "source_": {
+      "type": "expression",
+      "expression": "",
+      "input": {
+          "component": "textarea"
+      }
+    }
+  },
+  "ports": [
+    {
+        "name": "ioTop",
+        "type": [
+            "IN",
+            "OUT"
+        ],
+        "position": {
+            "x": 0.5,
+            "y": 0.0
+        }
+    }
+  ]
+}

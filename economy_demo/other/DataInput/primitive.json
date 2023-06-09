@@ -1,0 +1,78 @@
+{
+    "title": "Мой Дата ИНПУТ",
+    "layout": {
+        "heigth": 98,
+        "width": 98
+    },
+    "image": "icon.svg",
+    "properties": {
+        "type": {
+            "type": "expression",
+            "expression": "'Data Object (Input)'",
+            "status": "new",
+            "value": "Data Object (Input)",
+            "input": {
+                "component": "select",
+                "type": "const",
+                "values": [
+                    "Data Object (Input)",
+                    "Data Object",
+                    "Data Object (Output)"
+                ]
+            }
+        },
+        "collection": {
+            "expression": "",
+            "type": "expression",
+            "input": {
+                "component": "switch"
+            }
+        }
+    },
+    "ports": [
+        {
+            "name": "ioLeft",
+            "type": [
+                "IN",
+                "OUT"
+            ],
+            "position": {
+                "x": 0.0,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "ioRight",
+            "type": [
+                "IN",
+                "OUT"
+            ],
+            "position": {
+                "x": 1.0,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "ioTop",
+            "type": [
+                "IN",
+                "OUT"
+            ],
+            "position": {
+                "x": 0.5,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "ioLow",
+            "type": [
+                "IN",
+                "OUT"
+            ],
+            "position": {
+                "x": 0.5,
+                "y": 1.0
+            }
+        }
+    ]
+}

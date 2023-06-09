@@ -1,0 +1,1 @@
+{"title": "Выключатель включен 500 кВ", "layout": {"heigth": 91, "width": 91}, "image": "icon.svg", "properties": {}, "ports": [{"name": "ioPortLow", "type": ["IN", "OUT"], "position": {"x": 0.5, "y": 1.0}}, {"name": "ioPortTop", "type": ["IN", "OUT"], "position": {"x": 0.5, "y": 0.0}}]}

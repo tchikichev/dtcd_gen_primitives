@@ -1,0 +1,25 @@
+{
+  "title": "Промежуточная точка",
+  "layout": { "heigth": 32, "width": 32 },
+  "image": "dot.svg",
+  "properties": {
+    "source": {
+      "type": "expression",
+      "expression" : ""
+    }
+  },
+  "ports": [
+    { 
+      "name": "inPort1", 
+      "type": ["IN"], 
+      "position": { "x": 0.0, "y": 0.5 },
+      "expression": "let portOwner = graph.ports.find(port => port.tag.primitiveID === primitiveID).owner; let inEdges = graph.inEdgesAt(portOwner).filter(edge => edge.targetPort.tag.primitiveID === primitiveID).toArray() if (inEdges.length < 1) '' else {eval(inEdges[0].sourcePort.tag.primitiveID).status}"
+      },
+    { 
+    "name": "outPort1", 
+    "type": ["OUT"], 
+    "position": { "x": 1.0, "y": 0.5 },
+    "expression": "this.inPort1"
+    }
+  ]
+}

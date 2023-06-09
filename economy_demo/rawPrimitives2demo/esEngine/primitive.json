@@ -1,0 +1,1 @@
+{"title": "Двигатель", "layout": {"heigth": 76, "width": 91}, "image": "icon.svg", "properties": {}, "ports": [{"name": "inoutPort", "type": ["IN", "OUT"], "position": {"x": 0.5, "y": 0.0}}]}

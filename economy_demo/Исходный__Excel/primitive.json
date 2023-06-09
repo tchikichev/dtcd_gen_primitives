@@ -1,0 +1,19 @@
+{
+  "title": "Исходный Excel",
+  "layout": { "heigth": 60, "width": 60 },
+  "image": "excel.svg",
+  "properties": {
+    "source": {
+      "type": "expression",
+      "expression" : ""
+    }
+  },
+  "ports": [
+    { 
+    "name": "outPort1", 
+    "type": ["OUT"], 
+    "position": { "x": 0.5, "y": 0.0 },
+    "expression": "this.source"
+    }
+  ]
+}

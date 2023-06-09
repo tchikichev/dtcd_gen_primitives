@@ -1,0 +1,38 @@
+{
+  "title": "Время работы УЭЦН",
+  "layout": { "heigth": 100, "width": 100 },
+  "image": "cloud_small.svg",
+  "properties": {
+    "source": {
+      "expression": "pump_rent_days.csv",
+      "type": "expression"
+    },
+    "OTL" : {
+      "type" : "datasource",
+      "expression": {
+        "type": "OTL",
+        "tws": 1658389152,
+        "twf": 1658389152,
+        "cache_ttl": 60,
+        "original_otl": "| inputlookup pump_rent_days.csv | eval mpw = mest+pad_num+well_num | fields mest,mpw,days | join mpw [| inputlookup pump_rent_price.csv | eval mpw = mest+pad_num+well_num | fields mpw, productivity] | eval mp = mest+productivity"
+      }
+    }
+  },
+  "ports": [
+    { "name": "outPort1", 
+    "type": ["OUT"], 
+    "position": { "x": 0.5, "y": 0 } , 
+    "properties" : {
+      "status": {
+        "type" : "expression",
+        "expression" : "this.source",
+        "input": {
+          "component": "textarea"
+      },
+        "status" : "complete",
+        "value" : "pump_rent_days.csv"
+      }
+    } 
+  }
+  ]
+}

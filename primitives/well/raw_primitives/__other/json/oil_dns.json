@@ -1,0 +1,1556 @@
+{
+    "primitiveID": "oil_dns_77",
+    "primitiveName": "oil_dns",
+    "properties": {
+        "object_type": {
+            "type": "expression",
+            "expression": "\"dns\"",
+            "status": "complete",
+            "value": "dns"
+        },
+        "P": {
+            "type": "expression",
+            "expression": "this.query_res[0].endP",
+            "status": "complete",
+            "input": {
+                "component": "textarea"
+            },
+            "value": 7.3
+        },
+        "T": {
+            "type": "expression",
+            "expression": "this.query_res[0].endT",
+            "status": "complete",
+            "input": {
+                "component": "textarea"
+            },
+            "value": 20
+        },
+        "Q_m3_day": {
+            "type": "expression",
+            "expression": "this.query_res[0].end_Q_m3_day",
+            "status": "complete",
+            "input": {
+                "component": "textarea"
+            },
+            "value": -4707.314662524335
+        },
+        "query_res": {
+            "type": "datasource",
+            "expression": {
+                "type": "OTL",
+                "tws": 1674155085,
+                "twf": 1674155085,
+                "cache_ttl": 60,
+                "original_otl": "| inputlookup demo_3_corr_ids_dns3_all_wells_Q_fixed.csv\n| fields node_id_end, endP, endT, end_Q_m3_day\n| where node_id_end = 1751058919"
+            },
+            "status": "complete",
+            "value": [
+                {
+                    "node_id_end": 1751058919,
+                    "endP": 7.3,
+                    "endT": 20,
+                    "end_Q_m3_day": -4707.314662524335
+                }
+            ],
+            "input": {
+                "component": "textarea"
+            }
+        },
+        "Name": {
+            "type": "expression",
+            "expression": "\"ДНС-3 Тайлаковская\"",
+            "status": "complete",
+            "value": "ДНС-3 Тайлаковская"
+        },
+        "node_name": {
+            "type": "expression",
+            "expression": "\"ДНС-3 Тайлаковская\"",
+            "status": "complete",
+            "value": "ДНС-3 Тайлаковская"
+        },
+        "node_id": {
+            "type": "expression",
+            "expression": "1751058919",
+            "status": "complete",
+            "value": 1751058919
+        },
+        "X": {
+            "type": "expression",
+            "expression": "439860.18",
+            "status": "complete",
+            "value": 439860.18
+        },
+        "Y": {
+            "type": "expression",
+            "expression": "6568211.92",
+            "status": "complete",
+            "value": 6568211.92
+        },
+        "Kind": {
+            "type": "expression",
+            "expression": "\"P\"",
+            "status": "complete",
+            "value": "P"
+        },
+        "Value": {
+            "type": "expression",
+            "expression": "7.3",
+            "status": "complete",
+            "value": 7.3
+        },
+        "IsOutlet": {
+            "type": "expression",
+            "expression": "true",
+            "status": "complete",
+            "value": true
+        },
+        "VolumeWater": {
+            "type": "expression",
+            "expression": "",
+            "status": "complete",
+            "value": ""
+        },
+        "res_start_info": {
+            "type": "datasource",
+            "expression": {
+                "type": "OTL",
+                "tws": 1674203339,
+                "twf": 1674203339,
+                "cache_ttl": 60,
+                "original_otl": "| inputlookup demo_3_corr_ids_dns3_all_wells_Q_fixed.csv\n| fields node_id_start, node_id_end, startP, startT, start_Q_m3_day"
+            },
+            "status": "complete",
+            "value": [
+                {
+                    "node_id_start": 5999,
+                    "node_id_end": 1751054627,
+                    "startP": 8.684843259563202,
+                    "startT": 20,
+                    "start_Q_m3_day": 58.6845866537696
+                },
+                {
+                    "node_id_start": 110,
+                    "node_id_end": 1750048619,
+                    "startP": 10.320813681800724,
+                    "startT": 20,
+                    "start_Q_m3_day": 13.90791835847345
+                },
+                {
+                    "node_id_start": 416,
+                    "node_id_end": 1750048880,
+                    "startP": 13.430845464916558,
+                    "startT": 20,
+                    "start_Q_m3_day": 17.462264124686136
+                },
+                {
+                    "node_id_start": 3703,
+                    "node_id_end": 1750023893,
+                    "startP": 9.658422561477455,
+                    "startT": 20,
+                    "start_Q_m3_day": 71.96493661198768
+                },
+                {
+                    "node_id_start": 883,
+                    "node_id_end": 1750037786,
+                    "startP": 19.010821195005242,
+                    "startT": 20,
+                    "start_Q_m3_day": 69.73703454403615
+                },
+                {
+                    "node_id_start": 1750048880,
+                    "node_id_end": 1750025407,
+                    "startP": 13.430816897786277,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 1631,
+                    "node_id_end": 1750037786,
+                    "startP": 19.01069501104918,
+                    "startT": 20,
+                    "start_Q_m3_day": 37.96011727134309
+                },
+                {
+                    "node_id_start": 1756,
+                    "node_id_end": 1750024074,
+                    "startP": 14.311204540028124,
+                    "startT": 20,
+                    "start_Q_m3_day": 63.05939742474059
+                },
+                {
+                    "node_id_start": 1750023893,
+                    "node_id_end": 1750025406,
+                    "startP": 9.65819320925396,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 580,
+                    "node_id_end": 1750024074,
+                    "startP": 14.311190874967963,
+                    "startT": 20,
+                    "start_Q_m3_day": 59.96978921028049
+                },
+                {
+                    "node_id_start": 1750040926,
+                    "node_id_end": 1750025404,
+                    "startP": 10.691758410218593,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 402,
+                    "node_id_end": 1750048880,
+                    "startP": 13.4308164457645,
+                    "startT": 20,
+                    "start_Q_m3_day": 54.54427391795793
+                },
+                {
+                    "node_id_start": 1750025404,
+                    "node_id_end": 1750025405,
+                    "startP": 10.533283240248073,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 1750048619,
+                    "node_id_end": 1750040926,
+                    "startP": 10.320813689006918,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 1508,
+                    "node_id_end": 1750026636,
+                    "startP": 12.001711735193929,
+                    "startT": 20,
+                    "start_Q_m3_day": 120.92231537805279
+                },
+                {
+                    "node_id_start": 2304,
+                    "node_id_end": 1751067763,
+                    "startP": 19.86905379505022,
+                    "startT": 20,
+                    "start_Q_m3_day": 67.38853819347206
+                },
+                {
+                    "node_id_start": 104,
+                    "node_id_end": 1750048619,
+                    "startP": 10.320813637198954,
+                    "startT": 20,
+                    "start_Q_m3_day": 30.49216850323696
+                },
+                {
+                    "node_id_start": 6003,
+                    "node_id_end": 1751054627,
+                    "startP": 8.684942087834097,
+                    "startT": 20,
+                    "start_Q_m3_day": 40.99111654265911
+                },
+                {
+                    "node_id_start": 1750025407,
+                    "node_id_end": 1750025402,
+                    "startP": 13.417224921658413,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 400,
+                    "node_id_end": 1750048880,
+                    "startP": 13.43081686083201,
+                    "startT": 20,
+                    "start_Q_m3_day": 23.64769879088796
+                },
+                {
+                    "node_id_start": 98,
+                    "node_id_end": 1750048619,
+                    "startP": 10.320813476219655,
+                    "startT": 20,
+                    "start_Q_m3_day": 46.8797753900951
+                },
+                {
+                    "node_id_start": 1414,
+                    "node_id_end": 1750037686,
+                    "startP": 16.13891566034378,
+                    "startT": 20,
+                    "start_Q_m3_day": 24.633737935483712
+                },
+                {
+                    "node_id_start": 100,
+                    "node_id_end": 1750048619,
+                    "startP": 10.320813936773058,
+                    "startT": 20,
+                    "start_Q_m3_day": 43.82065909092065
+                },
+                {
+                    "node_id_start": 1418,
+                    "node_id_end": 1750037686,
+                    "startP": 16.13894209490831,
+                    "startT": 20,
+                    "start_Q_m3_day": 33.619670133327986
+                },
+                {
+                    "node_id_start": 1751051660,
+                    "node_id_end": 1751051661,
+                    "startP": 11.368041298255756,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 1608,
+                    "node_id_end": 1750037686,
+                    "startP": 16.139318947769983,
+                    "startT": 20,
+                    "start_Q_m3_day": 110.94580300396495
+                },
+                {
+                    "node_id_start": 1413,
+                    "node_id_end": 1750037686,
+                    "startP": 16.138869621321447,
+                    "startT": 20,
+                    "start_Q_m3_day": 56.62952484823359
+                },
+                {
+                    "node_id_start": 470,
+                    "node_id_end": 1750023893,
+                    "startP": 9.658563448907113,
+                    "startT": 20,
+                    "start_Q_m3_day": 97.97157456565795
+                },
+                {
+                    "node_id_start": 1907,
+                    "node_id_end": 1750028316,
+                    "startP": 9.133378879330238,
+                    "startT": 20,
+                    "start_Q_m3_day": 17.132080057529983
+                },
+                {
+                    "node_id_start": 4302,
+                    "node_id_end": 1750040926,
+                    "startP": 10.691758293148023,
+                    "startT": 20,
+                    "start_Q_m3_day": 23.808887152276807
+                },
+                {
+                    "node_id_start": 418,
+                    "node_id_end": 1750048880,
+                    "startP": 13.430884560502596,
+                    "startT": 20,
+                    "start_Q_m3_day": 32.07090655458184
+                },
+                {
+                    "node_id_start": 571,
+                    "node_id_end": 1750024074,
+                    "startP": 14.311165804234687,
+                    "startT": 20,
+                    "start_Q_m3_day": 54.099422340178016
+                },
+                {
+                    "node_id_start": 4301,
+                    "node_id_end": 1750040926,
+                    "startP": 10.692097345147566,
+                    "startT": 20,
+                    "start_Q_m3_day": 92.49766425509803
+                },
+                {
+                    "node_id_start": 1412,
+                    "node_id_end": 1750037686,
+                    "startP": 16.13899495096518,
+                    "startT": 20,
+                    "start_Q_m3_day": 48.84870658872298
+                },
+                {
+                    "node_id_start": 1500,
+                    "node_id_end": 1750026636,
+                    "startP": 12.00126820933692,
+                    "startT": 20,
+                    "start_Q_m3_day": 32.31852818851752
+                },
+                {
+                    "node_id_start": 3780,
+                    "node_id_end": 1750023893,
+                    "startP": 9.658366349389704,
+                    "startT": 20,
+                    "start_Q_m3_day": 59.952724969523835
+                },
+                {
+                    "node_id_start": 4308,
+                    "node_id_end": 1750040926,
+                    "startP": 10.691758296335687,
+                    "startT": 20,
+                    "start_Q_m3_day": 29.88832313002281
+                },
+                {
+                    "node_id_start": 1750025406,
+                    "node_id_end": 1751062704,
+                    "startP": 8.65005686179744,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 1751054627,
+                    "node_id_end": 1751062704,
+                    "startP": 8.684843677316403,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 573,
+                    "node_id_end": 1750024074,
+                    "startP": 14.31101711870409,
+                    "startT": 20,
+                    "start_Q_m3_day": 15.586543756948869
+                },
+                {
+                    "node_id_start": 2300,
+                    "node_id_end": 1751067763,
+                    "startP": 19.868988928326168,
+                    "startT": 20,
+                    "start_Q_m3_day": 52.09159775634697
+                },
+                {
+                    "node_id_start": 1636,
+                    "node_id_end": 1750037786,
+                    "startP": 19.010607281465525,
+                    "startT": 20,
+                    "start_Q_m3_day": 58.94092157612594
+                },
+                {
+                    "node_id_start": 1626,
+                    "node_id_end": 1750037786,
+                    "startP": 19.01124527817426,
+                    "startT": 20,
+                    "start_Q_m3_day": 139.71265755040744
+                },
+                {
+                    "node_id_start": 1415,
+                    "node_id_end": 1750037686,
+                    "startP": 16.13892938378375,
+                    "startT": 20,
+                    "start_Q_m3_day": 29.450453555253098
+                },
+                {
+                    "node_id_start": 1417,
+                    "node_id_end": 1750037686,
+                    "startP": 16.138869134836533,
+                    "startT": 20,
+                    "start_Q_m3_day": 42.99412844455047
+                },
+                {
+                    "node_id_start": 1750024074,
+                    "node_id_end": 1750025407,
+                    "startP": 14.311017137127044,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 3702,
+                    "node_id_end": 1750023893,
+                    "startP": 9.658448512203329,
+                    "startT": 20,
+                    "start_Q_m3_day": 76.98889411879543
+                },
+                {
+                    "node_id_start": 1600,
+                    "node_id_end": 1750037686,
+                    "startP": 16.13891534439984,
+                    "startT": 20,
+                    "start_Q_m3_day": 24.340253111266584
+                },
+                {
+                    "node_id_start": 1501,
+                    "node_id_end": 1750026636,
+                    "startP": 12.001234351422532,
+                    "startT": 20,
+                    "start_Q_m3_day": 20.33522214106675
+                },
+                {
+                    "node_id_start": 1751067763,
+                    "node_id_end": 1750037786,
+                    "startP": 19.868850664284032,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 3781,
+                    "node_id_end": 1750023893,
+                    "startP": 9.658333226486937,
+                    "startT": 20,
+                    "start_Q_m3_day": 51.977251043558816
+                },
+                {
+                    "node_id_start": 1628,
+                    "node_id_end": 1750037786,
+                    "startP": 19.01094457791163,
+                    "startT": 20,
+                    "start_Q_m3_day": 92.8435149138738
+                },
+                {
+                    "node_id_start": 1903,
+                    "node_id_end": 1750028316,
+                    "startP": 9.133350588461006,
+                    "startT": 20,
+                    "start_Q_m3_day": 48.91442140920028
+                },
+                {
+                    "node_id_start": 410,
+                    "node_id_end": 1750048880,
+                    "startP": 13.430816452114032,
+                    "startT": 20,
+                    "start_Q_m3_day": 97.71889763923797
+                },
+                {
+                    "node_id_start": 2303,
+                    "node_id_end": 1751067763,
+                    "startP": 19.868999515454227,
+                    "startT": 20,
+                    "start_Q_m3_day": 53.99945563423299
+                },
+                {
+                    "node_id_start": 411,
+                    "node_id_end": 1750048880,
+                    "startP": 13.43081681490988,
+                    "startT": 20,
+                    "start_Q_m3_day": 24.874259355856537
+                },
+                {
+                    "node_id_start": 1750037686,
+                    "node_id_end": 1750025407,
+                    "startP": 16.138869747623595,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 1506,
+                    "node_id_end": 1750026636,
+                    "startP": 12.001431551462112,
+                    "startT": 20,
+                    "start_Q_m3_day": 72.91931820194822
+                },
+                {
+                    "node_id_start": 401,
+                    "node_id_end": 1750048880,
+                    "startP": 13.430816824858253,
+                    "startT": 20,
+                    "start_Q_m3_day": 22.829435068996272
+                },
+                {
+                    "node_id_start": 1750025405,
+                    "node_id_end": 1751062704,
+                    "startP": 8.54688594982115,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 4304,
+                    "node_id_end": 1750040926,
+                    "startP": 10.691954948825074,
+                    "startT": 20,
+                    "start_Q_m3_day": 64.9791306216623
+                },
+                {
+                    "node_id_start": 582,
+                    "node_id_end": 1750024074,
+                    "startP": 14.311017092351973,
+                    "startT": 20,
+                    "start_Q_m3_day": 26.61800397119607
+                },
+                {
+                    "node_id_start": 1906,
+                    "node_id_end": 1750028316,
+                    "startP": 9.134363602027097,
+                    "startT": 20,
+                    "start_Q_m3_day": 185.76668402040755
+                },
+                {
+                    "node_id_start": 404,
+                    "node_id_end": 1750048880,
+                    "startP": 13.430834744305256,
+                    "startT": 20,
+                    "start_Q_m3_day": 12.289061330097475
+                },
+                {
+                    "node_id_start": 1750026636,
+                    "node_id_end": 1750025402,
+                    "startP": 12.001198872697914,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 1622,
+                    "node_id_end": 1750037786,
+                    "startP": 19.01117037740837,
+                    "startT": 20,
+                    "start_Q_m3_day": 127.95049413181837
+                },
+                {
+                    "node_id_start": 1633,
+                    "node_id_end": 1750037786,
+                    "startP": 19.010864109547484,
+                    "startT": 20,
+                    "start_Q_m3_day": 77.91558247582037
+                },
+                {
+                    "node_id_start": 6001,
+                    "node_id_end": 1751054627,
+                    "startP": 8.684905509201432,
+                    "startT": 20,
+                    "start_Q_m3_day": 29.86471353983208
+                },
+                {
+                    "node_id_start": 6002,
+                    "node_id_end": 1751054627,
+                    "startP": 8.684843647602797,
+                    "startT": 20,
+                    "start_Q_m3_day": 13.336908279170705
+                },
+                {
+                    "node_id_start": 1620,
+                    "node_id_end": 1750037786,
+                    "startP": 19.010840062244135,
+                    "startT": 20,
+                    "start_Q_m3_day": 73.71957017121849
+                },
+                {
+                    "node_id_start": 1602,
+                    "node_id_end": 1750037686,
+                    "startP": 16.139198199569265,
+                    "startT": 20,
+                    "start_Q_m3_day": 90.92844580880372
+                },
+                {
+                    "node_id_start": 1751051661,
+                    "node_id_end": 1751062704,
+                    "startP": 10.311097656531981,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 412,
+                    "node_id_end": 1750048880,
+                    "startP": 13.430816860781546,
+                    "startT": 20,
+                    "start_Q_m3_day": 21.58739812624655
+                },
+                {
+                    "node_id_start": 1513,
+                    "node_id_end": 1750026636,
+                    "startP": 12.001945809001063,
+                    "startT": 20,
+                    "start_Q_m3_day": 152.95598705990162
+                },
+                {
+                    "node_id_start": 1902,
+                    "node_id_end": 1750028316,
+                    "startP": 9.133886165618636,
+                    "startT": 20,
+                    "start_Q_m3_day": 123.96657351887191
+                },
+                {
+                    "node_id_start": 2302,
+                    "node_id_end": 1751067763,
+                    "startP": 19.869116276625807,
+                    "startT": 20,
+                    "start_Q_m3_day": 79.46486599172314
+                },
+                {
+                    "node_id_start": 1750022894,
+                    "node_id_end": 1750025402,
+                    "startP": 13.450721067991543,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 882,
+                    "node_id_end": 1750037786,
+                    "startP": 19.0112797412515,
+                    "startT": 20,
+                    "start_Q_m3_day": 145.49772416429246
+                },
+                {
+                    "node_id_start": 421,
+                    "node_id_end": 1750048880,
+                    "startP": 13.431782883907777,
+                    "startT": 20,
+                    "start_Q_m3_day": 179.91506122843077
+                },
+                {
+                    "node_id_start": 1613,
+                    "node_id_end": 1750037686,
+                    "startP": 16.13890782121355,
+                    "startT": 20,
+                    "start_Q_m3_day": 21.493918619753885
+                },
+                {
+                    "node_id_start": 6004,
+                    "node_id_end": 1751054627,
+                    "startP": 8.684843599130113,
+                    "startT": 20,
+                    "start_Q_m3_day": 32.90653205741741
+                },
+                {
+                    "node_id_start": 408,
+                    "node_id_end": 1750048880,
+                    "startP": 13.43086041547483,
+                    "startT": 20,
+                    "start_Q_m3_day": 23.511678822045482
+                },
+                {
+                    "node_id_start": 581,
+                    "node_id_end": 1750024074,
+                    "startP": 14.31107515579495,
+                    "startT": 20,
+                    "start_Q_m3_day": 28.691521756526047
+                },
+                {
+                    "node_id_start": 1416,
+                    "node_id_end": 1750037686,
+                    "startP": 16.138869666944686,
+                    "startT": 20,
+                    "start_Q_m3_day": 24.017616646726747
+                },
+                {
+                    "node_id_start": 572,
+                    "node_id_end": 1750024074,
+                    "startP": 14.311113806166976,
+                    "startT": 20,
+                    "start_Q_m3_day": 40.70547649348616
+                },
+                {
+                    "node_id_start": 1750025402,
+                    "node_id_end": 1750025404,
+                    "startP": 11.365404366612744,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 1750025402,
+                    "node_id_end": 1751051660,
+                    "startP": 11.365404366612744,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 409,
+                    "node_id_end": 1750048880,
+                    "startP": 13.430845197406835,
+                    "startT": 20,
+                    "start_Q_m3_day": 17.35632324933693
+                },
+                {
+                    "node_id_start": 1750028316,
+                    "node_id_end": 1750025406,
+                    "startP": 9.133350707784864,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 1637,
+                    "node_id_end": 1750037786,
+                    "startP": 19.010644911412562,
+                    "startT": 20,
+                    "start_Q_m3_day": 21.091103006244005
+                },
+                {
+                    "node_id_start": 1603,
+                    "node_id_end": 1750037686,
+                    "startP": 16.138968614986283,
+                    "startT": 20,
+                    "start_Q_m3_day": 41.52146135440168
+                },
+                {
+                    "node_id_start": 3742,
+                    "node_id_end": 1750023893,
+                    "startP": 9.65819316175106,
+                    "startT": 20,
+                    "start_Q_m3_day": 28.511559390879732
+                },
+                {
+                    "node_id_start": 1750037786,
+                    "node_id_end": 1750022894,
+                    "startP": 19.01060740787595,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 1503,
+                    "node_id_end": 1750026636,
+                    "startP": 12.001198786158783,
+                    "startT": 20,
+                    "start_Q_m3_day": 46.603716692728526
+                },
+                {
+                    "node_id_start": 6005,
+                    "node_id_end": 1751054627,
+                    "startP": 8.684841223249506,
+                    "startT": 20,
+                    "start_Q_m3_day": 36.10937133959076
+                },
+                {
+                    "node_id_start": 1606,
+                    "node_id_end": 1750037686,
+                    "startP": 16.139314058923713,
+                    "startT": 20,
+                    "start_Q_m3_day": 110.83381783435313
+                },
+                {
+                    "node_id_start": 1900,
+                    "node_id_end": 1750028316,
+                    "startP": 9.133512778106256,
+                    "startT": 20,
+                    "start_Q_m3_day": 57.27690363140087
+                },
+                {
+                    "node_id_start": 1911,
+                    "node_id_end": 1750028316,
+                    "startP": 9.1336604845691,
+                    "startT": 20,
+                    "start_Q_m3_day": 87.45756186032523
+                },
+                {
+                    "node_id_start": 1638,
+                    "node_id_end": 1750037786,
+                    "startP": 19.010935667946757,
+                    "startT": 20,
+                    "start_Q_m3_day": 91.23611486045486
+                },
+                {
+                    "node_id_start": 2306,
+                    "node_id_end": 1751067763,
+                    "startP": 19.868850387879053,
+                    "startT": 20,
+                    "start_Q_m3_day": 90.41886060974666
+                },
+                {
+                    "node_id_start": 627,
+                    "node_id_end": 1750026636,
+                    "startP": 12.001198786138616,
+                    "startT": 20,
+                    "start_Q_m3_day": 35.337689668478674
+                },
+                {
+                    "node_id_start": 1751062704,
+                    "node_id_end": 1751058919,
+                    "startP": 8.682119070032346,
+                    "startT": 20
+                }
+            ],
+            "input": {
+                "component": "textarea"
+            }
+        },
+        "res_vals": {
+            "type": "expression",
+            "expression": "this.res_start_info",
+            "status": "complete",
+            "value": [
+                {
+                    "node_id_start": 5999,
+                    "node_id_end": 1751054627,
+                    "startP": 8.684843259563202,
+                    "startT": 20,
+                    "start_Q_m3_day": 58.6845866537696
+                },
+                {
+                    "node_id_start": 110,
+                    "node_id_end": 1750048619,
+                    "startP": 10.320813681800724,
+                    "startT": 20,
+                    "start_Q_m3_day": 13.90791835847345
+                },
+                {
+                    "node_id_start": 416,
+                    "node_id_end": 1750048880,
+                    "startP": 13.430845464916558,
+                    "startT": 20,
+                    "start_Q_m3_day": 17.462264124686136
+                },
+                {
+                    "node_id_start": 3703,
+                    "node_id_end": 1750023893,
+                    "startP": 9.658422561477455,
+                    "startT": 20,
+                    "start_Q_m3_day": 71.96493661198768
+                },
+                {
+                    "node_id_start": 883,
+                    "node_id_end": 1750037786,
+                    "startP": 19.010821195005242,
+                    "startT": 20,
+                    "start_Q_m3_day": 69.73703454403615
+                },
+                {
+                    "node_id_start": 1750048880,
+                    "node_id_end": 1750025407,
+                    "startP": 13.430816897786277,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 1631,
+                    "node_id_end": 1750037786,
+                    "startP": 19.01069501104918,
+                    "startT": 20,
+                    "start_Q_m3_day": 37.96011727134309
+                },
+                {
+                    "node_id_start": 1756,
+                    "node_id_end": 1750024074,
+                    "startP": 14.311204540028124,
+                    "startT": 20,
+                    "start_Q_m3_day": 63.05939742474059
+                },
+                {
+                    "node_id_start": 1750023893,
+                    "node_id_end": 1750025406,
+                    "startP": 9.65819320925396,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 580,
+                    "node_id_end": 1750024074,
+                    "startP": 14.311190874967963,
+                    "startT": 20,
+                    "start_Q_m3_day": 59.96978921028049
+                },
+                {
+                    "node_id_start": 1750040926,
+                    "node_id_end": 1750025404,
+                    "startP": 10.691758410218593,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 402,
+                    "node_id_end": 1750048880,
+                    "startP": 13.4308164457645,
+                    "startT": 20,
+                    "start_Q_m3_day": 54.54427391795793
+                },
+                {
+                    "node_id_start": 1750025404,
+                    "node_id_end": 1750025405,
+                    "startP": 10.533283240248073,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 1750048619,
+                    "node_id_end": 1750040926,
+                    "startP": 10.320813689006918,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 1508,
+                    "node_id_end": 1750026636,
+                    "startP": 12.001711735193929,
+                    "startT": 20,
+                    "start_Q_m3_day": 120.92231537805279
+                },
+                {
+                    "node_id_start": 2304,
+                    "node_id_end": 1751067763,
+                    "startP": 19.86905379505022,
+                    "startT": 20,
+                    "start_Q_m3_day": 67.38853819347206
+                },
+                {
+                    "node_id_start": 104,
+                    "node_id_end": 1750048619,
+                    "startP": 10.320813637198954,
+                    "startT": 20,
+                    "start_Q_m3_day": 30.49216850323696
+                },
+                {
+                    "node_id_start": 6003,
+                    "node_id_end": 1751054627,
+                    "startP": 8.684942087834097,
+                    "startT": 20,
+                    "start_Q_m3_day": 40.99111654265911
+                },
+                {
+                    "node_id_start": 1750025407,
+                    "node_id_end": 1750025402,
+                    "startP": 13.417224921658413,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 400,
+                    "node_id_end": 1750048880,
+                    "startP": 13.43081686083201,
+                    "startT": 20,
+                    "start_Q_m3_day": 23.64769879088796
+                },
+                {
+                    "node_id_start": 98,
+                    "node_id_end": 1750048619,
+                    "startP": 10.320813476219655,
+                    "startT": 20,
+                    "start_Q_m3_day": 46.8797753900951
+                },
+                {
+                    "node_id_start": 1414,
+                    "node_id_end": 1750037686,
+                    "startP": 16.13891566034378,
+                    "startT": 20,
+                    "start_Q_m3_day": 24.633737935483712
+                },
+                {
+                    "node_id_start": 100,
+                    "node_id_end": 1750048619,
+                    "startP": 10.320813936773058,
+                    "startT": 20,
+                    "start_Q_m3_day": 43.82065909092065
+                },
+                {
+                    "node_id_start": 1418,
+                    "node_id_end": 1750037686,
+                    "startP": 16.13894209490831,
+                    "startT": 20,
+                    "start_Q_m3_day": 33.619670133327986
+                },
+                {
+                    "node_id_start": 1751051660,
+                    "node_id_end": 1751051661,
+                    "startP": 11.368041298255756,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 1608,
+                    "node_id_end": 1750037686,
+                    "startP": 16.139318947769983,
+                    "startT": 20,
+                    "start_Q_m3_day": 110.94580300396495
+                },
+                {
+                    "node_id_start": 1413,
+                    "node_id_end": 1750037686,
+                    "startP": 16.138869621321447,
+                    "startT": 20,
+                    "start_Q_m3_day": 56.62952484823359
+                },
+                {
+                    "node_id_start": 470,
+                    "node_id_end": 1750023893,
+                    "startP": 9.658563448907113,
+                    "startT": 20,
+                    "start_Q_m3_day": 97.97157456565795
+                },
+                {
+                    "node_id_start": 1907,
+                    "node_id_end": 1750028316,
+                    "startP": 9.133378879330238,
+                    "startT": 20,
+                    "start_Q_m3_day": 17.132080057529983
+                },
+                {
+                    "node_id_start": 4302,
+                    "node_id_end": 1750040926,
+                    "startP": 10.691758293148023,
+                    "startT": 20,
+                    "start_Q_m3_day": 23.808887152276807
+                },
+                {
+                    "node_id_start": 418,
+                    "node_id_end": 1750048880,
+                    "startP": 13.430884560502596,
+                    "startT": 20,
+                    "start_Q_m3_day": 32.07090655458184
+                },
+                {
+                    "node_id_start": 571,
+                    "node_id_end": 1750024074,
+                    "startP": 14.311165804234687,
+                    "startT": 20,
+                    "start_Q_m3_day": 54.099422340178016
+                },
+                {
+                    "node_id_start": 4301,
+                    "node_id_end": 1750040926,
+                    "startP": 10.692097345147566,
+                    "startT": 20,
+                    "start_Q_m3_day": 92.49766425509803
+                },
+                {
+                    "node_id_start": 1412,
+                    "node_id_end": 1750037686,
+                    "startP": 16.13899495096518,
+                    "startT": 20,
+                    "start_Q_m3_day": 48.84870658872298
+                },
+                {
+                    "node_id_start": 1500,
+                    "node_id_end": 1750026636,
+                    "startP": 12.00126820933692,
+                    "startT": 20,
+                    "start_Q_m3_day": 32.31852818851752
+                },
+                {
+                    "node_id_start": 3780,
+                    "node_id_end": 1750023893,
+                    "startP": 9.658366349389704,
+                    "startT": 20,
+                    "start_Q_m3_day": 59.952724969523835
+                },
+                {
+                    "node_id_start": 4308,
+                    "node_id_end": 1750040926,
+                    "startP": 10.691758296335687,
+                    "startT": 20,
+                    "start_Q_m3_day": 29.88832313002281
+                },
+                {
+                    "node_id_start": 1750025406,
+                    "node_id_end": 1751062704,
+                    "startP": 8.65005686179744,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 1751054627,
+                    "node_id_end": 1751062704,
+                    "startP": 8.684843677316403,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 573,
+                    "node_id_end": 1750024074,
+                    "startP": 14.31101711870409,
+                    "startT": 20,
+                    "start_Q_m3_day": 15.586543756948869
+                },
+                {
+                    "node_id_start": 2300,
+                    "node_id_end": 1751067763,
+                    "startP": 19.868988928326168,
+                    "startT": 20,
+                    "start_Q_m3_day": 52.09159775634697
+                },
+                {
+                    "node_id_start": 1636,
+                    "node_id_end": 1750037786,
+                    "startP": 19.010607281465525,
+                    "startT": 20,
+                    "start_Q_m3_day": 58.94092157612594
+                },
+                {
+                    "node_id_start": 1626,
+                    "node_id_end": 1750037786,
+                    "startP": 19.01124527817426,
+                    "startT": 20,
+                    "start_Q_m3_day": 139.71265755040744
+                },
+                {
+                    "node_id_start": 1415,
+                    "node_id_end": 1750037686,
+                    "startP": 16.13892938378375,
+                    "startT": 20,
+                    "start_Q_m3_day": 29.450453555253098
+                },
+                {
+                    "node_id_start": 1417,
+                    "node_id_end": 1750037686,
+                    "startP": 16.138869134836533,
+                    "startT": 20,
+                    "start_Q_m3_day": 42.99412844455047
+                },
+                {
+                    "node_id_start": 1750024074,
+                    "node_id_end": 1750025407,
+                    "startP": 14.311017137127044,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 3702,
+                    "node_id_end": 1750023893,
+                    "startP": 9.658448512203329,
+                    "startT": 20,
+                    "start_Q_m3_day": 76.98889411879543
+                },
+                {
+                    "node_id_start": 1600,
+                    "node_id_end": 1750037686,
+                    "startP": 16.13891534439984,
+                    "startT": 20,
+                    "start_Q_m3_day": 24.340253111266584
+                },
+                {
+                    "node_id_start": 1501,
+                    "node_id_end": 1750026636,
+                    "startP": 12.001234351422532,
+                    "startT": 20,
+                    "start_Q_m3_day": 20.33522214106675
+                },
+                {
+                    "node_id_start": 1751067763,
+                    "node_id_end": 1750037786,
+                    "startP": 19.868850664284032,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 3781,
+                    "node_id_end": 1750023893,
+                    "startP": 9.658333226486937,
+                    "startT": 20,
+                    "start_Q_m3_day": 51.977251043558816
+                },
+                {
+                    "node_id_start": 1628,
+                    "node_id_end": 1750037786,
+                    "startP": 19.01094457791163,
+                    "startT": 20,
+                    "start_Q_m3_day": 92.8435149138738
+                },
+                {
+                    "node_id_start": 1903,
+                    "node_id_end": 1750028316,
+                    "startP": 9.133350588461006,
+                    "startT": 20,
+                    "start_Q_m3_day": 48.91442140920028
+                },
+                {
+                    "node_id_start": 410,
+                    "node_id_end": 1750048880,
+                    "startP": 13.430816452114032,
+                    "startT": 20,
+                    "start_Q_m3_day": 97.71889763923797
+                },
+                {
+                    "node_id_start": 2303,
+                    "node_id_end": 1751067763,
+                    "startP": 19.868999515454227,
+                    "startT": 20,
+                    "start_Q_m3_day": 53.99945563423299
+                },
+                {
+                    "node_id_start": 411,
+                    "node_id_end": 1750048880,
+                    "startP": 13.43081681490988,
+                    "startT": 20,
+                    "start_Q_m3_day": 24.874259355856537
+                },
+                {
+                    "node_id_start": 1750037686,
+                    "node_id_end": 1750025407,
+                    "startP": 16.138869747623595,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 1506,
+                    "node_id_end": 1750026636,
+                    "startP": 12.001431551462112,
+                    "startT": 20,
+                    "start_Q_m3_day": 72.91931820194822
+                },
+                {
+                    "node_id_start": 401,
+                    "node_id_end": 1750048880,
+                    "startP": 13.430816824858253,
+                    "startT": 20,
+                    "start_Q_m3_day": 22.829435068996272
+                },
+                {
+                    "node_id_start": 1750025405,
+                    "node_id_end": 1751062704,
+                    "startP": 8.54688594982115,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 4304,
+                    "node_id_end": 1750040926,
+                    "startP": 10.691954948825074,
+                    "startT": 20,
+                    "start_Q_m3_day": 64.9791306216623
+                },
+                {
+                    "node_id_start": 582,
+                    "node_id_end": 1750024074,
+                    "startP": 14.311017092351973,
+                    "startT": 20,
+                    "start_Q_m3_day": 26.61800397119607
+                },
+                {
+                    "node_id_start": 1906,
+                    "node_id_end": 1750028316,
+                    "startP": 9.134363602027097,
+                    "startT": 20,
+                    "start_Q_m3_day": 185.76668402040755
+                },
+                {
+                    "node_id_start": 404,
+                    "node_id_end": 1750048880,
+                    "startP": 13.430834744305256,
+                    "startT": 20,
+                    "start_Q_m3_day": 12.289061330097475
+                },
+                {
+                    "node_id_start": 1750026636,
+                    "node_id_end": 1750025402,
+                    "startP": 12.001198872697914,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 1622,
+                    "node_id_end": 1750037786,
+                    "startP": 19.01117037740837,
+                    "startT": 20,
+                    "start_Q_m3_day": 127.95049413181837
+                },
+                {
+                    "node_id_start": 1633,
+                    "node_id_end": 1750037786,
+                    "startP": 19.010864109547484,
+                    "startT": 20,
+                    "start_Q_m3_day": 77.91558247582037
+                },
+                {
+                    "node_id_start": 6001,
+                    "node_id_end": 1751054627,
+                    "startP": 8.684905509201432,
+                    "startT": 20,
+                    "start_Q_m3_day": 29.86471353983208
+                },
+                {
+                    "node_id_start": 6002,
+                    "node_id_end": 1751054627,
+                    "startP": 8.684843647602797,
+                    "startT": 20,
+                    "start_Q_m3_day": 13.336908279170705
+                },
+                {
+                    "node_id_start": 1620,
+                    "node_id_end": 1750037786,
+                    "startP": 19.010840062244135,
+                    "startT": 20,
+                    "start_Q_m3_day": 73.71957017121849
+                },
+                {
+                    "node_id_start": 1602,
+                    "node_id_end": 1750037686,
+                    "startP": 16.139198199569265,
+                    "startT": 20,
+                    "start_Q_m3_day": 90.92844580880372
+                },
+                {
+                    "node_id_start": 1751051661,
+                    "node_id_end": 1751062704,
+                    "startP": 10.311097656531981,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 412,
+                    "node_id_end": 1750048880,
+                    "startP": 13.430816860781546,
+                    "startT": 20,
+                    "start_Q_m3_day": 21.58739812624655
+                },
+                {
+                    "node_id_start": 1513,
+                    "node_id_end": 1750026636,
+                    "startP": 12.001945809001063,
+                    "startT": 20,
+                    "start_Q_m3_day": 152.95598705990162
+                },
+                {
+                    "node_id_start": 1902,
+                    "node_id_end": 1750028316,
+                    "startP": 9.133886165618636,
+                    "startT": 20,
+                    "start_Q_m3_day": 123.96657351887191
+                },
+                {
+                    "node_id_start": 2302,
+                    "node_id_end": 1751067763,
+                    "startP": 19.869116276625807,
+                    "startT": 20,
+                    "start_Q_m3_day": 79.46486599172314
+                },
+                {
+                    "node_id_start": 1750022894,
+                    "node_id_end": 1750025402,
+                    "startP": 13.450721067991543,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 882,
+                    "node_id_end": 1750037786,
+                    "startP": 19.0112797412515,
+                    "startT": 20,
+                    "start_Q_m3_day": 145.49772416429246
+                },
+                {
+                    "node_id_start": 421,
+                    "node_id_end": 1750048880,
+                    "startP": 13.431782883907777,
+                    "startT": 20,
+                    "start_Q_m3_day": 179.91506122843077
+                },
+                {
+                    "node_id_start": 1613,
+                    "node_id_end": 1750037686,
+                    "startP": 16.13890782121355,
+                    "startT": 20,
+                    "start_Q_m3_day": 21.493918619753885
+                },
+                {
+                    "node_id_start": 6004,
+                    "node_id_end": 1751054627,
+                    "startP": 8.684843599130113,
+                    "startT": 20,
+                    "start_Q_m3_day": 32.90653205741741
+                },
+                {
+                    "node_id_start": 408,
+                    "node_id_end": 1750048880,
+                    "startP": 13.43086041547483,
+                    "startT": 20,
+                    "start_Q_m3_day": 23.511678822045482
+                },
+                {
+                    "node_id_start": 581,
+                    "node_id_end": 1750024074,
+                    "startP": 14.31107515579495,
+                    "startT": 20,
+                    "start_Q_m3_day": 28.691521756526047
+                },
+                {
+                    "node_id_start": 1416,
+                    "node_id_end": 1750037686,
+                    "startP": 16.138869666944686,
+                    "startT": 20,
+                    "start_Q_m3_day": 24.017616646726747
+                },
+                {
+                    "node_id_start": 572,
+                    "node_id_end": 1750024074,
+                    "startP": 14.311113806166976,
+                    "startT": 20,
+                    "start_Q_m3_day": 40.70547649348616
+                },
+                {
+                    "node_id_start": 1750025402,
+                    "node_id_end": 1750025404,
+                    "startP": 11.365404366612744,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 1750025402,
+                    "node_id_end": 1751051660,
+                    "startP": 11.365404366612744,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 409,
+                    "node_id_end": 1750048880,
+                    "startP": 13.430845197406835,
+                    "startT": 20,
+                    "start_Q_m3_day": 17.35632324933693
+                },
+                {
+                    "node_id_start": 1750028316,
+                    "node_id_end": 1750025406,
+                    "startP": 9.133350707784864,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 1637,
+                    "node_id_end": 1750037786,
+                    "startP": 19.010644911412562,
+                    "startT": 20,
+                    "start_Q_m3_day": 21.091103006244005
+                },
+                {
+                    "node_id_start": 1603,
+                    "node_id_end": 1750037686,
+                    "startP": 16.138968614986283,
+                    "startT": 20,
+                    "start_Q_m3_day": 41.52146135440168
+                },
+                {
+                    "node_id_start": 3742,
+                    "node_id_end": 1750023893,
+                    "startP": 9.65819316175106,
+                    "startT": 20,
+                    "start_Q_m3_day": 28.511559390879732
+                },
+                {
+                    "node_id_start": 1750037786,
+                    "node_id_end": 1750022894,
+                    "startP": 19.01060740787595,
+                    "startT": 20
+                },
+                {
+                    "node_id_start": 1503,
+                    "node_id_end": 1750026636,
+                    "startP": 12.001198786158783,
+                    "startT": 20,
+                    "start_Q_m3_day": 46.603716692728526
+                },
+                {
+                    "node_id_start": 6005,
+                    "node_id_end": 1751054627,
+                    "startP": 8.684841223249506,
+                    "startT": 20,
+                    "start_Q_m3_day": 36.10937133959076
+                },
+                {
+                    "node_id_start": 1606,
+                    "node_id_end": 1750037686,
+                    "startP": 16.139314058923713,
+                    "startT": 20,
+                    "start_Q_m3_day": 110.83381783435313
+                },
+                {
+                    "node_id_start": 1900,
+                    "node_id_end": 1750028316,
+                    "startP": 9.133512778106256,
+                    "startT": 20,
+                    "start_Q_m3_day": 57.27690363140087
+                },
+                {
+                    "node_id_start": 1911,
+                    "node_id_end": 1750028316,
+                    "startP": 9.1336604845691,
+                    "startT": 20,
+                    "start_Q_m3_day": 87.45756186032523
+                },
+                {
+                    "node_id_start": 1638,
+                    "node_id_end": 1750037786,
+                    "startP": 19.010935667946757,
+                    "startT": 20,
+                    "start_Q_m3_day": 91.23611486045486
+                },
+                {
+                    "node_id_start": 2306,
+                    "node_id_end": 1751067763,
+                    "startP": 19.868850387879053,
+                    "startT": 20,
+                    "start_Q_m3_day": 90.41886060974666
+                },
+                {
+                    "node_id_start": 627,
+                    "node_id_end": 1750026636,
+                    "startP": 12.001198786138616,
+                    "startT": 20,
+                    "start_Q_m3_day": 35.337689668478674
+                },
+                {
+                    "node_id_start": 1751062704,
+                    "node_id_end": 1751058919,
+                    "startP": 8.682119070032346,
+                    "startT": 20
+                }
+            ],
+            "input": {
+                "component": "textarea"
+            }
+        }
+    },
+    "nodeTitle": "ДНС: $this.props.Name$",
+    "image": "/rawPrimitives/oil_dns/icon.svg",
+    "initPorts": [
+        {
+            "primitiveName": "inPort1",
+            "type": [
+                "IN"
+            ],
+            "properties": {
+                "status": {
+                    "expression": "let portOwner = graph.ports.find(port => port.tag.primitiveID === primitiveID).owner;\nlet inEdges = graph.inEdgesAt(portOwner).filter(edge => edge.targetPort.tag.primitiveID === primitiveID).toArray()\nif (inEdges.length < 1) ''\nelse {\neval(inEdges[0].sourcePort.tag.primitiveID).status\n}",
+                    "type": "expression",
+                    "status": "complete",
+                    "value": ""
+                }
+            },
+            "primitiveID": "oil_dns_77_inPort1",
+            "location": {
+                "x": 4935.187698412698,
+                "y": 2910.0620085470086
+            }
+        }
+    ],
+    "layout": {
+        "x": 4860.812698412698,
+        "y": 2910.0620085470086,
+        "height": 147.25,
+        "width": 148.75
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "primitiveID": "oil_pipe_6856",
+    "primitiveName": "oil_pipe",
+    "properties": {
+        "object_type": {
+            "type": "expression",
+            "expression": "\"pipe\"",
+            "status": "complete",
+            "value": "pipe"
+        },
+        "Name": {
+            "type": "expression",
+            "expression": "\"к.44__скв.6002__к.44\"",
+            "status": "complete",
+            "value": "к.44__скв.6002__к.44"
+        },
+        "L": {
+            "type": "expression",
+            "expression": "30.0",
+            "status": "complete",
+            "value": 30
+        },
+        "d": {
+            "type": "expression",
+            "expression": "183",
+            "status": "complete",
+            "value": 183
+        },
+        "s": {
+            "type": "expression",
+            "expression": "10",
+            "status": "complete",
+            "value": 10
+        },
+        "uphillM": {
+            "type": "expression",
+            "expression": "0.0",
+            "status": "complete",
+            "value": 0
+        },
+        "effectiveD": {
+            "type": "expression",
+            "expression": "0.85",
+            "status": "complete",
+            "value": 0.85
+        },
+        "intD": {
+            "type": "expression",
+            "expression": "0.183",
+            "status": "complete",
+            "value": 0.183
+        },
+        "node_id_start": {
+            "type": "expression",
+            "expression": "6002",
+            "status": "complete",
+            "value": 6002
+        },
+        "node_id_end": {
+            "type": "expression",
+            "expression": "1751054627",
+            "status": "complete",
+            "value": 1751054627
+        }
+    },
+    "nodeTitle": "Труба: $this.props.Name$",
+    "image": "/rawPrimitives/oil_pipe/icon.svg",
+    "initPorts": [
+        {
+            "primitiveName": "inPort1",
+            "type": [
+                "IN"
+            ],
+            "properties": {
+                "status": {
+                    "expression": "let portOwner = graph.ports.find(port => port.tag.primitiveID === primitiveID).owner;\nlet inEdges = graph.inEdgesAt(portOwner).filter(edge => edge.targetPort.tag.primitiveID === primitiveID).toArray()\nif (inEdges.length < 1) ''\nelse {\neval(inEdges[0].sourcePort.tag.primitiveID).status\n}",
+                    "type": "expression",
+                    "status": "complete",
+                    "value": ""
+                }
+            },
+            "primitiveID": "oil_pipe_6856_inPort1",
+            "location": {
+                "x": 5093.989682539683,
+                "y": 2137.078675213675
+            }
+        },
+        {
+            "primitiveName": "outPort2",
+            "type": [
+                "OUT"
+            ],
+            "properties": {
+                "status": {
+                    "expression": "",
+                    "type": "expression",
+                    "status": "complete",
+                    "value": ""
+                }
+            },
+            "primitiveID": "oil_pipe_6856_outPort2",
+            "location": {
+                "x": 5093.989682539683,
+                "y": 2217.078675213675
+            }
+        }
+    ],
+    "layout": {
+        "x": 5053.989682539683,
+        "y": 2137.078675213675,
+        "height": 80,
+        "width": 80
+    }
+}

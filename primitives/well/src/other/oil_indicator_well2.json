@@ -1,0 +1,84 @@
+{
+    "properties": {
+        "node_name": {
+            "type": "expression",
+            "expression": "let name = this.inPort1['node_name'];\nname",
+            "status": "new",
+            "value": " ",
+            "input": {
+                "component": "textarea"
+            }
+        },
+        "P_text": {
+            "type": "expression",
+            "expression": "function formatParamToText(pVal){\n    let Pnum = Number(pVal).toFixed(1);\n    let Ptext = '<span style=\"color:\"><b>' + Pnum + '</b></span>';\n    return Ptext;\n}\nformatParamToText(this.inPort1[\"P\"])",
+            "status": "new",
+            "value": " ",
+            "input": {
+                "component": "textarea"
+            }
+        },
+        "P_lim": {
+            "type": "expression",
+            "expression": "[0, 16]",
+            "status": "new",
+            "value": " ",
+            "input": {
+                "component": "textarea"
+            }
+        },
+        "type": {
+            "type": "expression",
+            "expression": "\"oil_well_indicator\"",
+            "status": "new",
+            "value": " ",
+            "input": {
+                "component": "textarea"
+            }
+        },
+        "q3_text": {
+            "type": "expression",
+            "expression": "\nfunction formatParamToText(pVal){\n    let Pnum = Number(pVal).toFixed(1);\n    let Ptext = '<span style=\"color:\"><b>' + Pnum + '</b></span>';\n    return Ptext;\n}\nformatParamToText(this.inPort1[\"Q_m3_day\"])\n",
+            "status": "new",
+            "value": " ",
+            "input": {
+                "component": "textarea"
+            }
+        }
+    },
+    "initPorts": [
+        {
+            "primitiveName": "inPort1",
+            "type": [
+                "IN"
+            ],
+            "properties": {
+                "status": {
+                    "expression": "let portOwner = graph.ports.find(port => port.tag.primitiveID === primitiveID).owner;\nlet inEdges = graph.inEdgesAt(portOwner).filter(edge => edge.targetPort.tag.primitiveID === primitiveID).toArray()\nif (inEdges.length < 1) ''\nelse {\neval(inEdges[0].sourcePort.tag.primitiveID).status\n}",
+                    "type": "expression",
+                    "status": "new",
+                    "value": " "
+                }
+            },
+            "primitiveID": "well_indicator3_2_inPort1",
+            "location": {
+                "x": 680.9380952380952,
+                "y": 694.3252380952381
+            }
+        }
+    ],
+    "title": "well_indicator3",
+    "extensionName": "ExtensionRiskPrimitives",
+    "primitiveName": "TargetRichLabelNode1",
+    "layout": {
+        "x": 602.7505952380952,
+        "y": 694.3252380952381,
+        "height": 147.25,
+        "width": 156.375
+    },
+    "isTemplate": true,
+    "name": "TargetRichLabelNode1",
+    "tempName": "well_indicator3",
+    "primitiveID": "well_indicator3_2",
+    "nodeTitle": "<p>P: $this.props.P_text$ atm</p><p>Q3: $this.props.q3_text$ m3/24h</p>"
+}

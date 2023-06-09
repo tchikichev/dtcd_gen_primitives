@@ -1,0 +1,71 @@
+{
+    "nodeParamsMapping": {
+        "node": {
+            "name": "",
+            "description": "",
+            "model": "",
+            "load": "",
+            "current": "",
+            "kV": "",
+            "power": "",
+            "normallylnService": "",
+            "measured_kWh": "",
+            "model_kWh": ""
+        },
+        "junction": {
+            "name": "",
+            "description": "",
+            "model": "",
+            "load": "",
+            "current": "",
+            "kV_in": "",
+            "kV_out": "",
+            "power": "",
+            "normallylnService": "",
+            "measured_kWh": "",
+            "model_kWh": ""
+        },
+        "motor": {
+            "name": "",
+            "description": "",
+            "model": "",
+            "current": "",
+            "kV": "",
+            "power": "",
+            "ecnLoad": 100,
+            "ecnFreq": "",
+            "netFreq": "",
+            "measured_kWh": "",
+            "model_kWh": ""
+        },
+        "line": {
+            "name": "",
+            "description": "",
+            "model": "",
+            "current": "",
+            "kV": "",
+            "power": "",
+            "length": ""
+        }
+    },
+    "graphObjectTypes": {
+        "eeCableLine110Kv": "line",
+        "eeCableLine35Kv": "line",
+        "eeCableLine6Kv": "line",
+        "eeIn": "junction",
+        "eeKru": "junction",
+        "eeKrun": "junction",
+        "eeKTPN": "junction",
+        "eePad": "junction",
+        "eePowerLine": "junction",
+        "eeRu": "junction",
+        "eeStation": "node",
+        "eeSubstation": "junction",
+        "eeTapConnector": "junction",
+        "eeZru": "junction",
+        "eeOut": "node",
+        "eeEngine": "motor",
+        "oil_well": "motor"
+    },
+    "nominalColors": []
+}

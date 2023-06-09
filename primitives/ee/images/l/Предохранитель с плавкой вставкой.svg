@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="59"
+   viewBox="0 0 59 59"
+   height="59"
+   id="svg2812"
+   sodipodi:docname="r_Предохранитель с плавкой вставкой.svg"
+   inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2816" />
+  <sodipodi:namedview
+     id="namedview2814"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="9.2197802"
+     inkscape:cx="13.395113"
+     inkscape:cy="21.529797"
+     inkscape:window-width="1846"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2812" />
+  <g
+     id="g2810"
+     transform="translate(-16)">
+    <g
+       transform="rotate(-90,45.5,29.5)"
+       id="g2808">
+      <g
+         clip-path="url(#clip0_53_291)"
+         id="g2801">
+        <path
+           fill-rule="evenodd"
+           clip-rule="evenodd"
+           d="m 50,7 h -9 v 45 h 9 z M 40,6 V 53 H 51 V 6 Z"
+           fill="#000000"
+           id="path2797" />
+        <path
+           fill-rule="evenodd"
+           clip-rule="evenodd"
+           d="M 46,4.37115e-8 V 60 H 45 V 0 Z"
+           fill="#000000"
+           id="path2799" />
+      </g>
+      <defs
+         id="defs2806">
+        <clipPath
+           id="clip0_53_291">
+          <rect
+             width="91"
+             height="59"
+             fill="#ffffff"
+             id="rect2803"
+             x="0"
+             y="0" />
+        </clipPath>
+      </defs>
+    </g>
+  </g>
+</svg>

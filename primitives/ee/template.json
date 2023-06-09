@@ -1,0 +1,51 @@
+{
+  "title": "Мой первый примитив",
+  "layout": { "heigth": 100, "width": 150 },
+  "image": "icon.svg",
+  "properties": {
+    "simpleProperty": {
+      "expression": "123+33",
+      "type": "expression"
+    },
+    "otlProperty": {
+      "type": "datasource",
+      "expression": {
+        "type": "OTL",
+        "tws": 1658389152,
+        "twf": 1658389152,
+        "cache_ttl": 60,
+        "original_otl": "makeresults count = 100"
+      }
+    },
+    "selectPropery": {
+      "expression": "",
+      "type": "expression",
+      "input": {
+        "component": "select",
+        "type": "const",
+        "values": ["1", "2", "3", "4"]
+      }
+    },
+    "selectOTLPropery": {
+      "expression": "",
+      "type": "expression",
+      "input": {
+        "component": "select",
+        "type": "datasource",
+        "values": [],
+        "datasource": { "original_otl": "makeresults count = 100" },
+        "columnName": "_time"
+      }
+    },
+    "switchProperty": {
+      "expression": "",
+      "type": "expression",
+      "input": { "component": "switch" }
+    }
+  },
+  "ports": [
+    { "name": "outPort", "type": ["OUT"], "position": { "x": 1, "y": 1 } },
+    { "name": "inPort", "type": ["IN"], "position": { "x": 0, "y": 0 } },
+    { "name": "inoutPort", "type": ["IN", "OUT"], "position": { "x": 0.5, "y": 0.5 } }
+  ]
+}

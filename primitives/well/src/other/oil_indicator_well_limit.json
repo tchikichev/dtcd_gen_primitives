@@ -1,0 +1,89 @@
+{
+    "properties": {
+        "node_name": {
+            "type": "expression",
+            "expression": "let name = this.inPort1['node_name'];\nname",
+            "status": "complete",
+            "value": " ",
+            "input": {
+                "component": "textarea"
+            }
+        },
+        "P_text": {
+            "type": "expression",
+            "expression": "let P = this.inPort1['P'];\nlet Pnum = Number(P).toFixed(1);\nlet P_text = '<span style=\"color:\"><b>' + Pnum + '</b></span>';\nP_text",
+            "status": "new",
+            "value": " ",
+            "input": {
+                "component": "textarea"
+            }
+        },
+        "flow_text": {
+            "type": "expression",
+            "expression": "let x = this.inPort1['X_kg_sec'];\nlet rho = this.inPort1['res_liquid_density_kg_m3'];\nlet fl = x / rho * 86400;\nlet fl_num = Number(fl).toFixed(1);\n\nlet fl_text = '<span style=\"color:\"><b>' + + fl_num + '</b></span>';\nfl_text",
+            "status": "new",
+            "value": " ",
+            "input": {
+                "component": "textarea"
+            }
+        },
+        "P_lim": {
+            "type": "expression",
+            "expression": "[0, 16]",
+            "status": "new",
+            "value": " ",
+            "input": {
+                "component": "textarea"
+            }
+        },
+        "indicator": {
+            "type": "expression",
+            "expression": "function scaleToLimits(value, limits){\n    return value / (limits[1] - limits[0]) * 15;\n};\n\nlet DEFAULT_SYMBOL = \"■\";\nfunction indicator5(real) {\n    let lims = {'green':5,'yellow':5,'red':5,'black':2};\n    indicator = \"\";\n    res = real;\n    for (const color in lims) {\n        let lim = lims[color];\n        //console.log(lim, color);\n        if (res > lim) {\n            indicator += '<span style=\"color:' + color + '\"><b>' + DEFAULT_SYMBOL.repeat(lim) + '</b></span>';\n            //indicator.push(lim);\n            res -= lim;\n        } else {\n            indicator += '<span style=\"color:' + color + '\"><b>' + DEFAULT_SYMBOL.repeat(res) + '</b></span>';\n            return indicator;\n        }\n    }\n    return indicator;\n};\n\nlet P = this.inPort1['P'];\nlet Pnum = Number(P).toFixed(1);\n\nindicator5(scaleToLimits(Pnum, this.P_lim))",
+            "status": "new",
+            "value": " ",
+            "input": {
+                "component": "textarea"
+            }
+        },
+        "type": {
+            "type": "expression",
+            "expression": "\"oil_well_indicator_limit\"",
+            "status": "complete",
+            "value": "oil_well_indicator",
+            "input": {
+                "component": "textarea"
+            }
+        }
+    },
+    "initPorts": [
+        {
+            "primitiveName": "inPort1",
+            "type": [
+                "IN"
+            ],
+            "properties": {
+                "status": {
+                    "expression": "let portOwner = graph.ports.find(port => port.tag.primitiveID === primitiveID).owner;\nlet inEdges = graph.inEdgesAt(portOwner).filter(edge => edge.targetPort.tag.primitiveID === primitiveID).toArray()\nif (inEdges.length < 1) ''\nelse {\neval(inEdges[0].sourcePort.tag.primitiveID).status\n}",
+                    "type": "expression",
+                    "status": "new",
+                    "value": " ",
+                }
+            },
+            "primitiveID": "TargetRichLabelNode1_15_inPort1",
+            "location": {
+                "x": -527.5,
+                "y": -127.68
+            }
+        }
+    ],
+    "extensionName": "ExtensionRiskPrimitives",
+    "primitiveName": "TargetRichLabelNode1",
+    "primitiveID": "TargetRichLabelNode1_15",
+    "nodeTitle": "<p>P: $this.props.P_text$ atm</p><p>$this.props.indicator$</p><p>Flow: $this.props.flow_text$ m3/24h</p>",
+    "layout": {
+        "x": -605.6875,
+        "y": -277.875,
+        "height": 147.25,
+        "width": 156.375
+    }
+}

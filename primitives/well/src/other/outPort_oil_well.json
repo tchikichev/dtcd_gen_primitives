@@ -1,0 +1,28 @@
+{
+    "primitiveID": "oil_well_977_outPort3",
+    "primitiveName": "outPort3",
+    "isAddedManually": true,
+    "portLocation": "right",
+    "type": [
+        "OUT"
+    ],
+    "properties": {
+        "status": {
+            "type": "expression",
+            "expression": "let props_out = {\n    \"shtr_debit\": this.shtr_debit,\n    \"res_X_kg_sec\": this.res_X_kg_sec,\n    \"X_kg_sec\": this.X_kg_sec,\n    \"res_liquid_density_kg_m3\": this.res_liquid_density_kg_m3,\n    \"res_watercut_percent\": this.res_watercut_percent,\n    \"P\": this.P,\n    \"model\": this.model,\n    \"VolumeWater\": this.VolumeWater,\n    \"node_name\": this.node_name,\n};\nprops_out",
+            "input": {
+                "component": "textarea"
+            },
+            "status": "new",
+            "value": " "
+        }
+    },
+    "initPosition": {
+        "x": 1,
+        "y": 0.5
+    },
+    "location": {
+        "x": -266,
+        "y": -127.625
+    }
+}

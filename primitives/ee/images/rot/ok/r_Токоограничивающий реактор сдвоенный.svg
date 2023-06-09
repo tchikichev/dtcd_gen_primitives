@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="80.999901px" viewBox="0 0 80.999901 81.0" height="81.0px">
+  <g>
+    <g transform=" rotate(180.000000 40.500000 40.499950)"><defs id="defs1905"/>
+  <sodipodi:namedview xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" id="namedview1903" pagecolor="#ffffff" bordercolor="#111111" borderopacity="1" inkscape:showpageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="1" inkscape:deskcolor="#d1d1d1" showgrid="false" inkscape:zoom="10.358025" inkscape:cx="48.464839" inkscape:cy="46.099523" inkscape:window-width="1846" inkscape:window-height="1016" inkscape:window-x="0" inkscape:window-y="0" inkscape:window-maximized="1" inkscape:current-layer="svg1901"/>
+  <g id="g1899" transform="translate(4,-4.0001)">
+    <g transform="rotate(-90,40.5,44.5)" id="g1897">
+      <g clip-path="url(#clip0_53_212)" id="g1890">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M 45.5,65.55 C 55.7703,63.4654 63.5004,54.3854 63.5004,43.5 c 0,-12.4264 -10.0736,-22.5 -22.5,-22.5 -12.4264,0 -22.5,10.0736 -22.5,22.5 0,10.5289 7.232,19.3687 16.9996,21.8229 v 2.0572 C 24.6175,64.8838 16.5004,55.1398 16.5004,43.5 c 0,-13.531 10.969,-24.5 24.5,-24.5 13.5309,0 24.5,10.969 24.5,24.5 0,11.9939 -8.6186,21.9749 -20.0004,24.0877 z" fill="#000000" id="path1882"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M 0,41.4961 H 35.5 V 67 h -1 V 42.4961 H 0 Z" fill="#000000" id="path1884"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="m 80.9999,41.4961 h -35.5 v 25.5 h 1 v -24.5 h 34.5 z" fill="#000000" id="path1886"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="m 41,0 4e-4,19 H 40 V 4.37115e-8 Z" fill="#000000" id="path1888"/>
+      </g>
+      <defs id="defs1895">
+        <clipPath id="clip0_53_212">
+          <rect width="81" height="89" fill="#ffffff" id="rect1892" x="0" y="0"/>
+        </clipPath>
+      </defs>
+    </g>
+  </g>
+</g>
+  </g>
+</svg>

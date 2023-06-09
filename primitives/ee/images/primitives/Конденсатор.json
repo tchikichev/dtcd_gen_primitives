@@ -1,0 +1,1 @@
+{"title": "Конденсатор", "layout": {"heigth": "19", "width": "91"}, "image": "Конденсатор.svg", "properties": {}, "ports": [{"name": "outPort", "type": ["OUT"], "position": {"x": 1, "y": 1}}, {"name": "inPort", "type": ["IN"], "position": {"x": 0, "y": 0}}, {"name": "inoutPort", "type": ["IN", "OUT"], "position": {"x": 0.5, "y": 0.5}}]}

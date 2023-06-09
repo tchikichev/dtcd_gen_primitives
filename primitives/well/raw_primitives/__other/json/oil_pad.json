@@ -1,0 +1,283 @@
+{
+    "primitiveID": "oil_pad_730",
+    "primitiveName": "oil_pad",
+    "properties": {
+        "object_type": {
+            "type": "expression",
+            "expression": "\"pad\"",
+            "status": "complete",
+            "value": "pad"
+        },
+        "P": {
+            "type": "expression",
+            "expression": "this.query_res[0].startP",
+            "status": "complete",
+            "input": {
+                "component": "textarea"
+            },
+            "value": 8.684843677316403
+        },
+        "T": {
+            "type": "expression",
+            "expression": "60",
+            "status": "complete",
+            "value": 60
+        },
+        "Q_m3_day": {
+            "type": "expression",
+            "expression": "this.otl_q_m3[0].e_m3_res",
+            "status": "complete",
+            "input": {
+                "component": "textarea"
+            },
+            "value": 211.8392035339193
+        },
+        "otl_q_m3": {
+            "type": "datasource",
+            "expression": {
+                "type": "OTL",
+                "tws": 1674149950,
+                "twf": 1674149950,
+                "cache_ttl": 60,
+                "original_otl": "| inputlookup demo_3_corr_ids_dns3_all_wells_Q_fixed.csv\n| fields node_id_start, node_name_start, res_liquid_density_kg_m3, X_kg_sec\n| where node_id_start=1751054627\n| eval e_m3_res = (X_kg_sec / res_liquid_density_kg_m3) * 86400"
+            },
+            "status": "complete",
+            "value": [
+                {
+                    "node_id_start": 1751054627,
+                    "node_name_start": "к.44",
+                    "res_liquid_density_kg_m3": 957.6632966258143,
+                    "X_kg_sec": 2.3480396992,
+                    "e_m3_res": 211.8392035339193
+                }
+            ],
+            "input": {
+                "component": "textarea"
+            }
+        },
+        "query_res": {
+            "type": "datasource",
+            "expression": {
+                "type": "OTL",
+                "tws": 1674155351,
+                "twf": 1674155351,
+                "cache_ttl": 60,
+                "original_otl": "| inputlookup demo_3_corr_ids_dns3_all_wells_Q_fixed.csv\n| fields node_id_start, startP, startT\n| where node_id_start = 1751054627"
+            },
+            "status": "complete",
+            "value": [
+                {
+                    "node_id_start": 1751054627,
+                    "startP": 8.684843677316403,
+                    "startT": 20
+                }
+            ],
+            "input": {
+                "component": "textarea"
+            }
+        },
+        "Name": {
+            "type": "expression",
+            "expression": "\"к.44\"",
+            "status": "complete",
+            "value": "к.44"
+        },
+        "node_name": {
+            "type": "expression",
+            "expression": "\"к.44\"",
+            "status": "complete",
+            "value": "к.44"
+        },
+        "node_id": {
+            "type": "expression",
+            "expression": "1751054627",
+            "status": "complete",
+            "value": 1751054627
+        },
+        "X": {
+            "type": "expression",
+            "expression": "439199.92",
+            "status": "complete",
+            "value": 439199.92
+        },
+        "Y": {
+            "type": "expression",
+            "expression": "6568611.67",
+            "status": "complete",
+            "value": 6568611.67
+        },
+        "Kind": {
+            "type": "expression",
+            "expression": "",
+            "status": "complete",
+            "value": ""
+        },
+        "Value": {
+            "type": "expression",
+            "expression": "",
+            "status": "complete",
+            "value": ""
+        },
+        "IsOutlet": {
+            "type": "expression",
+            "expression": "false",
+            "status": "complete",
+            "value": false
+        },
+        "IsSource": {
+            "type": "expression",
+            "expression": "false",
+            "status": "complete",
+            "value": false
+        },
+        "VolumeWater": {
+            "type": "expression",
+            "expression": "",
+            "status": "complete",
+            "value": ""
+        }
+    },
+    "nodeTitle": "Куст $this.props.Name$",
+    "image": "/rawPrimitives/oil_pad/icon.svg",
+    "initPorts": [
+        {
+            "primitiveName": "inPort4",
+            "type": [
+                "IN"
+            ],
+            "properties": {
+                "status": {
+                    "expression": "let portOwner = graph.ports.find(port => port.tag.primitiveID === primitiveID).owner;\nlet inEdges = graph.inEdgesAt(portOwner).filter(edge => edge.targetPort.tag.primitiveID === primitiveID).toArray()\nif (inEdges.length < 1) ''\nelse {\neval(inEdges[0].sourcePort.tag.primitiveID).status\n}",
+                    "type": "expression",
+                    "status": "complete",
+                    "value": ""
+                }
+            },
+            "primitiveID": "oil_pad_730_inPort4",
+            "location": {
+                "x": 5118.781547619047,
+                "y": 2301.8120085470086
+            }
+        },
+        {
+            "primitiveName": "inPort1",
+            "type": [
+                "IN"
+            ],
+            "properties": {
+                "status": {
+                    "expression": "let portOwner = graph.ports.find(port => port.tag.primitiveID === primitiveID).owner;\nlet inEdges = graph.inEdgesAt(portOwner).filter(edge => edge.targetPort.tag.primitiveID === primitiveID).toArray()\nif (inEdges.length < 1) ''\nelse {\neval(inEdges[0].sourcePort.tag.primitiveID).status\n}",
+                    "type": "expression",
+                    "status": "complete",
+                    "value": ""
+                }
+            },
+            "primitiveID": "oil_pad_730_inPort1",
+            "location": {
+                "x": 5069.198214285714,
+                "y": 2301.8120085470086
+            }
+        },
+        {
+            "primitiveName": "outPort7",
+            "type": [
+                "OUT"
+            ],
+            "properties": {
+                "status": {
+                    "expression": "",
+                    "type": "expression",
+                    "status": "complete",
+                    "value": ""
+                }
+            },
+            "primitiveID": "oil_pad_730_outPort7",
+            "location": {
+                "x": 5106.385714285714,
+                "y": 2449.0620085470086
+            }
+        },
+        {
+            "primitiveName": "inPort2",
+            "type": [
+                "IN"
+            ],
+            "properties": {
+                "status": {
+                    "expression": "let portOwner = graph.ports.find(port => port.tag.primitiveID === primitiveID).owner;\nlet inEdges = graph.inEdgesAt(portOwner).filter(edge => edge.targetPort.tag.primitiveID === primitiveID).toArray()\nif (inEdges.length < 1) ''\nelse {\neval(inEdges[0].sourcePort.tag.primitiveID).status\n}",
+                    "type": "expression",
+                    "status": "complete",
+                    "value": ""
+                }
+            },
+            "primitiveID": "oil_pad_730_inPort2",
+            "location": {
+                "x": 5168.364880952381,
+                "y": 2301.8120085470086
+            }
+        },
+        {
+            "primitiveName": "inPort5",
+            "type": [
+                "IN"
+            ],
+            "properties": {
+                "status": {
+                    "expression": "let portOwner = graph.ports.find(port => port.tag.primitiveID === primitiveID).owner;\nlet inEdges = graph.inEdgesAt(portOwner).filter(edge => edge.targetPort.tag.primitiveID === primitiveID).toArray()\nif (inEdges.length < 1) ''\nelse {\neval(inEdges[0].sourcePort.tag.primitiveID).status\n}",
+                    "type": "expression",
+                    "status": "complete",
+                    "value": ""
+                }
+            },
+            "primitiveID": "oil_pad_730_inPort5",
+            "location": {
+                "x": 5093.989880952381,
+                "y": 2301.8120085470086
+            }
+        },
+        {
+            "primitiveName": "inPort3",
+            "type": [
+                "IN"
+            ],
+            "properties": {
+                "status": {
+                    "expression": "let portOwner = graph.ports.find(port => port.tag.primitiveID === primitiveID).owner;\nlet inEdges = graph.inEdgesAt(portOwner).filter(edge => edge.targetPort.tag.primitiveID === primitiveID).toArray()\nif (inEdges.length < 1) ''\nelse {\neval(inEdges[0].sourcePort.tag.primitiveID).status\n}",
+                    "type": "expression",
+                    "status": "complete",
+                    "value": ""
+                }
+            },
+            "primitiveID": "oil_pad_730_inPort3",
+            "location": {
+                "x": 5044.406547619047,
+                "y": 2301.8120085470086
+            }
+        },
+        {
+            "primitiveName": "inPort6",
+            "type": [
+                "IN"
+            ],
+            "properties": {
+                "status": {
+                    "expression": "let portOwner = graph.ports.find(port => port.tag.primitiveID === primitiveID).owner;\nlet inEdges = graph.inEdgesAt(portOwner).filter(edge => edge.targetPort.tag.primitiveID === primitiveID).toArray()\nif (inEdges.length < 1) ''\nelse {\neval(inEdges[0].sourcePort.tag.primitiveID).status\n}",
+                    "type": "expression",
+                    "status": "complete",
+                    "value": ""
+                }
+            },
+            "primitiveID": "oil_pad_730_inPort6",
+            "location": {
+                "x": 5143.573214285714,
+                "y": 2301.8120085470086
+            }
+        }
+    ],
+    "layout": {
+        "x": 5032.010714285714,
+        "y": 2301.8120085470086,
+        "height": 147.25,
+        "width": 148.75
+    }
+}

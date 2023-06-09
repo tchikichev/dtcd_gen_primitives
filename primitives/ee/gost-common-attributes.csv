@@ -1,0 +1,291 @@
+base class,attribure name,brief,detail,dtype
+ACLineSegment,g0ch,"Активная проводимость на землю нулевой последовательности, См",double,Вещественный
+ACLineSegment,gch,"Активная проводимость на землю прямой последовательности, См",double,Вещественный
+ACLineSegment,x,"Реактивное сопротивление прямой последовательности, Ом",double,Вещественный
+ACLineSegment,x0,"Реактивное сопротивление нулевой последовательности, Ом",double,Вещественный
+ACLineSegment,r,"Активное сопротивление прямой последовательности, Ом",double,Вещественный
+ACLineSegment,r0,"Активное сопротивление нулевой последовательности, Ом",double,Вещественный
+ACLineSegment,b0ch,"Реактивная проводимость на землю нулевой последовательности, См",double,Вещественный
+ACLineSegment,bch,"Реактивная проводимость на землю прямой последовательности, См",double,Вещественный
+ACLineSegmentPhase,phase,Буквенное обозначение фазы,swith,SinglePhaseKind
+ACLineSegmentPhase,sequenceNumber,"Порядковый номер фазы, совпадающий с нумерацией фаз в классах WirePosition, WirePhaselnfo",uint,Положительное целое
+Asset,inUseDate,Даты этапов ввода в эксплуатацию,swith,InUseDate
+Asset,inUseState,Виды состояний ввода в эксплуатацию,swith,InUseStateKind
+Asset,lifecycleDate,Даты этапов жизненного цикла актива/материального объекта,swith,LifecycleDate
+Asset,position,Положение материального объекта (обычно в отношении других материальных объектов),string,Строка
+Asset,type,Тип материального объекта,string,Строка
+AssetDeployment,deploymentDate,Даты изменения состояния объекта,swith,DeploymentDate
+AssetDeployment,deploymentState,Текущее состояние объекта,swith,DeploymentStateKind
+AssetDeployment,facilityKind,Тип объекта размещения,swith,FacilityKind
+Bay,breakerConfiguration,Конфигурация соединения выключателей,swith,BreakerConfiguration
+Bay,busBarConfiguration,Конфигурация шин присоединения,swith,BusbarConfiguration
+Breaker,inTransitTime,"Время включения выключателя, с",double,Вещественный
+Breakerlnfo,rf:interruptingTime,"Полное время отключения выключателя, с",double,Вещественный
+Breakerlnfo,rf:ratedRecloseTime,"Нормированная бестоковая пауза при автоматическом повторном включении, с",double,Вещественный
+BusbarSection,ipMax,"Максимально допустимый пиковый ток короткого замыкания, А",double,Вещественный
+BusbarSectionlnfo,ratedCurrent,"Номинальный ток секции шин, А",double,Вещественный
+BusbarSectionlnfo,ratedVoltage,"Номинальное напряжение секции шин, кВ",double,Вещественный
+Cablelnfo,constructionKind,Тип конструкции кабеля,swith,CableConstructionKind
+Cablelnfo,outerJacketKind,Вид материала наружной оболочки,swith,CableOuterJacketKind
+Cablelnfo,shieldMaterial,Материал экрана кабеля,swith,CableShieldMaterialKind
+Cablelnfo,rf:shieldGrounding,Тип заземления экрана,swith,ShieldGroundingKind
+Cablelnfo,diameterOverCore,"Диаметр проводящей части, включая полупроводящие оболочки, не включая изолирующие слои, м",double,Вещественный
+Cablelnfo,diameterOverlnsulation,"Диаметр изолирующей оболочки, исключая внешней экран, мм",double,Вещественный
+Cablelnfo,diameterOverJacket,"Диаметр наружной оболочки кабеля, м",double,Вещественный
+Cablelnfo,diameterOverScreen,"Диаметр по полупроводящему экрану под проводящим экраном, м",double,Вещественный
+Cablelnfo,rf:insulationEr,"Относительная диэлектрическая проницаемость изоляции между жилой и экраном, о.е.",double,Вещественный
+Cablelnfo,rf:insulationErShield,"Относительная диэлектрическая проницаемость изоляции экрана, о.е.",double,Вещественный
+Cablelnfo,rf:radialMoistureBarrier Thicknes,"Толщина алюминиевой ленты для поперечной герметизации, м",double,Вещественный
+Cablelnfo,rf:shieldCrossSection,"Сечение экрана, м",double,Вещественный
+Cablelnfo,rf:sheathThickness,"Толщина брони кабеля, м",double,Вещественный
+Cablelnfo,rf:underShieldScreen Thickness,"Толщина полупроводящего покрытия по внутренней стороне экрана, м",double,Вещественный
+Cablelnfo,rf:shieldIsTransposed,"Транспозиция экрана (присутствует, если присвоено значение ""Истина"")",bool,Логический
+ConcentricNeutral Cablelnfo,diameterOverNeutral,Внешний диаметр концентрической нейтрали кабеля,double,Вещественный
+ConcentricNeutral Cablelnfo,neutralStrandRDC20,"Удельное сопротивление концентрической нейтрали кабеля постоянному току при температуре 20°С, Ом/м",double,Вещественный
+ConductingEquipment,"isThreePhase
+Equipment","Трехфазное исполнение оборудования (если присвоено значение ""Истина"")",bool,Логический
+Conductor,length,"Длина проводника, м",double,Вещественный
+CoordinateSystem,crsUrn,Тип координатной системы в форме унифицированного имени ресурса - URN,string,Строка
+CurrentLimit,normalValue,"Нормальное значение эксплуатационного ограничения/предела по току, А",double,Вещественный
+CurrentLimit,value,"Значение эксплуатационного ограничения/предела по току, А",double,Вещественный
+CurrentTransformer,rf:ratedCurrent,"Номинальный ток, А",double,Вещественный
+CurrentTransformer,"rf:ratedSecondary
+Current","Номинальный вторичный ток, А",double,Вещественный
+CurrentTransformer,rf:isEmbeded,"Трансформатор тока встроенный (если присвоено значение ""Истина"")",bool,Логический
+CurrentTransformer,accuracyClass,Класс точности,string,Строка
+Curve,curveStyle,Тип кривой,swith,CurveStyle
+Curve,xMultiplier,Множитель по оси X,swith,UnitMultiplier
+Curve,y1Multiplier,Множитель по оси Y1,swith,UnitMultiplier
+Curve,y2Multiplier,Множитель по оси Y2,swith,UnitMultiplier
+Curve,y3Multiplier,Множитель по оси Y3,swith,UnitMultiplier
+Curve,xUnit,Единица измерения по оси X,swith,UnitSymbol
+Curve,y1Unit,Единица измерения по оси Y1,swith,UnitSymbol
+Curve,y2Unit,Единица измерения по оси Y2,swith,UnitSymbol
+Curve,y3Unit,Единица измерения по оси Y3,swith,UnitSymbol
+CurveData,xvalue,Значение по оси X,double,Вещественный
+CurveData,ylvalue,Значение по оси Y1,double,Вещественный
+CurveData,у2 value,Значение по оси Y2,double,Вещественный
+CurveData,y3value,Значение по оси Y3,double,Вещественный
+EarthFault Compensator,r,"Активное сопротивление устройства компенсации однофазных токов короткого замыкания, Ом",double,Вещественный
+Equipment,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+GroundingImpedance,x,"Реактивное сопротивление устройства заземления нейтрали для компенсации токов однофазных коротких замыканий, Ом",double,Вещественный
+LimitScalingLimit,limitScalingPercent,"Величина пропорциональной зависимости одного эксплуатационного ограничения/предела от исходного, %",double,Вещественный
+LinearShunt Compensator,g0PerSection,"Активная проводимость нулевой последовательности на секцию, См",double,Вещественный
+LinearShunt Compensator,gPerSection,"Активная проводимость прямой последовательности на секцию, См",double,Вещественный
+LinearShunt Compensator,b0PerSection,"Реактивная проводимость нулевой последовательности на секцию, См",double,Вещественный
+LinearShunt Compensator,bPerSection,"Реактивная проводимость прямой последовательности на секцию, См",double,Вещественный
+MutualCoupling,distance11,"Расстояние от первого полюса первого участка ЛЭП до начала сближения со вторым участком ЛЭП, м",double,Вещественный
+MutualCoupling,distance12,"Расстояние от первого полюса первого участка ЛЭП до конца сближения со вторым участком ЛЭП, м",double,Вещественный
+MutualCoupling,Distance21,"Расстояние от второго полюса первого участка ЛЭП до начала сближения со вторым участком ЛЭП, м",double,Вещественный
+MutualCoupling,Distance22,"Расстояние от второго полюса первого участка ЛЭП до конца сближения со вторым участком ЛЭП, м",double,Вещественный
+MutualCoupling,b0ch,"Взаимная емкостная поперечная (зарядная) проводимость нулевой последовательности, См",double,Вещественный
+MutualCoupling,g0ch,"Взаимная активная поперечная (зарядная) проводимость нулевой последовательности, См",double,Вещественный
+MutualCoupling,r0,"Взаимное активное сопротивление нулевой последовательности, Ом",double,Вещественный
+MutualCoupling,x0,"Взаимное индуктивное сопротивление нулевой последовательности, Ом",double,Вещественный
+NoLoadTest,loss,"Потери холостого хода, кВт",double,Вещественный
+NoLoadTest,excitingCurrent,"Ток холостого хода, %",double,Вещественный
+NoLoadTest,energisedEndVoltage,"Напряжение первичной обмотки, кВ",double,Вещественный
+OperationalLimitType,direction,Направление нарушения эксплуатационного ограничения/предела,swith,OperationalLimit DirectionKind
+OperationalLimitType,acceptableDuration,"Допустимая длительность нарушения эксплуатационного ограничения/предела, с",double,Вещественный
+PerLengthPhase Impedance,conductorCount,Ограничение количества элементов матрицы фазных удельных параметров,uint,Положительное целое
+PerLengthSequence Impedance,b0ch,"Удельная емкостная проводимость участка ЛЭП нулевой последовательности, См/м",double,Вещественный
+PerLengthSequence Impedance,bch,"Удельная емкостная проводимость участка ЛЭП прямой последовательности, См/м",double,Вещественный
+PerLengthSequence Impedance,g0ch,"Удельная активная проводимость участка ЛЭП нулевой последовательности, См/м",double,Вещественный
+PerLengthSequence Impedance,gch,"Удельная активная проводимость участка ЛЭП прямой последовательности, См/м",double,Вещественный
+PerLengthSequence Impedance,r,"Удельное активное сопротивление участка ЛЭП прямой последовательности, Ом/м",double,Вещественный
+PerLengthSequence Impedance,r0,"Удельное активное сопротивление участка ЛЭП нулевой последовательности, Ом/м",double,Вещественный
+PerLengthSequence Impedance,x,"Удельное реактивное сопротивление участка ЛЭП прямой последовательности, Ом/м",double,Вещественный
+PerLengthSequence Impedance,x0,"Удельное реактивное сопротивление участка ЛЭП нулевой последовательности, Ом/м",double,Вещественный
+PetersenCoil,mode,Режим работы дугогасящей катушки,swith,PetersenCoilModeKind
+PetersenCoil,offsetCurrent,"Не скомпенсированный регулятором реактивный ток дугогасящей катушки, А",double,Вещественный
+PetersenCoil,xGroundMax,"Максимальное реактивное сопротивление, Ом",double,Вещественный
+PetersenCoil,xGroundMin,"Минимальное реактивное сопротивление, Ом",double,Вещественный
+PetersenCoil,xGroundNominal,"Номинальное реактивное сопротивление, Ом",double,Вещественный
+PetersenCoil,nominalU,"Номинальное напряжение, кВ",double,Вещественный
+PhaselmpedanceData,fromPhase,"Фаза, к которой относится удельный параметр",swith,SinglePhaseKind
+PhaselmpedanceData,toPhase,"Фаза, в отношении к которой указывается удельный параметр",swith,SinglePhaseKind
+PhaselmpedanceData,b,"Удельная реактивная проводимость фазы, См/м",double,Вещественный
+PhaselmpedanceData,g,"Удельная активная проводимость фазы, См/м",double,Вещественный
+PhaselmpedanceData,r,"Удельное активное сопротивление фазы, Ом/м",double,Вещественный
+PhaselmpedanceData,x,"Удельное реактивное сопротивление фазы, Ом/м",double,Вещественный
+PhaseTapChanger Asymmetrical,windingConnection Angle,"Угол, на который вектор напряжения вольтодобавки опережает напряжение вывода, к которому присоединен переключатель, град",double,Вещественный
+PhaseTapChanger Linear,stepPhaseShift Increment,"Изменение фазового угла при изменении позиции регулировочного ответвления на один шаг, град",double,Вещественный
+PhaseTapChanger Linear,xMax,"Максимальное индуктивное сопротивление луча звезды, Ом",double,Вещественный
+PhaseTapChanger Linear,xMin,"Минимальное индуктивное сопротивление луча звезды, Ом",double,Вещественный
+PhaseTapChanger TablePoint,angle,"Разница углов, град",double,Вещественный
+PhaseTapChangerNon Linear,voltageSteplncrement,"Шаг по напряжению при переключении на смежное ответвление, в процентах от номинального напряжения вывода силового трансформатора, %",double,Вещественный
+PhaseTapChangerNon Linear,xMax,"Максимальное индуктивное сопротивление луча звезды, Ом",double,Вещественный
+PhaseTapChangerNon Linear,xMin,"Минимальное индуктивное сопротивление луча звезды, Ом",double,Вещественный
+PositionPoint,groupNumber,"Последовательный, начиная с нуля, номер группы",uint,Положительное целое
+PositionPoint,sequenceNumber,"Последовательный, начиная с нуля, номер координаты в серии координат",uint,Положительное целое
+PositionPoint,xPosition,Расположение по координате x,string,Строка
+PositionPoint,yPosition,Расположение по координате y,string,Строка
+PositionPoint,zPosition,Расположение по координате z,string,Строка
+PotentialTransformer,type,Конструктивный тип,swith,"PotentialTransformer
+Kind"
+PotentialTransformer,accuracyClass,Класс точности,string,Строка
+PowerTransformer,vectorGroup,Группа соединения обмоток,string,Строка
+PowerTransformerEnd,connectionKind,Схема соединения обмоток,swith,WindingConnection
+PowerTransformerEnd,b,"Реактивная проводимость прямой последовательности шунта намагничивания, приведенная к номинальному напряжению вывода с наивысшим напряжением, См",double,Вещественный
+PowerTransformerEnd,b0,"Реактивная проводимость нулевой последовательности шунта намагничивания, приведенная к номинальному напряжению вывода с наивысшим напряжением, См",double,Вещественный
+PowerTransformerEnd,g,"Активная проводимость прямой последовательности шунта намагничивания, приведенная к номинальному напряжению вывода с наивысшим напряжением, См",double,Вещественный
+PowerTransformerEnd,g0,"Активная проводимость нулевой последовательности шунта намагничивания, приведенная к номинальному напряжению вывода с наивысшим напряжением, См",double,Вещественный
+PowerTransformerEnd,r,"Активное сопротивление прямой последовательности, Ом",double,Вещественный
+PowerTransformerEnd,r0,"Активное сопротивление нулевой последовательности, Ом",double,Вещественный
+PowerTransformerEnd,ratedS,"Номинальная полная мощность, МВА",double,Вещественный
+PowerTransformerEnd,ratedU,"Номинальное напряжение вывода трансформатора, кВ",double,Вещественный
+PowerTransformerEnd,x,"Реактивное сопротивление прямой последовательности, Ом",double,Вещественный
+PowerTransformerEnd,x0,"Реактивное сопротивление нулевой последовательности, Ом",double,Вещественный
+PowerTransformerEnd,phaseAngleClock,Группа соединения обмоток,uint,Положительное целое
+ProtectedSwitch,breakingCapacity,"Номинальный ток отключения выключателя, А",double,Вещественный
+RatioTapChanger,stepVoltagelncrement,"Процент изменения напряжения при изменении регулировочного ответвления, %",double,Вещественный
+RegulatingControl,mode,Режим регулирования из заданного списка,swith,RegulatingControl ModeKind
+RegulatingControl,enabled,"Регулятор выключен (если присвоено значение ""Ложь""; по умолчанию ""включен"")",bool,Логический
+rf: StaticVarCompensator Info,maxSlope,"Максимальный статизм регулирования напряжения по реактивной мощности dU/dQ, кВ/Мвар",double,Вещественный
+rf: StaticVarCompensator Info,minSlope,"Минимальный статизм регулирования напряжения по реактивной мощности dU/dQ, кВ/Мвар",double,Вещественный
+rf: StaticVarCompensator Info,regulatingSpeed,"Скорость изменения реактивной мощности, Мвар/с",double,Вещественный
+rf: StaticVarCompensator Info,ratedRegulatingTime,"Время изменения нагрузки между границами регулировочного диапазона, с",double,Вещественный
+rf:ACLineSeriesSection,g0ch,"Активная проводимость на землю нулевой последовательности, См",double,Вещественный
+rf:ACLineSeriesSection,gch,"Активная проводимость на землю прямой последовательности, См",double,Вещественный
+rf:ACLineSeriesSection,x,"Реактивное сопротивление прямой последовательности, Ом",double,Вещественный
+rf:ACLineSeriesSection,x0,"Реактивное сопротивление нулевой последовательности, Ом",double,Вещественный
+rf:ACLineSeriesSection,r,"Активное сопротивление прямой последовательности, Ом",double,Вещественный
+rf:ACLineSeriesSection,r0,"Активное сопротивление нулевой последовательности, Ом",double,Вещественный
+rf:ACLineSeriesSection,b0ch,"Реактивная проводимость на землю нулевой последовательности, См",double,Вещественный
+rf:ACLineSeriesSection,bch,"Реактивная проводимость на землю прямой последовательности, См",double,Вещественный
+rf:ACLineSeriesSection,length,"Длина сегмента участка линии переменного тока, м",double,Вещественный
+rf:ACLineSeriesSection,sectionNumber,Порядковый номер сегмента участка линии переменного тока,uint,Положительное целое
+rf:ControlledShunt Reactorlnfo,boostRegulatingSpeed,"Скорость изменения нагрузки с форсировкой, Мвар/с",double,Вещественный
+rf:ControlledShunt Reactorlnfo,maxSlope,"Максимальный статизм регулирования напряжения по реактивной мощности dU/dQ, кВ/Мвар",double,Вещественный
+rf:ControlledShunt Reactorlnfo,minSlope,"Минимальный статизм регулирования напряжения по реактивной мощности dU/dQ, кВ/Мвар",double,Вещественный
+rf:ControlledShunt Reactorlnfo,ratedRegulatingTime,"Время изменения реактивной мощности между границами регулировочного диапазона, с",double,Вещественный
+rf:ControlledShunt Reactorlnfo,regulatingSpeed,"Скорость изменения реактивной мощности, Мвар/с",double,Вещественный
+rf:ControlledShunt Reactorlnfo,shortCircuitVoltage,"Напряжение короткого замыкания между сетевой обмоткой и компенсационной обмоткой, %",double,Вещественный
+rf:ControlledShunt Reactorlnfo,x0,"Индуктивное сопротивление нулевой последовательности, Ом",double,Вещественный
+rf:CurrentTransformer Winding,kMax,"Предельная кратность, о.е.",double,Вещественный
+rf:CurrentTransformer Winding,r,"Активное сопротивление, Ом",double,Вещественный
+rf:CurrentTransformer Winding,kt,Коэффициент трансформации,double,Вещественный
+rf:CurrentTransformer Winding,x,"Реактивное сопротивление, Ом",double,Вещественный
+rf:PotentialTransformer Winding,nominalRatio,"Коэффициент преобразования, о.е.",double,Вещественный
+rf:PotentialTransformer Winding,nominalVoltage,"Номинальное напряжение, кВ",double,Вещественный
+rf:PotentialTransformer Winding,shortCircuitVoltage,"Напряжение короткого замыкания, %",double,Вещественный
+rf:SensorWinding,connectionKind,Схема соединения обмоток,swith,WindingConnection
+rf:SensorWinding,ratedS,"Номинальная полная мощность, МВА",double,Вещественный
+rf:SensorWinding,accuracyClass,Класс точности,string,Строка
+rf:SeriesCapacitor Info,ratedCapacitance,"Емкость, Ф",double,Вещественный
+rf:SeriesCapacitorInfo,capacitorsln ChainCount,Количество последовательно соединенных конденсаторов,uint,Положительное целое
+rf:SeriesCapacitorInfo,chainCapacitors Count,Количество параллельных конденсаторных цепочек,uint,Положительное целое
+rf:SeriesCapacitorInfo,capacitorsln ChainType,Тип последовательно соединенных конденсаторов,string,Строка
+rf:SeriesCompensator Info,loss,"Потери активной мощности при номинальном напряжении, кВт",double,Вещественный
+rf:SeriesCompensator Info,maxVoltage,"Наибольшее рабочее напряжение, кВ",double,Вещественный
+rf:SeriesCompensator Info,ratedCurrent,"Номинальный ток, А",double,Вещественный
+rf:SeriesCompensator Info,ratedReactivePower,"Номинальная реактивная мощность, Мвар",double,Вещественный
+rf:SeriesCompensator Info,ratedVoltage,"Номинальное напряжение, кВ",double,Вещественный
+"rf:SeriesVarCapacitor
+lnfo",minReactivePower,"Минимальная реактивная мощность, Мвар",double,Вещественный
+rf:SeriesVarCapacitor Info,boostReactivePower,"Мощность устройства продольной компенсации при форсировке, Мвар",double,Вещественный
+rf:SeriesVarCapacitor Info,boostX,"Индуктивное сопротивление устройства продольной компенсации при форсировке, Ом",double,Вещественный
+rf:SeriesVarCapacitor Info,boosrMaxTime,"Допустимая длительность форсировки устройства продольной компенсации, с",double,Вещественный
+rf:SeriesVarCapacitor Info,bypassCurrent Threshold,"Уставка срабатывания по току схемы шунтирования, о.е.",double,Вещественный
+rf:SeriesVarCapacitor Info,ratedRegulatingTime,"Время изменения нагрузки между границами регулировочного диапазона, с",double,Вещественный
+rf:SeriesVarCapacitor Info,maxReactivePower,"Максимальная реактивная мощность, Мвар",double,Вещественный
+rf:ShuntCapacitorlnfo,"capacitorslnChain
+Count",Количество последовательно соединенных конденсаторов батареи статических компенсаторов,uint,Положительное целое
+rf:ShuntCapacitorlnfo,chainCapacitorsCount,Количество параллельных конденсаторных цепочек батареи статических компенсаторов,uint,Положительное целое
+rf:ShuntCapacitorlnfo,capacitorslnChainType,Тип последовательно соединенных конденсаторов батареи статических компенсаторов,string,Строка
+rf:ShuntReactorlnfo,groundResistorEnergy,"Энергоемкость резистора в нейтральном выводе, Дж",double,Вещественный
+rf:ShuntReactorlnfo,neutralResistance,"Сопротивление резистора в нейтральном выводе, Ом",double,Вещественный
+rf:ShuntReactorlnfo,neutralResistanceTime,"Длительность нахождения резистора в нейтральном выводе в цепи, с",double,Вещественный
+rf:ShuntReactorlnfo,ratedNeutralVoltage,"Номинальное напряжение нулевых выводов, кВ",double,Вещественный
+rf:ShuntReactorlnfo,ratedNeutrallnsulation Voltage,"Допустимое напряжение изоляции нулевых выводов, кВ",double,Вещественный
+"rf:TapChanger
+DependentLimitPoint",NmitPercent,"Отношение значения эксплуатационного ограничения/предела для заданного положения переключателя регулировочных ответвлений к нормальному значению эксплуатационного ограничения/предела, %",double,Вещественный
+"rf:TapChanger
+DependentLimitPoint",step,Положение переключателя регулировочных ответвлений,string,Целое
+SeriesCompensator,rf:couplingCoefficient,"Номинальный коэффициент связи (только для сдвоенных реакторов), о.е.",double,Вещественный
+SeriesCompensator,x,"Реактивное сопротивление прямой последовательности, Ом",double,Вещественный
+SeriesCompensator,x0,"Реактивное сопротивление нулевой последовательности, Ом",double,Вещественный
+SeriesCompensator,r,"Активное сопротивление прямой последовательности, Ом",double,Вещественный
+SeriesCompensator,r0,"Активное сопротивление нулевой последовательности, Ом",double,Вещественный
+ShortCircuitTest,loss,"Потери короткого замыкания, кВт",double,Вещественный
+ShortCircuitTest,voltage,"Напряжение короткого замыкания, %",double,Вещественный
+ShortCircuitTest,energisedEndStep,Положение переключателя ответвлений для обмотки под напряжением,string,Целое
+ShortCircuitTest,groundedEndStep,Положение переключателя ответвлений для заземленной обмотки,string,Целое
+ShuntCompensator,phaseConnection,Тип соединения обмоток,swith,PhaseShuntConnection Kind
+ShuntCompensator,nomU,"Номинальное напряжение, кВ",double,Вещественный
+ShuntCompensator,grounded,"Если присвоено значение ""Истина"", нейтраль глухо заземлена",bool,Логический
+ShuntCompensator,maximumSections,"Максимальное количество секций, которое может быть включено",uint,Положительное целое
+ShuntCompensatorInfo,maxPowerLoss,"Максимальные потери полной мощности, МВА",double,Вещественный
+ShuntCompensatorInfo,ratedReactivePower,"Номинальная реактивная мощность, Мвар",double,Вещественный
+ShuntCompensatorInfo,ratedCurrent,Номинальный ток,double,Вещественный
+ShuntCompensatorInfo,ratedVoltage,"Номинальное напряжение, кВ",double,Вещественный
+StaticVarCompensator,capacitiveRating,"Емкостное сопротивление при максимальной генерируемой реактивной мощности (положительное значение), Ом",double,Вещественный
+StaticVarCompensator,inductiveRating,"Индуктивное сопротивление при максимальной потребляемой реактивной мощности (отрицательное значение), Ом",double,Вещественный
+StaticVarCompensator,rf:maxQ,"Верхняя граница регулировочного диапазона, Мвар",double,Вещественный
+StaticVarCompensator,rf:minQ,"Нижняя граница регулировочного диапазона, Мвар",double,Вещественный
+StaticVarCompensator,slope,"Статизм регулирования напряжения по реактивной мощности dU/dQ, кВ/Мвар",double,Вещественный
+Structure,ratedVoltage,"Конструктивное номинальное напряжение, на которое рассчитана конструкция участка ЛЭП, кВ",double,Вещественный
+Structure,rf:rEarth,"Удельное сопротивление грунта, Ом/м",double,Вещественный
+Switch,rf:differencelnTransit Time,"Разновременность замыкания контактов полюсов выключателя (только для выключателей с типом привода ""пофазный""), с",double,Вещественный
+Switch,ratedCurrent,"Номинальный ток, А",double,Вещественный
+Switch,normalOpen,"Если присвоено значение ""Истина"", нормальное состояние ""Отключено""",bool,Логический
+SwitchInfo,breakingCapacity,"Номинальный ток отключения коммутационного аппарата, А",double,Вещественный
+SwitchInfo,rated Current,"Номинальный ток, А",double,Вещественный
+SwitchInfo,ratedInterruptingTime,"Собственное время отключения, с",double,Вещественный
+SwitchInfo,rf:ratedInTransitTime,"Собственное время включения, с",double,Вещественный
+SwitchInfo,ratedVoltage,"Номинальное напряжение, кВ",double,Вещественный
+SwitchInfo,isSinglePhase,"Если присвоено значение ""Истина"", выключатель имеет пофазное исполнение",bool,Логический
+SwitchInfo,isUnganged,"Если присвоено значение ""Истина"", привод управления фазой независимый",bool,Логический
+SwitchInfo,rf:isUngangedControl,"Если присвоено значение ""Истина"", есть возможность независимого управления фазой",bool,Логический
+TapChanger,controlEnabled,"Если присвоено значение ""Истина"", есть возможность регулирования",bool,Логический
+TapChanger,ItcFlag,"Если присвоено значение ""Истина"", возможно переключение под нагрузкой",bool,Логический
+TapChanger,highStep,Номер максимального положения переключателя ответвлений обмоток,string,Целое
+TapChanger,lowStep,Номер минимального положения переключателя ответвлений обмоток,string,Целое
+TapChanger,neutralStep,Номер нейтрального положения переключателя ответвлений обмоток,string,Целое
+TapChanger,rf:neutralStepCount,Количество нейтральных положений,string,Целое
+TapChangerTablePoint,b,"Отклонение реактивной проводимости намагничивания от номинального значения, %",double,Вещественный
+TapChangerTablePoint,g,"Отклонение активной проводимости намагничивания от номинального значения, %",double,Вещественный
+TapChangerTablePoint,r,"Отклонение продольного активного сопротивления обмотки от номинального значения, %",double,Вещественный
+TapChangerTablePoint,ratio,"Отношение напряжения для заданного положения регулировочного ответвления к номинальному, о.е.",double,Вещественный
+TapChangerTablePoint,x,"Отклонение продольного реактивного сопротивления обмотки от номинального значения, %",double,Вещественный
+TapChangerTablePoint,step,Положение регулировочного ответвления,string,Целое
+TapeShieldCablelnfo,tapeLap,"Процент перекрытия намотки ленточного проводящего экрана, %",double,Вещественный
+TapeShieldCablelnfo,tapeThickness,"Толщина ленты проводящего экрана кабеля, м",double,Вещественный
+TemperatureDependent LimitPoint,limitPercent,"Отношение значения эксплуатационного ограничения/предела для заданной температуры к нормальному значению эксплуатационного ограничения/предела, %",double,Вещественный
+TemperatureDependent LimitPoint,temperature,"Температура, °С",double,Вещественный
+Tower,constructionKind,Конструкция опоры ЛЭП,swith,TowerConstruction Kind
+Tower,rf:groundingMode,Режим заземления грозотросов,string,Строка
+TransformerEnd,rground,"Активное сопротивление заземления нейтрали, Ом",double,Вещественный
+TransformerEnd,xground,"Реактивное сопротивление заземления нейтрали, Ом",double,Вещественный
+TransformerEnd,grounded,"Нейтраль глухо заземлена (если присвоено значение ""Истина"")",bool,Логический
+TransformerEnd,endNumber,Номер вывода трансформатора,uint,Положительное целое
+TransformerEndInfo,ratedU,"Номинальное напряжение, кВ",double,Вещественный
+TransformerEndInfo,endNumber,Номер вывода трансформатора,uint,Положительное целое
+TransformerMesh Impedance,r,"Активное сопротивление прямой последовательности, Ом",double,Вещественный
+TransformerMesh Impedance,r0,"Активное сопротивление нулевой последовательности, Ом",double,Вещественный
+TransformerMesh Impedance,x,"Реактивное сопротивление прямой последовательности, Ом",double,Вещественный
+TransformerMesh Impedance,x0,"Реактивное сопротивление нулевой последовательности, Ом",double,Вещественный
+TransformerTank Info,rf:coolingKind,Тип системы охлаждения,swith,CoolingKind
+TransformerTest,basePower,"Базовая полная мощность, МВА",double,Вещественный
+TransformerTest,temperature,"Температура, при которой проводился опыт, °С",double,Вещественный
+Underground Structure,kind,Тип конструкции КЛ,swith,UndergroundStructure Kind
+Underground Structure,material,Основной материал конструкции КЛ,string,Строка
+VoltageLimit,normalValue,"Нормальное значение эксплуатационного ограничения/предела по напряжению, кВ",double,Вещественный
+VoltageLimit,value,"Значение эксплуатационного ограничения/предела по напряжению, кВ",double,Вещественный
+Wirelnfo,insulationMaterial,Изоляционный материал,swith,WirelnsulationKind
+Wirelnfo,material,Материал проводника,swith,WireMaterialKind
+Wirelnfo,ratedCurrent,"Номинальный ток, А",double,Вещественный
+Wirelnfo,coreRadius,"Радиус (центрального) сердечника провода, м (если материалы отличаются)",double,Вещественный
+Wirelnfo,rf:crossSection,"Сечение проводника, м",double,Вещественный
+Wirelnfo,insulationThickness,"Толщина изоляции проводника, м",double,Вещественный
+Wirelnfo,radius,"Внешний радиус проводника, м",double,Вещественный
+Wirelnfo,rDC20,"Удельное сопротивление постоянному току при температуре 20°С, Ом/м",double,Вещественный
+Wirelnfo,insulated,"Если присвоено значение ""Истина"", проводник изолирован",bool,Логический
+Wirelnfo,sizeDescription,Текстовая маркировка проводника или его сечения,string,Строка
+WirePhaselnfo,phaselnfo,Фаза проводника,swith,SinglePhaseKind
+WirePhaselnfo,rf:sequence Number,"Порядковый номер фазы, совпадающий с нумерацией фаз в классе ACLineSegmentPhase",uint,Положительное целое
+WirePosition,xCoord,"Горизонтальная координата проводника относительно общей оси, м",swith,Displacement
+WirePosition,yCoord,"Вертикальная координата проводника относительно земли, м",swith,Displacement
+WireSpacing,phaseWireSpacing,"Расстояние между проводниками в симметричном пучке, м",double,Вещественный
+WireSpacing,isCable,"Проводник является кабелем (если присвоено значение ""Истина"")",bool,Логический
+WireSpacing,phaseWireCount,Количество проводников в симметричном пучке,uint,Положительное целое

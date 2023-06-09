@@ -1,0 +1,75 @@
+{
+    "title": "Трансформатор тока",
+    "layout": {
+        "heigth": "91",
+        "width": "121"
+    },
+    "image": "Трансформатор тока.svg",
+    "properties": {
+        "name": {
+            "expression": "",
+            "type": "expression"
+        },
+        "aliasName": {
+            "expression": "",
+            "type": "expression"
+        },
+        "description": {
+            "expression": "",
+            "type": "expression"
+        },
+        "normallylnService": {
+            "expression": "",
+            "type": "expression"
+        },
+        "rf:ratedCurrent": {
+            "expression": "",
+            "type": "expression"
+        },
+        "rf:ratedSecondary\nCurrent": {
+            "expression": "",
+            "type": "expression"
+        },
+        "rf:isEmbeded": {
+            "expression": "",
+            "type": "expression"
+        },
+        "accuracyClass": {
+            "expression": "",
+            "type": "expression"
+        }
+    },
+    "ports": [
+        {
+            "name": "outPort",
+            "type": [
+                "OUT"
+            ],
+            "position": {
+                "x": 1,
+                "y": 1
+            }
+        },
+        {
+            "name": "inPort",
+            "type": [
+                "IN"
+            ],
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "name": "inoutPort",
+            "type": [
+                "IN",
+                "OUT"
+            ],
+            "position": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ]
+}

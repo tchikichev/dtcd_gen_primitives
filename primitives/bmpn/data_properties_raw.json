@@ -1,0 +1,912 @@
+{
+    "reply-message": [
+        [
+            "type",
+            "select",
+            [
+                "Annotation",
+                "Group",
+                "Data Store",
+                "Request Message",
+                "Reply Message"
+            ],
+            "Reply Message"
+        ]
+    ],
+    "business-rule-task": [
+        [
+            "task-type",
+            "select",
+            [
+                "Business Rule",
+                "Manual",
+                "Receive",
+                "Script",
+                "Send",
+                "Service",
+                "User",
+                "None"
+            ],
+            "Business Rule"
+        ],
+        [
+            "ad hoc",
+            "switch",
+            "",
+            ""
+        ],
+        [
+            "compensation",
+            "switch",
+            "",
+            ""
+        ],
+        [
+            "iteration",
+            "select",
+            [
+                "None",
+                "Loop",
+                "Parallel",
+                "Sequential"
+            ],
+            "None"
+        ],
+        [
+            "process state",
+            "select",
+            [
+                "None",
+                "Open",
+                "Closed"
+            ],
+            "None"
+        ]
+    ],
+    "manual-task": [
+        [
+            "task-type",
+            "select",
+            [
+                "Business Rule",
+                "Manual",
+                "Receive",
+                "Script",
+                "Send",
+                "Service",
+                "User",
+                "None"
+            ],
+            "Manual"
+        ],
+        [
+            "ad hoc",
+            "switch",
+            "",
+            ""
+        ],
+        [
+            "compensation",
+            "switch",
+            "",
+            ""
+        ],
+        [
+            "iteration",
+            "select",
+            [
+                "None",
+                "Loop",
+                "Parallel",
+                "Sequential"
+            ],
+            "None"
+        ],
+        [
+            "process state",
+            "select",
+            [
+                "None",
+                "Open",
+                "Closed"
+            ],
+            "None"
+        ]
+    ],
+    "receive-task": [
+        [
+            "task-type",
+            "select",
+            [
+                "Business Rule",
+                "Manual",
+                "Receive",
+                "Script",
+                "Send",
+                "Service",
+                "User",
+                "None"
+            ],
+            "Receive"
+        ],
+        [
+            "ad hoc",
+            "switch",
+            "",
+            ""
+        ],
+        [
+            "compensation",
+            "switch",
+            "",
+            ""
+        ],
+        [
+            "iteration",
+            "select",
+            [
+                "None",
+                "Loop",
+                "Parallel",
+                "Sequential"
+            ],
+            "None"
+        ],
+        [
+            "process state",
+            "select",
+            [
+                "None",
+                "Open",
+                "Closed"
+            ],
+            "None"
+        ]
+    ],
+    "script-task": [
+        [
+            "task-type",
+            "select",
+            [
+                "Business Rule",
+                "Manual",
+                "Receive",
+                "Script",
+                "Send",
+                "Service",
+                "User",
+                "None"
+            ],
+            "Script"
+        ],
+        [
+            "ad hoc",
+            "switch",
+            "",
+            ""
+        ],
+        [
+            "compensation",
+            "switch",
+            "",
+            ""
+        ],
+        [
+            "iteration",
+            "select",
+            [
+                "None",
+                "Loop",
+                "Parallel",
+                "Sequential"
+            ],
+            "None"
+        ],
+        [
+            "process state",
+            "select",
+            [
+                "None",
+                "Open",
+                "Closed"
+            ],
+            "None"
+        ]
+    ],
+    "send-task": [
+        [
+            "task-type",
+            "select",
+            [
+                "Business Rule",
+                "Manual",
+                "Receive",
+                "Script",
+                "Send",
+                "Service",
+                "User",
+                "None"
+            ],
+            "Send"
+        ],
+        [
+            "ad hoc",
+            "switch",
+            "",
+            ""
+        ],
+        [
+            "compensation",
+            "switch",
+            "",
+            ""
+        ],
+        [
+            "iteration",
+            "select",
+            [
+                "None",
+                "Loop",
+                "Parallel",
+                "Sequential"
+            ],
+            "None"
+        ],
+        [
+            "process state",
+            "select",
+            [
+                "None",
+                "Open",
+                "Closed"
+            ],
+            "None"
+        ]
+    ],
+    "service-task": [
+        [
+            "task-type",
+            "select",
+            [
+                "Business Rule",
+                "Manual",
+                "Receive",
+                "Script",
+                "Send",
+                "Service",
+                "User",
+                "None"
+            ],
+            "Service"
+        ],
+        [
+            "ad hoc",
+            "switch",
+            "",
+            ""
+        ],
+        [
+            "compensation",
+            "switch",
+            "",
+            ""
+        ],
+        [
+            "iteration",
+            "select",
+            [
+                "None",
+                "Loop",
+                "Parallel",
+                "Sequential"
+            ],
+            "None"
+        ],
+        [
+            "process state",
+            "select",
+            [
+                "None",
+                "Open",
+                "Closed"
+            ],
+            "None"
+        ]
+    ],
+    "user-task": [
+        [
+            "task-type",
+            "select",
+            [
+                "Business Rule",
+                "Manual",
+                "Receive",
+                "Script",
+                "Send",
+                "Service",
+                "User",
+                "None"
+            ],
+            "User"
+        ],
+        [
+            "ad hoc",
+            "switch",
+            "",
+            ""
+        ],
+        [
+            "compensation",
+            "switch",
+            "",
+            ""
+        ],
+        [
+            "iteration",
+            "select",
+            [
+                "None",
+                "Loop",
+                "Parallel",
+                "Sequential"
+            ],
+            "None"
+        ],
+        [
+            "process state",
+            "select",
+            [
+                "None",
+                "Open",
+                "Closed"
+            ],
+            "None"
+        ]
+    ],
+    "task": [
+        [
+            "task-type",
+            "select",
+            [
+                "Business Rule",
+                "Manual",
+                "Receive",
+                "Script",
+                "Send",
+                "Service",
+                "User",
+                "None"
+            ],
+            "None"
+        ],
+        [
+            "ad hoc",
+            "switch",
+            "",
+            ""
+        ],
+        [
+            "compensation",
+            "switch",
+            "",
+            ""
+        ],
+        [
+            "iteration",
+            "select",
+            [
+                "None",
+                "Loop",
+                "Parallel",
+                "Sequential"
+            ],
+            "None"
+        ],
+        [
+            "process state",
+            "select",
+            [
+                "None",
+                "Open",
+                "Closed"
+            ],
+            "None"
+        ]
+    ],
+    "start-event-none": [
+        [
+            "characteristic",
+            "select",
+            [
+                "Top-Level Start Event",
+                "Event Sub-Process Interrupting Start Event",
+                "Event Sub-Process Non-Interrupting Start Event",
+                "Catching Intermediate Event",
+                "Boundary Interrupting Intermediate Event",
+                "Boundary Non-Interrupting Intermediate Event",
+                "Throwing Intermediate Event",
+                "End Event"
+            ],
+            "Top-Level Start Event"
+        ],
+        [
+            "type",
+            "select",
+            [
+                "Cancel",
+                "Compensation",
+                "Conditional",
+                "Error",
+                "Escalation",
+                "Link",
+                "Message",
+                "Multiple",
+                "None",
+                "Parallel Multiple",
+                "Signal",
+                "Terminate",
+                "Timer"
+            ],
+            "None"
+        ]
+    ],
+    "intermediate-event-none": [
+        [
+            "characteristic",
+            "select",
+            [
+                "Top-Level Start Event",
+                "Event Sub-Process Interrupting Start Event",
+                "Event Sub-Process Non-Interrupting Start Event",
+                "Catching Intermediate Event",
+                "Boundary Interrupting Intermediate Event",
+                "Boundary Non-Interrupting Intermediate Event",
+                "Throwing Intermediate Event",
+                "End Event"
+            ],
+            "Catching Intermediate Event"
+        ],
+        [
+            "type",
+            "select",
+            [
+                "Cancel",
+                "Compensation",
+                "Conditional",
+                "Error",
+                "Escalation",
+                "Link",
+                "Message",
+                "Multiple",
+                "None",
+                "Parallel Multiple",
+                "Signal",
+                "Terminate",
+                "Timer"
+            ],
+            "None"
+        ]
+    ],
+    "end-event-none": [
+        [
+            "characteristic",
+            "select",
+            [
+                "Top-Level Start Event",
+                "Event Sub-Process Interrupting Start Event",
+                "Event Sub-Process Non-Interrupting Start Event",
+                "Catching Intermediate Event",
+                "Boundary Interrupting Intermediate Event",
+                "Boundary Non-Interrupting Intermediate Event",
+                "Throwing Intermediate Event",
+                "End Event"
+            ],
+            "End Event"
+        ],
+        [
+            "type",
+            "select",
+            [
+                "Cancel",
+                "Compensation",
+                "Conditional",
+                "Error",
+                "Escalation",
+                "Link",
+                "Message",
+                "Multiple",
+                "None",
+                "Parallel Multiple",
+                "Signal",
+                "Terminate",
+                "Timer"
+            ],
+            "None"
+        ]
+    ],
+    "start-event-parallel-multiple": [
+        [
+            "characteristic",
+            "select",
+            [
+                "Top-Level Start Event",
+                "Event Sub-Process Interrupting Start Event",
+                "Event Sub-Process Non-Interrupting Start Event",
+                "Catching Intermediate Event",
+                "Boundary Interrupting Intermediate Event",
+                "Boundary Non-Interrupting Intermediate Event",
+                "Throwing Intermediate Event",
+                "End Event"
+            ],
+            "Event Sub-Process Interrupting Start Event"
+        ],
+        [
+            "type",
+            "select",
+            [
+                "Cancel",
+                "Compensation",
+                "Conditional",
+                "Error",
+                "Escalation",
+                "Link",
+                "Message",
+                "Multiple",
+                "None",
+                "Parallel Multiple",
+                "Signal",
+                "Terminate",
+                "Timer"
+            ],
+            "Parallel Multiple"
+        ]
+    ],
+    "intermediate-event-catch-non-interrupting-parallel-multiple": [
+        [
+            "characteristic",
+            "select",
+            [
+                "Top-Level Start Event",
+                "Event Sub-Process Interrupting Start Event",
+                "Event Sub-Process Non-Interrupting Start Event",
+                "Catching Intermediate Event",
+                "Boundary Interrupting Intermediate Event",
+                "Boundary Non-Interrupting Intermediate Event",
+                "Throwing Intermediate Event",
+                "End Event"
+            ],
+            "Catching Intermediate Event"
+        ],
+        [
+            "type",
+            "select",
+            [
+                "Cancel",
+                "Compensation",
+                "Conditional",
+                "Error",
+                "Escalation",
+                "Link",
+                "Message",
+                "Multiple",
+                "None",
+                "Parallel Multiple",
+                "Signal",
+                "Terminate",
+                "Timer"
+            ],
+            "Parallel Multiple"
+        ]
+    ],
+    "intermediate-event-catch-parallel-multiple": [
+        [
+            "characteristic",
+            "select",
+            [
+                "Top-Level Start Event",
+                "Event Sub-Process Interrupting Start Event",
+                "Event Sub-Process Non-Interrupting Start Event",
+                "Catching Intermediate Event",
+                "Boundary Interrupting Intermediate Event",
+                "Boundary Non-Interrupting Intermediate Event",
+                "Throwing Intermediate Event",
+                "End Event"
+            ],
+            "Catching Intermediate Event"
+        ],
+        [
+            "type",
+            "select",
+            [
+                "Cancel",
+                "Compensation",
+                "Conditional",
+                "Error",
+                "Escalation",
+                "Link",
+                "Message",
+                "Multiple",
+                "None",
+                "Parallel Multiple",
+                "Signal",
+                "Terminate",
+                "Timer"
+            ],
+            "Parallel Multiple"
+        ]
+    ],
+    "intermediate-event-catch-compensation": [
+        [
+            "characteristic",
+            "select",
+            [
+                "Top-Level Start Event",
+                "Event Sub-Process Interrupting Start Event",
+                "Event Sub-Process Non-Interrupting Start Event",
+                "Catching Intermediate Event",
+                "Boundary Interrupting Intermediate Event",
+                "Boundary Non-Interrupting Intermediate Event",
+                "Throwing Intermediate Event",
+                "End Event"
+            ],
+            "Catching Intermediate Event"
+        ],
+        [
+            "type",
+            "select",
+            [
+                "Cancel",
+                "Compensation",
+                "Conditional",
+                "Error",
+                "Escalation",
+                "Link",
+                "Message",
+                "Multiple",
+                "None",
+                "Parallel Multiple",
+                "Signal",
+                "Terminate",
+                "Timer"
+            ],
+            "Compensation"
+        ]
+    ],
+    "intermediate-event-throw-signal": [
+        [
+            "characteristic",
+            "select",
+            [
+                "Top-Level Start Event",
+                "Event Sub-Process Interrupting Start Event",
+                "Event Sub-Process Non-Interrupting Start Event",
+                "Catching Intermediate Event",
+                "Boundary Interrupting Intermediate Event",
+                "Boundary Non-Interrupting Intermediate Event",
+                "Throwing Intermediate Event",
+                "End Event"
+            ],
+            "Throwing Intermediate Event"
+        ],
+        [
+            "type",
+            "select",
+            [
+                "Cancel",
+                "Compensation",
+                "Conditional",
+                "Error",
+                "Escalation",
+                "Link",
+                "Message",
+                "Multiple",
+                "None",
+                "Parallel Multiple",
+                "Signal",
+                "Terminate",
+                "Timer"
+            ],
+            "Signal"
+        ]
+    ],
+    "gateway-none": [
+        [
+            "type",
+            "select",
+            [
+                "Exclusive",
+                "Complex",
+                "Eventbased",
+                "OR",
+                "Parallel",
+                "XOR"
+            ],
+            "Exclusive"
+        ]
+    ],
+    "gateway-complex": [
+        [
+            "type",
+            "select",
+            [
+                "Exclusive",
+                "Complex",
+                "Eventbased",
+                "OR",
+                "Parallel",
+                "XOR"
+            ],
+            "Complex"
+        ]
+    ],
+    "gateway-eventbased": [
+        [
+            "type",
+            "select",
+            [
+                "Exclusive",
+                "Complex",
+                "Eventbased",
+                "OR",
+                "Parallel",
+                "XOR"
+            ],
+            "Eventbased"
+        ]
+    ],
+    "gateway-or": [
+        [
+            "type",
+            "select",
+            [
+                "Exclusive",
+                "Complex",
+                "Eventbased",
+                "OR",
+                "Parallel",
+                "XOR"
+            ],
+            "OR"
+        ]
+    ],
+    "gateway-parallel": [
+        [
+            "type",
+            "select",
+            [
+                "Exclusive",
+                "Complex",
+                "Eventbased",
+                "OR",
+                "Parallel",
+                "XOR"
+            ],
+            "Parallel"
+        ]
+    ],
+    "gateway-xor": [
+        [
+            "type",
+            "select",
+            [
+                "Exclusive",
+                "Complex",
+                "Eventbased",
+                "OR",
+                "Parallel",
+                "XOR"
+            ],
+            "XOR"
+        ]
+    ],
+    "data-store": [
+        [
+            "type",
+            "select",
+            [
+                "Annotation",
+                "Group",
+                "Data Store",
+                "Request Message",
+                "Reply Message"
+            ],
+            "Data Store"
+        ]
+    ],
+    "recieve": [
+        [
+            "type",
+            "select",
+            [
+                "Annotation",
+                "Group",
+                "Data Store",
+                "Request Message",
+                "Reply Message"
+            ],
+            "Request Message"
+        ]
+    ],
+    "send": [
+        [
+            "type",
+            "select",
+            [
+                "Annotation",
+                "Group",
+                "Data Store",
+                "Request Message",
+                "Reply Message"
+            ],
+            "Reply Message"
+        ]
+    ],
+    "text-annotation": [
+        [
+            "type",
+            "select",
+            [
+                "Annotation",
+                "Group",
+                "Data Store",
+                "Request Message",
+                "Reply Message"
+            ],
+            "Annotation"
+        ]
+    ],
+    "data-input": [
+        [
+            "type",
+            "select",
+            [
+                "Data Object (Input)",
+                "Data Object",
+                "Data Object (Output)"
+            ],
+            "Data Object (Input)"
+        ],
+        [
+            "collection",
+            "switch",
+            "",
+            ""
+        ]
+    ],
+    "data-object": [
+        [
+            "type",
+            "select",
+            [
+                "Data Object (Input)",
+                "Data Object",
+                "Data Object (Output)"
+            ],
+            "Data Object"
+        ],
+        [
+            "collection",
+            "switch",
+            "",
+            ""
+        ]
+    ],
+    "data-output": [
+        [
+            "type",
+            "select",
+            [
+                "Data Object (Input)",
+                "Data Object",
+                "Data Object (Output)"
+            ],
+            "Data Object (Output)"
+        ],
+        [
+            "collection",
+            "switch",
+            "",
+            ""
+        ]
+    ]
+}

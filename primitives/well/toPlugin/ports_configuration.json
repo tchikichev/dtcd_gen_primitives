@@ -1,0 +1,302 @@
+{
+    "single_center": [
+        {
+            "name": "inoutPort",
+            "type": ["IN", "OUT"],
+            "position": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "single_top": [
+        {
+            "name": "inoutPort",
+            "type": ["IN", "OUT"],
+            "position": {
+                "x": 0.5,
+                "y": 0.0
+            }
+        }
+    ],
+    "pair_vertical": [
+        {
+            "name": "ioPortLow",
+            "type": ["IN", "OUT"],
+            "position": {
+                "x": 0.5,
+                "y": 1.0
+            }
+        },
+        {
+            "name": "ioPortTop",
+            "type": ["IN", "OUT"],
+            "position": {
+                "x": 0.5,
+                "y": 0.0
+            }
+        }
+    ],
+    "pair_vertical_directed": [
+        {
+            "name": "outPort1",
+            "type": "OUT",
+            "position": {
+                "x": 0.5,
+                "y": 1.0
+            }
+        },
+        {
+            "name": "inPort1",
+            "type": "IN",
+            "position": {
+                "x": 0.5,
+                "y": 0.0
+            }
+        }
+    ],
+    "pair_vertical_directed_indication": [
+        {
+            "name": "outPort1",
+            "type": "OUT",
+            "position": {
+                "x": 0.5,
+                "y": 1.0
+            }
+        },
+        {
+            "name": "outPortIndication",
+            "type": "OUT",
+            "position": {
+                "x": 0.75,
+                "y": 1.0
+            }
+        },
+        {
+            "name": "inPort1",
+            "type": "IN",
+            "position": {
+                "x": 0.5,
+                "y": 0.0
+            }
+        }
+    ],
+    "pair_horizontal": [
+        {
+            "name": "ioPortLeft",
+            "type": ["IN", "OUT"],
+            "position": {
+                "x": 0.0,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "ioPortRight",
+            "type": ["IN", "OUT"],
+            "position": {
+                "x": 1.0,
+                "y": 0.5
+            }
+        }
+    ],
+    "tri_vertical": [
+        {
+            "name": "ioPortLeft",
+            "type": ["IN", "OUT"],
+            "position": {
+                "x": 0.3,
+                "y": 1.0
+            }
+        },
+        {
+            "name": "ioPortRight",
+            "type": ["IN", "OUT"],
+            "position": {
+                "x": 0.6,
+                "y": 1.0
+            }
+        },
+        {
+            "name": "ioPortTop",
+            "type": ["IN", "OUT"],
+            "position": {
+                "x": 0.5,
+                "y": 0.0
+            }
+        }
+    ],
+    "tri_horizontal": [
+        {
+            "name": "ioPortLeft",
+            "type": ["IN", "OUT"],
+            "position": {
+                "x": 0.0,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "ioPortRight",
+            "type": ["IN", "OUT"],
+            "position": {
+                "x": 1.0,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "ioPortTop",
+            "type": ["IN", "OUT"],
+            "position": {
+                "x": 0.5,
+                "y": 0.0
+            }
+        }
+    ],
+    "four_sides": [
+        {
+            "name": "ioPortLeft",
+            "type": ["IN", "OUT"],
+            "position": {
+                "x": 0.0,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "ioPortRight",
+            "type": ["IN", "OUT"],
+            "position": {
+                "x": 1.0,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "ioPortTop",
+            "type": ["IN", "OUT"],
+            "position": {
+                "x": 0.5,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "ioPortLow",
+            "type": ["IN", "OUT"],
+            "position": {
+                "x": 0.5,
+                "y": 1.0
+            }
+        }
+    ],
+    "1c_2cl": [
+        {
+            "name": "iPortLeft",
+            "type": "IN",
+            "position": {
+                "x": 0.0,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "oPortRight1",
+            "type": "OUT",
+            "position": {
+                "x": 1.0,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "oPortRight2",
+            "type": "OUT",
+            "position": {
+                "x": 1.0,
+                "y": 0.77
+            }
+        }
+    ],
+    "1c_2ul": [
+        {
+            "name": "iPortLeft",
+            "type": "IN",
+            "position": {
+                "x": 0.0,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "oPortRight1",
+            "type": "OUT",
+            "position": {
+                "x": 1.0,
+                "y": 0.33
+            }
+        },
+        {
+            "name": "oPortRight2",
+            "type": "OUT",
+            "position": {
+                "x": 1.0,
+                "y": 0.77
+            }
+        }
+    ],
+    "lr": [
+        {
+            "name": "iPortLeft",
+            "type": "IN",
+            "position": {
+                "x": 0.0,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "oPortRight",
+            "type": "OUT",
+            "position": {
+                "x": 1.0,
+                "y": 0.5
+            }
+        }
+    ],
+    "lr08": [
+        {
+            "name": "iPortLeft",
+            "type": "IN",
+            "position": {
+                "x": 0.0,
+                "y": 0.77
+            }
+        },
+        {
+            "name": "oPortRight",
+            "type": "OUT",
+            "position": {
+                "x": 1.0,
+                "y": 0.77
+            }
+        }
+    ],
+    "l08cr": [
+        {
+            "name": "iPortLeft",
+            "type": "IN",
+            "position": {
+                "x": 0.0,
+                "y": 0.77
+            }
+        },
+        {
+            "name": "oPortRight1",
+            "type": "OUT",
+            "position": {
+                "x": 1.0,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "oPortRight2",
+            "type": "OUT",
+            "position": {
+                "x": 1.0,
+                "y": 0.8
+            }
+        }
+    ]
+}

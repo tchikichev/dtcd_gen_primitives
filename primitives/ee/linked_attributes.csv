@@ -1,0 +1,509 @@
+,class_name,attribure name,brief,detail,dtype
+283,BaseVoltage,name,Наименование объекта информационной модели,string,
+284,BaseVoltage,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,BaseVoltage,description,Описание объекта информационной модели,string,
+286,BaseVoltage,isDC,"Признак того, что значение номинального напряжения является напряжением постоянного тока",bool,
+287,BaseVoltage,nominalVoltage,"Значение номинального напряжения, кВ",double,
+283,GeographicalRegion,name,Наименование объекта информационной модели,string,
+284,GeographicalRegion,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,GeographicalRegion,description,Описание объекта информационной модели,string,
+283,SubGeographicalRegion,name,Наименование объекта информационной модели,string,
+284,SubGeographicalRegion,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,SubGeographicalRegion,description,Описание объекта информационной модели,string,
+283,PSRType,name,Наименование объекта информационной модели,string,
+284,PSRType,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,PSRType,description,Описание объекта информационной модели,string,
+283,Terminal,name,Наименование объекта информационной модели,string,
+284,Terminal,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,Terminal,description,Описание объекта информационной модели,string,
+288,Terminal,sequenceNumber,Порядковый номер полюса электропроводящего оборудования,uint,
+283,ConnectivityNode,name,Наименование объекта информационной модели,string,
+284,ConnectivityNode,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,ConnectivityNode,description,Описание объекта информационной модели,string,
+283,Organisation,name,Наименование объекта информационной модели,string,
+284,Organisation,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,Organisation,description,Описание объекта информационной модели,string,
+283,OrganisationRole,name,Наименование объекта информационной модели,string,
+284,OrganisationRole,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,OrganisationRole,description,Описание объекта информационной модели,string,
+283,Plant,name,Наименование объекта информационной модели,string,
+284,Plant,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,Plant,description,Описание объекта информационной модели,string,
+283,Line,name,Наименование объекта информационной модели,string,
+284,Line,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,Line,description,Описание объекта информационной модели,string,
+283,HydroPowerPlant,name,Наименование объекта информационной модели,string,
+284,HydroPowerPlant,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,HydroPowerPlant,description,Описание объекта информационной модели,string,
+283,Substation,name,Наименование объекта информационной модели,string,
+284,Substation,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,Substation,description,Описание объекта информационной модели,string,
+283,VoltageLevel,name,Наименование объекта информационной модели,string,
+284,VoltageLevel,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,VoltageLevel,description,Описание объекта информационной модели,string,
+283,Bay,name,Наименование объекта информационной модели,string,
+284,Bay,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,Bay,description,Описание объекта информационной модели,string,
+18,Bay,breakerConfiguration,Конфигурация соединения выключателей,swith,BreakerConfiguration
+19,Bay,busBarConfiguration,Конфигурация шин присоединения,swith,BusbarConfiguration
+283,WaveTrap,name,Наименование объекта информационной модели,string,
+284,WaveTrap,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,WaveTrap,description,Описание объекта информационной модели,string,
+66,WaveTrap,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+283,CurrentTransformer,name,Наименование объекта информационной модели,string,
+284,CurrentTransformer,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,CurrentTransformer,description,Описание объекта информационной модели,string,
+66,CurrentTransformer,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+48,CurrentTransformer,rf:ratedCurrent,"Номинальный ток, А",double,Вещественный
+49,CurrentTransformer,"rf:ratedSecondary
+Current","Номинальный вторичный ток, А",double,Вещественный
+50,CurrentTransformer,rf:isEmbeded,"Трансформатор тока встроенный (если присвоено значение ""Истина"")",bool,Логический
+51,CurrentTransformer,accuracyClass,Класс точности,string,Строка
+283,PotentialTransformer,name,Наименование объекта информационной модели,string,
+284,PotentialTransformer,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,PotentialTransformer,description,Описание объекта информационной модели,string,
+66,PotentialTransformer,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+120,PotentialTransformer,type,Конструктивный тип,swith,"PotentialTransformer
+Kind"
+121,PotentialTransformer,accuracyClass,Класс точности,string,Строка
+283,SurgeArrester,name,Наименование объекта информационной модели,string,
+284,SurgeArrester,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,SurgeArrester,description,Описание объекта информационной модели,string,
+66,SurgeArrester,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+283,ACLineSegment,name,Наименование объекта информационной модели,string,
+284,ACLineSegment,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,ACLineSegment,description,Описание объекта информационной модели,string,
+66,ACLineSegment,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+43,ACLineSegment,"isThreePhase
+Equipment","Трехфазное исполнение оборудования (если присвоено значение ""Истина"")",bool,Логический
+44,ACLineSegment,length,"Длина проводника, м",double,Вещественный
+0,ACLineSegment,g0ch,"Активная проводимость на землю нулевой последовательности, См",double,Вещественный
+1,ACLineSegment,gch,"Активная проводимость на землю прямой последовательности, См",double,Вещественный
+2,ACLineSegment,x,"Реактивное сопротивление прямой последовательности, Ом",double,Вещественный
+3,ACLineSegment,x0,"Реактивное сопротивление нулевой последовательности, Ом",double,Вещественный
+4,ACLineSegment,r,"Активное сопротивление прямой последовательности, Ом",double,Вещественный
+5,ACLineSegment,r0,"Активное сопротивление нулевой последовательности, Ом",double,Вещественный
+6,ACLineSegment,b0ch,"Реактивная проводимость на землю нулевой последовательности, См",double,Вещественный
+7,ACLineSegment,bch,"Реактивная проводимость на землю прямой последовательности, См",double,Вещественный
+283,BusbarSection,name,Наименование объекта информационной модели,string,
+284,BusbarSection,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,BusbarSection,description,Описание объекта информационной модели,string,
+66,BusbarSection,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+43,BusbarSection,"isThreePhase
+Equipment","Трехфазное исполнение оборудования (если присвоено значение ""Истина"")",bool,Логический
+23,BusbarSection,ipMax,"Максимально допустимый пиковый ток короткого замыкания, А",double,Вещественный
+283,SynchronousMachine,name,Наименование объекта информационной модели,string,
+284,SynchronousMachine,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,SynchronousMachine,description,Описание объекта информационной модели,string,
+66,SynchronousMachine,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+43,SynchronousMachine,"isThreePhase
+Equipment","Трехфазное исполнение оборудования (если присвоено значение ""Истина"")",bool,Логический
+283,AsynchronousMachine,name,Наименование объекта информационной модели,string,
+284,AsynchronousMachine,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,AsynchronousMachine,description,Описание объекта информационной модели,string,
+66,AsynchronousMachine,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+43,AsynchronousMachine,"isThreePhase
+Equipment","Трехфазное исполнение оборудования (если присвоено значение ""Истина"")",bool,Логический
+283,Breaker,name,Наименование объекта информационной модели,string,
+284,Breaker,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,Breaker,description,Описание объекта информационной модели,string,
+66,Breaker,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+43,Breaker,"isThreePhase
+Equipment","Трехфазное исполнение оборудования (если присвоено значение ""Истина"")",bool,Логический
+220,Breaker,rf:differencelnTransit Time,"Разновременность замыкания контактов полюсов выключателя (только для выключателей с типом привода ""пофазный""), с",double,Вещественный
+221,Breaker,ratedCurrent,"Номинальный ток, А",double,Вещественный
+222,Breaker,normalOpen,"Если присвоено значение ""Истина"", нормальное состояние ""Отключено""",bool,Логический
+135,Breaker,breakingCapacity,"Номинальный ток отключения выключателя, А",double,Вещественный
+20,Breaker,inTransitTime,"Время включения выключателя, с",double,Вещественный
+283,LoadBreakSwitch,name,Наименование объекта информационной модели,string,
+284,LoadBreakSwitch,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,LoadBreakSwitch,description,Описание объекта информационной модели,string,
+66,LoadBreakSwitch,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+43,LoadBreakSwitch,"isThreePhase
+Equipment","Трехфазное исполнение оборудования (если присвоено значение ""Истина"")",bool,Логический
+220,LoadBreakSwitch,rf:differencelnTransit Time,"Разновременность замыкания контактов полюсов выключателя (только для выключателей с типом привода ""пофазный""), с",double,Вещественный
+221,LoadBreakSwitch,ratedCurrent,"Номинальный ток, А",double,Вещественный
+222,LoadBreakSwitch,normalOpen,"Если присвоено значение ""Истина"", нормальное состояние ""Отключено""",bool,Логический
+135,LoadBreakSwitch,breakingCapacity,"Номинальный ток отключения выключателя, А",double,Вещественный
+283,Disconnector,name,Наименование объекта информационной модели,string,
+284,Disconnector,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,Disconnector,description,Описание объекта информационной модели,string,
+66,Disconnector,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+43,Disconnector,"isThreePhase
+Equipment","Трехфазное исполнение оборудования (если присвоено значение ""Истина"")",bool,Логический
+220,Disconnector,rf:differencelnTransit Time,"Разновременность замыкания контактов полюсов выключателя (только для выключателей с типом привода ""пофазный""), с",double,Вещественный
+221,Disconnector,ratedCurrent,"Номинальный ток, А",double,Вещественный
+222,Disconnector,normalOpen,"Если присвоено значение ""Истина"", нормальное состояние ""Отключено""",bool,Логический
+283,GroundDisconnector,name,Наименование объекта информационной модели,string,
+284,GroundDisconnector,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,GroundDisconnector,description,Описание объекта информационной модели,string,
+66,GroundDisconnector,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+43,GroundDisconnector,"isThreePhase
+Equipment","Трехфазное исполнение оборудования (если присвоено значение ""Истина"")",bool,Логический
+220,GroundDisconnector,rf:differencelnTransit Time,"Разновременность замыкания контактов полюсов выключателя (только для выключателей с типом привода ""пофазный""), с",double,Вещественный
+221,GroundDisconnector,ratedCurrent,"Номинальный ток, А",double,Вещественный
+222,GroundDisconnector,normalOpen,"Если присвоено значение ""Истина"", нормальное состояние ""Отключено""",bool,Логический
+283,Jumper,name,Наименование объекта информационной модели,string,
+284,Jumper,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,Jumper,description,Описание объекта информационной модели,string,
+66,Jumper,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+43,Jumper,"isThreePhase
+Equipment","Трехфазное исполнение оборудования (если присвоено значение ""Истина"")",bool,Логический
+220,Jumper,rf:differencelnTransit Time,"Разновременность замыкания контактов полюсов выключателя (только для выключателей с типом привода ""пофазный""), с",double,Вещественный
+221,Jumper,ratedCurrent,"Номинальный ток, А",double,Вещественный
+222,Jumper,normalOpen,"Если присвоено значение ""Истина"", нормальное состояние ""Отключено""",bool,Логический
+283,Fuse,name,Наименование объекта информационной модели,string,
+284,Fuse,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,Fuse,description,Описание объекта информационной модели,string,
+66,Fuse,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+43,Fuse,"isThreePhase
+Equipment","Трехфазное исполнение оборудования (если присвоено значение ""Истина"")",bool,Логический
+220,Fuse,rf:differencelnTransit Time,"Разновременность замыкания контактов полюсов выключателя (только для выключателей с типом привода ""пофазный""), с",double,Вещественный
+221,Fuse,ratedCurrent,"Номинальный ток, А",double,Вещественный
+222,Fuse,normalOpen,"Если присвоено значение ""Истина"", нормальное состояние ""Отключено""",bool,Логический
+283,Recloser,name,Наименование объекта информационной модели,string,
+284,Recloser,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,Recloser,description,Описание объекта информационной модели,string,
+66,Recloser,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+43,Recloser,"isThreePhase
+Equipment","Трехфазное исполнение оборудования (если присвоено значение ""Истина"")",bool,Логический
+220,Recloser,rf:differencelnTransit Time,"Разновременность замыкания контактов полюсов выключателя (только для выключателей с типом привода ""пофазный""), с",double,Вещественный
+221,Recloser,ratedCurrent,"Номинальный ток, А",double,Вещественный
+222,Recloser,normalOpen,"Если присвоено значение ""Истина"", нормальное состояние ""Отключено""",bool,Логический
+135,Recloser,breakingCapacity,"Номинальный ток отключения выключателя, А",double,Вещественный
+283,PowerTransformer,name,Наименование объекта информационной модели,string,
+284,PowerTransformer,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,PowerTransformer,description,Описание объекта информационной модели,string,
+66,PowerTransformer,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+43,PowerTransformer,"isThreePhase
+Equipment","Трехфазное исполнение оборудования (если присвоено значение ""Истина"")",bool,Логический
+122,PowerTransformer,vectorGroup,Группа соединения обмоток,string,Строка
+283,PowerTransformerEnd,name,Наименование объекта информационной модели,string,
+284,PowerTransformerEnd,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,PowerTransformerEnd,description,Описание объекта информационной модели,string,
+249,PowerTransformerEnd,rground,"Активное сопротивление заземления нейтрали, Ом",double,Вещественный
+250,PowerTransformerEnd,xground,"Реактивное сопротивление заземления нейтрали, Ом",double,Вещественный
+251,PowerTransformerEnd,grounded,"Нейтраль глухо заземлена (если присвоено значение ""Истина"")",bool,Логический
+252,PowerTransformerEnd,endNumber,Номер вывода трансформатора,uint,Положительное целое
+123,PowerTransformerEnd,connectionKind,Схема соединения обмоток,swith,WindingConnection
+124,PowerTransformerEnd,b,"Реактивная проводимость прямой последовательности шунта намагничивания, приведенная к номинальному напряжению вывода с наивысшим напряжением, См",double,Вещественный
+125,PowerTransformerEnd,b0,"Реактивная проводимость нулевой последовательности шунта намагничивания, приведенная к номинальному напряжению вывода с наивысшим напряжением, См",double,Вещественный
+126,PowerTransformerEnd,g,"Активная проводимость прямой последовательности шунта намагничивания, приведенная к номинальному напряжению вывода с наивысшим напряжением, См",double,Вещественный
+127,PowerTransformerEnd,g0,"Активная проводимость нулевой последовательности шунта намагничивания, приведенная к номинальному напряжению вывода с наивысшим напряжением, См",double,Вещественный
+128,PowerTransformerEnd,r,"Активное сопротивление прямой последовательности, Ом",double,Вещественный
+129,PowerTransformerEnd,r0,"Активное сопротивление нулевой последовательности, Ом",double,Вещественный
+130,PowerTransformerEnd,ratedS,"Номинальная полная мощность, МВА",double,Вещественный
+131,PowerTransformerEnd,ratedU,"Номинальное напряжение вывода трансформатора, кВ",double,Вещественный
+132,PowerTransformerEnd,x,"Реактивное сопротивление прямой последовательности, Ом",double,Вещественный
+133,PowerTransformerEnd,x0,"Реактивное сопротивление нулевой последовательности, Ом",double,Вещественный
+134,PowerTransformerEnd,phaseAngleClock,Группа соединения обмоток,uint,Положительное целое
+283,SeriesCompensator,name,Наименование объекта информационной модели,string,
+284,SeriesCompensator,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,SeriesCompensator,description,Описание объекта информационной модели,string,
+66,SeriesCompensator,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+43,SeriesCompensator,"isThreePhase
+Equipment","Трехфазное исполнение оборудования (если присвоено значение ""Истина"")",bool,Логический
+196,SeriesCompensator,rf:couplingCoefficient,"Номинальный коэффициент связи (только для сдвоенных реакторов), о.е.",double,Вещественный
+197,SeriesCompensator,x,"Реактивное сопротивление прямой последовательности, Ом",double,Вещественный
+198,SeriesCompensator,x0,"Реактивное сопротивление нулевой последовательности, Ом",double,Вещественный
+199,SeriesCompensator,r,"Активное сопротивление прямой последовательности, Ом",double,Вещественный
+200,SeriesCompensator,r0,"Активное сопротивление нулевой последовательности, Ом",double,Вещественный
+283,NonlinearShuntCompensator,name,Наименование объекта информационной модели,string,
+284,NonlinearShuntCompensator,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,NonlinearShuntCompensator,description,Описание объекта информационной модели,string,
+66,NonlinearShuntCompensator,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+43,NonlinearShuntCompensator,"isThreePhase
+Equipment","Трехфазное исполнение оборудования (если присвоено значение ""Истина"")",bool,Логический
+205,NonlinearShuntCompensator,phaseConnection,Тип соединения обмоток,swith,PhaseShuntConnection Kind
+206,NonlinearShuntCompensator,nomU,"Номинальное напряжение, кВ",double,Вещественный
+207,NonlinearShuntCompensator,grounded,"Если присвоено значение ""Истина"", нейтраль глухо заземлена",bool,Логический
+208,NonlinearShuntCompensator,maximumSections,"Максимальное количество секций, которое может быть включено",uint,Положительное целое
+283,LinearShuntCompensator,name,Наименование объекта информационной модели,string,
+284,LinearShuntCompensator,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,LinearShuntCompensator,description,Описание объекта информационной модели,string,
+66,LinearShuntCompensator,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+43,LinearShuntCompensator,"isThreePhase
+Equipment","Трехфазное исполнение оборудования (если присвоено значение ""Истина"")",bool,Логический
+205,LinearShuntCompensator,phaseConnection,Тип соединения обмоток,swith,PhaseShuntConnection Kind
+206,LinearShuntCompensator,nomU,"Номинальное напряжение, кВ",double,Вещественный
+207,LinearShuntCompensator,grounded,"Если присвоено значение ""Истина"", нейтраль глухо заземлена",bool,Логический
+208,LinearShuntCompensator,maximumSections,"Максимальное количество секций, которое может быть включено",uint,Положительное целое
+283,StaticVarCompensator,name,Наименование объекта информационной модели,string,
+284,StaticVarCompensator,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,StaticVarCompensator,description,Описание объекта информационной модели,string,
+66,StaticVarCompensator,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+43,StaticVarCompensator,"isThreePhase
+Equipment","Трехфазное исполнение оборудования (если присвоено значение ""Истина"")",bool,Логический
+213,StaticVarCompensator,capacitiveRating,"Емкостное сопротивление при максимальной генерируемой реактивной мощности (положительное значение), Ом",double,Вещественный
+214,StaticVarCompensator,inductiveRating,"Индуктивное сопротивление при максимальной потребляемой реактивной мощности (отрицательное значение), Ом",double,Вещественный
+215,StaticVarCompensator,rf:maxQ,"Верхняя граница регулировочного диапазона, Мвар",double,Вещественный
+216,StaticVarCompensator,rf:minQ,"Нижняя граница регулировочного диапазона, Мвар",double,Вещественный
+217,StaticVarCompensator,slope,"Статизм регулирования напряжения по реактивной мощности dU/dQ, кВ/Мвар",double,Вещественный
+283,RatioTapChanger,name,Наименование объекта информационной модели,string,
+284,RatioTapChanger,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,RatioTapChanger,description,Описание объекта информационной модели,string,
+231,RatioTapChanger,controlEnabled,"Если присвоено значение ""Истина"", есть возможность регулирования",bool,Логический
+232,RatioTapChanger,ItcFlag,"Если присвоено значение ""Истина"", возможно переключение под нагрузкой",bool,Логический
+233,RatioTapChanger,highStep,Номер максимального положения переключателя ответвлений обмоток,string,Целое
+234,RatioTapChanger,lowStep,Номер минимального положения переключателя ответвлений обмоток,string,Целое
+235,RatioTapChanger,neutralStep,Номер нейтрального положения переключателя ответвлений обмоток,string,Целое
+236,RatioTapChanger,rf:neutralStepCount,Количество нейтральных положений,string,Целое
+136,RatioTapChanger,stepVoltagelncrement,"Процент изменения напряжения при изменении регулировочного ответвления, %",double,Вещественный
+283,PhaseTapChangerLinear,name,Наименование объекта информационной модели,string,
+284,PhaseTapChangerLinear,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,PhaseTapChangerLinear,description,Описание объекта информационной модели,string,
+231,PhaseTapChangerLinear,controlEnabled,"Если присвоено значение ""Истина"", есть возможность регулирования",bool,Логический
+232,PhaseTapChangerLinear,ItcFlag,"Если присвоено значение ""Истина"", возможно переключение под нагрузкой",bool,Логический
+233,PhaseTapChangerLinear,highStep,Номер максимального положения переключателя ответвлений обмоток,string,Целое
+234,PhaseTapChangerLinear,lowStep,Номер минимального положения переключателя ответвлений обмоток,string,Целое
+235,PhaseTapChangerLinear,neutralStep,Номер нейтрального положения переключателя ответвлений обмоток,string,Целое
+236,PhaseTapChangerLinear,rf:neutralStepCount,Количество нейтральных положений,string,Целое
+283,PhaseTapChangerTabular,name,Наименование объекта информационной модели,string,
+284,PhaseTapChangerTabular,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,PhaseTapChangerTabular,description,Описание объекта информационной модели,string,
+231,PhaseTapChangerTabular,controlEnabled,"Если присвоено значение ""Истина"", есть возможность регулирования",bool,Логический
+232,PhaseTapChangerTabular,ItcFlag,"Если присвоено значение ""Истина"", возможно переключение под нагрузкой",bool,Логический
+233,PhaseTapChangerTabular,highStep,Номер максимального положения переключателя ответвлений обмоток,string,Целое
+234,PhaseTapChangerTabular,lowStep,Номер минимального положения переключателя ответвлений обмоток,string,Целое
+235,PhaseTapChangerTabular,neutralStep,Номер нейтрального положения переключателя ответвлений обмоток,string,Целое
+236,PhaseTapChangerTabular,rf:neutralStepCount,Количество нейтральных положений,string,Целое
+283,PhaseTapChangerSymmetrical,name,Наименование объекта информационной модели,string,
+284,PhaseTapChangerSymmetrical,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,PhaseTapChangerSymmetrical,description,Описание объекта информационной модели,string,
+231,PhaseTapChangerSymmetrical,controlEnabled,"Если присвоено значение ""Истина"", есть возможность регулирования",bool,Логический
+232,PhaseTapChangerSymmetrical,ItcFlag,"Если присвоено значение ""Истина"", возможно переключение под нагрузкой",bool,Логический
+233,PhaseTapChangerSymmetrical,highStep,Номер максимального положения переключателя ответвлений обмоток,string,Целое
+234,PhaseTapChangerSymmetrical,lowStep,Номер минимального положения переключателя ответвлений обмоток,string,Целое
+235,PhaseTapChangerSymmetrical,neutralStep,Номер нейтрального положения переключателя ответвлений обмоток,string,Целое
+236,PhaseTapChangerSymmetrical,rf:neutralStepCount,Количество нейтральных положений,string,Целое
+283,PhaseTapChangerAsymmetrical,name,Наименование объекта информационной модели,string,
+284,PhaseTapChangerAsymmetrical,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,PhaseTapChangerAsymmetrical,description,Описание объекта информационной модели,string,
+231,PhaseTapChangerAsymmetrical,controlEnabled,"Если присвоено значение ""Истина"", есть возможность регулирования",bool,Логический
+232,PhaseTapChangerAsymmetrical,ItcFlag,"Если присвоено значение ""Истина"", возможно переключение под нагрузкой",bool,Логический
+233,PhaseTapChangerAsymmetrical,highStep,Номер максимального положения переключателя ответвлений обмоток,string,Целое
+234,PhaseTapChangerAsymmetrical,lowStep,Номер минимального положения переключателя ответвлений обмоток,string,Целое
+235,PhaseTapChangerAsymmetrical,neutralStep,Номер нейтрального положения переключателя ответвлений обмоток,string,Целое
+236,PhaseTapChangerAsymmetrical,rf:neutralStepCount,Количество нейтральных положений,string,Целое
+283,ThermalGeneratingUnit,name,Наименование объекта информационной модели,string,
+284,ThermalGeneratingUnit,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,ThermalGeneratingUnit,description,Описание объекта информационной модели,string,
+66,ThermalGeneratingUnit,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+283,HydroGeneratingUnit,name,Наименование объекта информационной модели,string,
+284,HydroGeneratingUnit,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,HydroGeneratingUnit,description,Описание объекта информационной модели,string,
+66,HydroGeneratingUnit,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+283,NuclearGeneratingUnit,name,Наименование объекта информационной модели,string,
+284,NuclearGeneratingUnit,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,NuclearGeneratingUnit,description,Описание объекта информационной модели,string,
+66,NuclearGeneratingUnit,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+283,WindGeneratingUnit,name,Наименование объекта информационной модели,string,
+284,WindGeneratingUnit,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,WindGeneratingUnit,description,Описание объекта информационной модели,string,
+66,WindGeneratingUnit,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+283,SteamTurbine,name,Наименование объекта информационной модели,string,
+284,SteamTurbine,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,SteamTurbine,description,Описание объекта информационной модели,string,
+283,HydroTurbine,name,Наименование объекта информационной модели,string,
+284,HydroTurbine,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,HydroTurbine,description,Описание объекта информационной модели,string,
+283,CombustionTurbine,name,Наименование объекта информационной модели,string,
+284,CombustionTurbine,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,CombustionTurbine,description,Описание объекта информационной модели,string,
+283,BWRSteamSupply,name,Наименование объекта информационной модели,string,
+284,BWRSteamSupply,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,BWRSteamSupply,description,Описание объекта информационной модели,string,
+283,PWRSteamSupply,name,Наименование объекта информационной модели,string,
+284,PWRSteamSupply,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,PWRSteamSupply,description,Описание объекта информационной модели,string,
+283,Supercritical,name,Наименование объекта информационной модели,string,
+284,Supercritical,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,Supercritical,description,Описание объекта информационной модели,string,
+283,Subcritical,name,Наименование объекта информационной модели,string,
+284,Subcritical,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,Subcritical,description,Описание объекта информационной модели,string,
+283,DrumBoiler,name,Наименование объекта информационной модели,string,
+284,DrumBoiler,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,DrumBoiler,description,Описание объекта информационной модели,string,
+283,HeatRecoveryBoiler,name,Наименование объекта информационной модели,string,
+284,HeatRecoveryBoiler,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,HeatRecoveryBoiler,description,Описание объекта информационной модели,string,
+283,IdentifiedObject,name,Наименование объекта информационной модели,string,
+284,IdentifiedObject,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,IdentifiedObject,description,Описание объекта информационной модели,string,
+283,PowerSystemResource,name,Наименование объекта информационной модели,string,
+284,PowerSystemResource,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,PowerSystemResource,description,Описание объекта информационной модели,string,
+283,ACDCTerminal,name,Наименование объекта информационной модели,string,
+284,ACDCTerminal,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,ACDCTerminal,description,Описание объекта информационной модели,string,
+288,ACDCTerminal,sequenceNumber,Порядковый номер полюса электропроводящего оборудования,uint,
+283,ConnectivityNodeContainer,name,Наименование объекта информационной модели,string,
+284,ConnectivityNodeContainer,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,ConnectivityNodeContainer,description,Описание объекта информационной модели,string,
+283,EquipmentContainer,name,Наименование объекта информационной модели,string,
+284,EquipmentContainer,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,EquipmentContainer,description,Описание объекта информационной модели,string,
+283,Equipment,name,Наименование объекта информационной модели,string,
+284,Equipment,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,Equipment,description,Описание объекта информационной модели,string,
+66,Equipment,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+283,PrimeMover,name,Наименование объекта информационной модели,string,
+284,PrimeMover,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,PrimeMover,description,Описание объекта информационной модели,string,
+283,SteamSupply,name,Наименование объекта информационной модели,string,
+284,SteamSupply,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,SteamSupply,description,Описание объекта информационной модели,string,
+283,FossilSteamSupply,name,Наименование объекта информационной модели,string,
+284,FossilSteamSupply,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,FossilSteamSupply,description,Описание объекта информационной модели,string,
+283,ConductingEquipment,name,Наименование объекта информационной модели,string,
+284,ConductingEquipment,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,ConductingEquipment,description,Описание объекта информационной модели,string,
+66,ConductingEquipment,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+43,ConductingEquipment,"isThreePhase
+Equipment","Трехфазное исполнение оборудования (если присвоено значение ""Истина"")",bool,Логический
+283,AuxiliaryEquipment,name,Наименование объекта информационной модели,string,
+284,AuxiliaryEquipment,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,AuxiliaryEquipment,description,Описание объекта информационной модели,string,
+66,AuxiliaryEquipment,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+283,Sensor,name,Наименование объекта информационной модели,string,
+284,Sensor,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,Sensor,description,Описание объекта информационной модели,string,
+66,Sensor,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+283,GeneratingUnit,name,Наименование объекта информационной модели,string,
+284,GeneratingUnit,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,GeneratingUnit,description,Описание объекта информационной модели,string,
+66,GeneratingUnit,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+283,RegulatingCondEq,name,Наименование объекта информационной модели,string,
+284,RegulatingCondEq,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,RegulatingCondEq,description,Описание объекта информационной модели,string,
+66,RegulatingCondEq,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+43,RegulatingCondEq,"isThreePhase
+Equipment","Трехфазное исполнение оборудования (если присвоено значение ""Истина"")",bool,Логический
+283,Conductor,name,Наименование объекта информационной модели,string,
+284,Conductor,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,Conductor,description,Описание объекта информационной модели,string,
+66,Conductor,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+43,Conductor,"isThreePhase
+Equipment","Трехфазное исполнение оборудования (если присвоено значение ""Истина"")",bool,Логический
+44,Conductor,length,"Длина проводника, м",double,Вещественный
+283,Connector,name,Наименование объекта информационной модели,string,
+284,Connector,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,Connector,description,Описание объекта информационной модели,string,
+66,Connector,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+43,Connector,"isThreePhase
+Equipment","Трехфазное исполнение оборудования (если присвоено значение ""Истина"")",bool,Логический
+283,Switch,name,Наименование объекта информационной модели,string,
+284,Switch,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,Switch,description,Описание объекта информационной модели,string,
+66,Switch,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+43,Switch,"isThreePhase
+Equipment","Трехфазное исполнение оборудования (если присвоено значение ""Истина"")",bool,Логический
+220,Switch,rf:differencelnTransit Time,"Разновременность замыкания контактов полюсов выключателя (только для выключателей с типом привода ""пофазный""), с",double,Вещественный
+221,Switch,ratedCurrent,"Номинальный ток, А",double,Вещественный
+222,Switch,normalOpen,"Если присвоено значение ""Истина"", нормальное состояние ""Отключено""",bool,Логический
+283,ProtectedSwitch,name,Наименование объекта информационной модели,string,
+284,ProtectedSwitch,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,ProtectedSwitch,description,Описание объекта информационной модели,string,
+66,ProtectedSwitch,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+43,ProtectedSwitch,"isThreePhase
+Equipment","Трехфазное исполнение оборудования (если присвоено значение ""Истина"")",bool,Логический
+220,ProtectedSwitch,rf:differencelnTransit Time,"Разновременность замыкания контактов полюсов выключателя (только для выключателей с типом привода ""пофазный""), с",double,Вещественный
+221,ProtectedSwitch,ratedCurrent,"Номинальный ток, А",double,Вещественный
+222,ProtectedSwitch,normalOpen,"Если присвоено значение ""Истина"", нормальное состояние ""Отключено""",bool,Логический
+135,ProtectedSwitch,breakingCapacity,"Номинальный ток отключения выключателя, А",double,Вещественный
+283,RotatingMachine,name,Наименование объекта информационной модели,string,
+284,RotatingMachine,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,RotatingMachine,description,Описание объекта информационной модели,string,
+66,RotatingMachine,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+43,RotatingMachine,"isThreePhase
+Equipment","Трехфазное исполнение оборудования (если присвоено значение ""Истина"")",bool,Логический
+283,TransformerEnd,name,Наименование объекта информационной модели,string,
+284,TransformerEnd,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,TransformerEnd,description,Описание объекта информационной модели,string,
+249,TransformerEnd,rground,"Активное сопротивление заземления нейтрали, Ом",double,Вещественный
+250,TransformerEnd,xground,"Реактивное сопротивление заземления нейтрали, Ом",double,Вещественный
+251,TransformerEnd,grounded,"Нейтраль глухо заземлена (если присвоено значение ""Истина"")",bool,Логический
+252,TransformerEnd,endNumber,Номер вывода трансформатора,uint,Положительное целое
+283,TapChanger,name,Наименование объекта информационной модели,string,
+284,TapChanger,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,TapChanger,description,Описание объекта информационной модели,string,
+231,TapChanger,controlEnabled,"Если присвоено значение ""Истина"", есть возможность регулирования",bool,Логический
+232,TapChanger,ItcFlag,"Если присвоено значение ""Истина"", возможно переключение под нагрузкой",bool,Логический
+233,TapChanger,highStep,Номер максимального положения переключателя ответвлений обмоток,string,Целое
+234,TapChanger,lowStep,Номер минимального положения переключателя ответвлений обмоток,string,Целое
+235,TapChanger,neutralStep,Номер нейтрального положения переключателя ответвлений обмоток,string,Целое
+236,TapChanger,rf:neutralStepCount,Количество нейтральных положений,string,Целое
+283,PhaseTapChanger,name,Наименование объекта информационной модели,string,
+284,PhaseTapChanger,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,PhaseTapChanger,description,Описание объекта информационной модели,string,
+231,PhaseTapChanger,controlEnabled,"Если присвоено значение ""Истина"", есть возможность регулирования",bool,Логический
+232,PhaseTapChanger,ItcFlag,"Если присвоено значение ""Истина"", возможно переключение под нагрузкой",bool,Логический
+233,PhaseTapChanger,highStep,Номер максимального положения переключателя ответвлений обмоток,string,Целое
+234,PhaseTapChanger,lowStep,Номер минимального положения переключателя ответвлений обмоток,string,Целое
+235,PhaseTapChanger,neutralStep,Номер нейтрального положения переключателя ответвлений обмоток,string,Целое
+236,PhaseTapChanger,rf:neutralStepCount,Количество нейтральных положений,string,Целое
+283,PhaseTapChangerNonLinear,name,Наименование объекта информационной модели,string,
+284,PhaseTapChangerNonLinear,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,PhaseTapChangerNonLinear,description,Описание объекта информационной модели,string,
+231,PhaseTapChangerNonLinear,controlEnabled,"Если присвоено значение ""Истина"", есть возможность регулирования",bool,Логический
+232,PhaseTapChangerNonLinear,ItcFlag,"Если присвоено значение ""Истина"", возможно переключение под нагрузкой",bool,Логический
+233,PhaseTapChangerNonLinear,highStep,Номер максимального положения переключателя ответвлений обмоток,string,Целое
+234,PhaseTapChangerNonLinear,lowStep,Номер минимального положения переключателя ответвлений обмоток,string,Целое
+235,PhaseTapChangerNonLinear,neutralStep,Номер нейтрального положения переключателя ответвлений обмоток,string,Целое
+236,PhaseTapChangerNonLinear,rf:neutralStepCount,Количество нейтральных положений,string,Целое
+283,ShuntCompensator,name,Наименование объекта информационной модели,string,
+284,ShuntCompensator,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,ShuntCompensator,description,Описание объекта информационной модели,string,
+66,ShuntCompensator,normallylnService,"Нормальное состояние оборудования - в работе (если присвоено значение ""Истина"")",bool,Логический
+43,ShuntCompensator,"isThreePhase
+Equipment","Трехфазное исполнение оборудования (если присвоено значение ""Истина"")",bool,Логический
+205,ShuntCompensator,phaseConnection,Тип соединения обмоток,swith,PhaseShuntConnection Kind
+206,ShuntCompensator,nomU,"Номинальное напряжение, кВ",double,Вещественный
+207,ShuntCompensator,grounded,"Если присвоено значение ""Истина"", нейтраль глухо заземлена",bool,Логический
+208,ShuntCompensator,maximumSections,"Максимальное количество секций, которое может быть включено",uint,Положительное целое
+283,Assetlnfo,name,Наименование объекта информационной модели,string,
+284,Assetlnfo,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,Assetlnfo,description,Описание объекта информационной модели,string,
+283,AssetOrganisationRole,name,Наименование объекта информационной модели,string,
+284,AssetOrganisationRole,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,AssetOrganisationRole,description,Описание объекта информационной модели,string,
+283,Curve,name,Наименование объекта информационной модели,string,
+284,Curve,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,Curve,description,Описание объекта информационной модели,string,
+52,Curve,curveStyle,Тип кривой,swith,CurveStyle
+53,Curve,xMultiplier,Множитель по оси X,swith,UnitMultiplier
+54,Curve,y1Multiplier,Множитель по оси Y1,swith,UnitMultiplier
+55,Curve,y2Multiplier,Множитель по оси Y2,swith,UnitMultiplier
+56,Curve,y3Multiplier,Множитель по оси Y3,swith,UnitMultiplier
+57,Curve,xUnit,Единица измерения по оси X,swith,UnitSymbol
+58,Curve,y1Unit,Единица измерения по оси Y1,swith,UnitSymbol
+59,Curve,y2Unit,Единица измерения по оси Y2,swith,UnitSymbol
+60,Curve,y3Unit,Единица измерения по оси Y3,swith,UnitSymbol
+61,CurveData,xvalue,Значение по оси X,double,Вещественный
+62,CurveData,ylvalue,Значение по оси Y1,double,Вещественный
+63,CurveData,у2 value,Значение по оси Y2,double,Вещественный
+64,CurveData,y3value,Значение по оси Y3,double,Вещественный
+283,EnvironmentalDependentLimit,name,Наименование объекта информационной модели,string,
+284,EnvironmentalDependentLimit,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,EnvironmentalDependentLimit,description,Описание объекта информационной модели,string,
+283,LimitDependency,name,Наименование объекта информационной модели,string,
+284,LimitDependency,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,LimitDependency,description,Описание объекта информационной модели,string,
+283,OperationalLimit,name,Наименование объекта информационной модели,string,
+284,OperationalLimit,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,OperationalLimit,description,Описание объекта информационной модели,string,
+283,PerLengthLineParameter,name,Наименование объекта информационной модели,string,
+284,PerLengthLineParameter,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,PerLengthLineParameter,description,Описание объекта информационной модели,string,
+283,PerLengthImpedance,name,Наименование объекта информационной модели,string,
+284,PerLengthImpedance,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,PerLengthImpedance,description,Описание объекта информационной модели,string,
+218,Structure,ratedVoltage,"Конструктивное номинальное напряжение, на которое рассчитана конструкция участка ЛЭП, кВ",double,Вещественный
+219,Structure,rf:rEarth,"Удельное сопротивление грунта, Ом/м",double,Вещественный
+283,TransformerTest,name,Наименование объекта информационной модели,string,
+284,TransformerTest,aliasName,Дополнительное наименование идентифицируемого объекта,string,
+285,TransformerTest,description,Описание объекта информационной модели,string,
+260,TransformerTest,basePower,"Базовая полная мощность, МВА",double,Вещественный
+261,TransformerTest,temperature,"Температура, при которой проводился опыт, °С",double,Вещественный

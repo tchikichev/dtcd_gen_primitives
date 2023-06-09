@@ -1,0 +1,25 @@
+"Node","scheme_name","classname_ru","classname","compname","iconname","w","h","ports","props_source"
+"ГЗУ","ГЗУ",,"oil_object",,"oil_gzu.svg",,,"pair_vertical_directed_indication","oil_object.csv"
+"ДНС","ДНС",,"oil_object",,"oil_dns.svg",,,"pair_vertical_directed_indication","oil_dns.csv"
+"КНС","КНС",,"oil_kns",,"oil_kns.svg",,,"pair_vertical_directed_indication","oil_object.csv"
+"Куст","Куст",,"oil_pad",,"oil_pad.svg",,,"pair_vertical_directed_indication","oil_pad.csv"
+"Объект",,,"oil_object",,"oil_block.svg",,,"pair_vertical_directed_indication","oil_object.csv"
+"Связь fluid",,,"oil_edge",,"oil_edge_fluid.svg",,,,
+"Связь gas",,,,,"oil_edge_gas.svg",,,,
+"Связь oil",,,,,"oil_edge_oil.svg",,,,
+"Связь reagent",,,,,"oil_edge_reagent.svg",,,,
+"Связь water",,,,,"oil_edge_water.svg",,,,
+"Связь whatif",,,,,"oil_edge_whatif.svg",,,,
+"Скважина",,,"oil_well",,"oil_well.svg",,,"pair_vertical_directed","oil_well.csv"
+"Скважина водозабор",,,"oil_well_vodazabor",,"oil_well_vodazabornay.svg",,,"pair_vertical_directed","oil_well.csv"
+"Скважина ППД",,,"oil_well_ppd",,"oil_well_ppd.svg",,,"pair_vertical_directed","oil_well.csv"
+"Соединение default",,,"oil_junction_point",,"oil_junction_point_raw.svg",,,"single_center","oil_junction_point.csv"
+"Соединение gas",,,"oil_junction_point",,"oil_junction_point_gas.svg",,,"single_center","oil_junction_point.csv"
+"Соединение oil",,,"oil_junction_point",,"oil_junction_point.svg",,,"single_center","oil_junction_point.csv"
+"Соединение ppd",,,"oil_junction_point",,"oil_junction_ppd.svg",,,"single_center","oil_junction_point.csv"
+"Соединение whatif",,,"oil_junction_point",,"oil_junction_point_whatif.svg",,,"single_center","oil_junction_point.csv"
+"Труба default",,,"oil_edge",,"oil_pipe_raw.svg",,,"pair_vertical_directed","oil_pipe.csv"
+"Труба gas",,,"oil_edge",,"oil_pipe_gas.svg",,,"pair_vertical_directed","oil_pipe.csv"
+"Труба oil",,,"oil_edge",,"oil_pipe.svg",,,"pair_vertical_directed","oil_pipe.csv"
+"Труба ppd",,,"oil_edge",,"oil_pipe_ppd.svg",,,"pair_vertical_directed","oil_pipe.csv"
+"Труба whatif",,,"oil_edge",,"oil_pipe_whatif.svg",,,"pair_vertical_directed","oil_pipe.csv"

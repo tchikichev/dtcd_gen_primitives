@@ -1,0 +1,23 @@
+,type,expression,status,value,input
+object_type,expression,,complete,,
+T,expression,,complete,,
+P,expression,,complete,,{'component': 'textarea'}
+Q_m3_day,expression,,complete,,{'component': 'textarea'}
+query_res,expression,,complete,,{'component': 'textarea'}
+Name,expression,,complete,,
+node_name,expression,,complete,,
+node_id,expression,,complete,,
+X,expression,,complete,,
+Y,expression,,complete,,
+Kind,expression,,complete,,
+Value,expression,,complete,,
+IsSource,expression,,complete,,
+VolumeWater,expression,,complete,,
+perforation,expression,,complete,,
+pumpDepth,expression,,complete,,
+model,expression,,complete,,
+frequency,expression,,complete,,
+productivity,expression,,complete,,
+predict_mode,expression,,complete,,
+shtr_debit,expression,,complete,,
+K_pump,expression,,complete,,

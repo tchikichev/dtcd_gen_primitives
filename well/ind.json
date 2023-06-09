@@ -1,0 +1,37 @@
+let props_out = {
+    "X_kg_sec": this.X_kg_sec,
+    "res_liquid_density_kg_m3": this.res_liquid_density_kg_m3,
+    "res_watercut_percent": this.res_watercut_percent,
+    "P": this.P,
+    "T": this.T,
+    // "VolumeWater": this.VolumeWater,
+    "node_name": this.node_name,
+};
+props_out
+
+
+let well_props_ext_out ={
+    "T": this.T,
+    "VolumeWater": this.VolumeWater,
+    "perforation": this.perforation,
+    "pumpDepth": this.pumpDepth,
+    "frequency": this.frequency,
+    "productivity": this.productivity,
+    "shtr_debit": this.shtr_debit,
+    "K_pump": this.K_pump,
+    "P": this.P,
+    "Q_m3_day": this.Q_m3_day
+}
+well_props_ext_out
+
+{
+    node_name
+    P
+    T
+    res_watercut_percent
+    res_liquid_density_kg_m3
+    X_kg_sec
+}
+
+oil_well_1645
+well_indicator3_11

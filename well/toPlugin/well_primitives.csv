@@ -1,0 +1,25 @@
+"Node","scheme_name","classname_ru","classname","compname","iconname","w","h","ports","props_source"
+"ГЗУ","ГЗУ",,"oil_object","oil_gzu","oil_gzu.svg",148,148,"pair_vertical_directed_indication","oil_object.csv"
+"ДНС","ДНС",,"oil_object","oil_dns","oil_dns.svg",148,148,"pair_vertical_directed_indication","oil_dns.csv"
+"КНС","КНС",,"oil_kns","oil_kns","oil_kns.svg",148,148,"pair_vertical_directed_indication","oil_object.csv"
+"Куст","Куст",,"oil_pad","oil_pad","oil_pad.svg",148,148,"pair_vertical_directed_indication","oil_pad.csv"
+"Объект",,,"oil_object","oil_block","oil_block.svg",148,148,"pair_vertical_directed_indication","oil_object.csv"
+"Связь fluid",,,"oil_edge","oil_edge_fluid","oil_edge_fluid.svg",,,,
+"Связь gas",,,,"oil_edge_gas","oil_edge_gas.svg",,,,
+"Связь oil",,,,"oil_edge_oil","oil_edge_oil.svg",,,,
+"Связь reagent",,,,"oil_edge_reagent","oil_edge_reagent.svg",,,,
+"Связь water",,,,"oil_edge_water","oil_edge_water.svg",,,,
+"Связь whatif",,,,"oil_edge_whatif","oil_edge_whatif.svg",,,,
+"Скважина",,,"oil_well","oil_well","oil_well.svg",80,148,"pair_vertical_directed","oil_well.csv"
+"Скважина водозабор",,,"oil_well_vodazabor","oil_well_vodazabornay","oil_well_vodazabornay.svg",80,148,"pair_vertical_directed","oil_well.csv"
+"Скважина ППД",,,"oil_well_ppd","oil_well_ppd","oil_well_ppd.svg",80,148,"pair_vertical_directed","oil_well.csv"
+"Соединение default",,,"oil_junction_point","oil_junction_point_raw","oil_junction_point_raw.svg",46,46,"single_center","oil_junction_point.csv"
+"Соединение gas",,,"oil_junction_point","oil_junction_point_gas","oil_junction_point_gas.svg",46,46,"single_center","oil_junction_point.csv"
+"Соединение oil",,,"oil_junction_point","oil_junction_point","oil_junction_point.svg",46,46,"single_center","oil_junction_point.csv"
+"Соединение ppd",,,"oil_junction_point","oil_junction_ppd","oil_junction_ppd.svg",46,46,"single_center","oil_junction_point.csv"
+"Соединение whatif",,,"oil_junction_point","oil_junction_point_whatif","oil_junction_point_whatif.svg",46,46,"single_center","oil_junction_point.csv"
+"Труба default",,,"oil_edge","oil_pipe_raw","oil_pipe_raw.svg",80,80,"pair_vertical_directed","oil_pipe.csv"
+"Труба gas",,,"oil_edge","oil_pipe_gas","oil_pipe_gas.svg",80,80,"pair_vertical_directed","oil_pipe.csv"
+"Труба oil",,,"oil_edge","oil_pipe","oil_pipe.svg",80,80,"pair_vertical_directed","oil_pipe.csv"
+"Труба ppd",,,"oil_edge","oil_pipe_ppd","oil_pipe_ppd.svg",80,80,"pair_vertical_directed","oil_pipe.csv"
+"Труба whatif",,,"oil_edge","oil_pipe_whatif","oil_pipe_whatif.svg",80,80,"pair_vertical_directed","oil_pipe.csv"

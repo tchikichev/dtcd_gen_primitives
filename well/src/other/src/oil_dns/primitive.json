@@ -1,0 +1,98 @@
+{
+    "title": "noTitle",
+    "layout": {
+        "height": 147.25,
+        "width": 148.75
+    },
+    "image": "icon.svg",
+    "properties": {
+        "Name": {
+            "type": "expression",
+            "expression": "",
+            "status": "new",
+            "value": "ДНС-3 Тайлаковская"
+        },
+        "X": {
+            "type": "expression",
+            "expression": "",
+            "status": "new",
+            "value": ""
+        },
+        "Y": {
+            "type": "expression",
+            "expression": "",
+            "status": "new",
+            "value": ""
+        },
+        "Pressures_bar": {
+            "type": "expression",
+            "expression": "",
+            "status": "new",
+            "value": ""
+        },
+        "Separated_gas_scflow_m3_day": {
+            "type": "expression",
+            "expression": "",
+            "status": "new",
+            "value": ""
+        },
+        "Water_flow_m3_day": {
+            "type": "expression",
+            "expression": "",
+            "status": "new",
+            "value": ""
+        },
+        "Production_oil_flow_m3_day": {
+            "type": "expression",
+            "expression": "",
+            "status": "new",
+            "value": ""
+        }
+    },
+    "ports": [
+        {
+            "name": "ioLeft",
+            "type": [
+                "IN",
+                "OUT"
+            ],
+            "position": {
+                "x": 0.0,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "ioRight",
+            "type": [
+                "IN",
+                "OUT"
+            ],
+            "position": {
+                "x": 1.0,
+                "y": 0.5
+            }
+        },
+        {
+            "name": "ioTop",
+            "type": [
+                "IN",
+                "OUT"
+            ],
+            "position": {
+                "x": 0.5,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "ioLow",
+            "type": [
+                "IN",
+                "OUT"
+            ],
+            "position": {
+                "x": 0.5,
+                "y": 1.0
+            }
+        }
+    ]
+}

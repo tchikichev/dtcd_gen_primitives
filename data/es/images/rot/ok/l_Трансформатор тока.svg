@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="91"
+   viewBox="0 0 91 106"
+   height="106"
+   id="svg1128"
+   sodipodi:docname="r_Трансформатор тока.svg"
+   inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1132" />
+  <sodipodi:namedview
+     id="namedview1130"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="6.7272727"
+     inkscape:cx="30.472973"
+     inkscape:cy="72.614865"
+     inkscape:window-width="1846"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1128" />
+  <g
+     id="g1126"
+     transform="translate(-15,12)">
+    <g
+       transform="rotate(-90,60.5,45.5)"
+       id="g1124">
+      <g
+         clip-path="url(#clip0_53_231)"
+         id="g1117">
+        <path
+           fill-rule="evenodd"
+           clip-rule="evenodd"
+           d="M 24.5,62 C 30.299,62 35,57.299 35,51.5 35,45.701 30.299,41 24.5,41 18.701,41 14,45.701 14,51.5 14,57.299 18.701,62 24.5,62 Z m 0,2 C 31.4036,64 37,58.4036 37,51.5 37,44.5964 31.4036,39 24.5,39 17.5964,39 12,44.5964 12,51.5 12,58.4036 17.5964,64 24.5,64 Z"
+           fill="#2e671d"
+           id="path1071" />
+        <path
+           fill-rule="evenodd"
+           clip-rule="evenodd"
+           d="M 24.5,45 C 30.299,45 35,40.299 35,34.5 35,28.701 30.299,24 24.5,24 18.701,24 14,28.701 14,34.5 14,40.299 18.701,45 24.5,45 Z m 0,2 C 31.4036,47 37,41.4036 37,34.5 37,27.5964 31.4036,22 24.5,22 17.5964,22 12,27.5964 12,34.5 12,41.4036 17.5964,47 24.5,47 Z"
+           fill="#2e671d"
+           id="path1073" />
+        <path
+           fill-rule="evenodd"
+           clip-rule="evenodd"
+           d="M 26,15 V 71 H 23 V 15 Z"
+           fill="#2e671d"
+           id="path1075" />
+        <path
+           fill-rule="evenodd"
+           clip-rule="evenodd"
+           d="m 36,31 h 10 v 1 H 36 Z"
+           fill="#2e671d"
+           id="path1077" />
+        <path
+           fill-rule="evenodd"
+           clip-rule="evenodd"
+           d="m 36,38 h 10 v 1 H 36 Z"
+           fill="#2e671d"
+           id="path1079" />
+        <path
+           fill-rule="evenodd"
+           clip-rule="evenodd"
+           d="m 36,48 h 10 v 1 H 36 Z"
+           fill="#2e671d"
+           id="path1081" />
+        <path
+           fill-rule="evenodd"
+           clip-rule="evenodd"
+           d="m 36,55 h 10 v 1 H 36 Z"
+           fill="#2e671d"
+           id="path1083" />
+        <path
+           fill-rule="evenodd"
+           clip-rule="evenodd"
+           d="M 96.5,62 C 102.299,62 107,57.299 107,51.5 107,45.701 102.299,41 96.5,41 90.701,41 86,45.701 86,51.5 86,57.299 90.701,62 96.5,62 Z m 0,2 C 103.404,64 109,58.4036 109,51.5 109,44.5964 103.404,39 96.5,39 89.5964,39 84,44.5964 84,51.5 84,58.4036 89.5964,64 96.5,64 Z"
+           fill="#2e671d"
+           id="path1085" />
+        <path
+           fill-rule="evenodd"
+           clip-rule="evenodd"
+           d="M 96.5,45 C 102.299,45 107,40.299 107,34.5 107,28.701 102.299,24 96.5,24 90.701,24 86,28.701 86,34.5 86,40.299 90.701,45 96.5,45 Z m 0,2 C 103.404,47 109,41.4036 109,34.5 109,27.5964 103.404,22 96.5,22 89.5964,22 84,27.5964 84,34.5 84,41.4036 89.5964,47 96.5,47 Z"
+           fill="#2e671d"
+           id="path1087" />
+        <path
+           fill-rule="evenodd"
+           clip-rule="evenodd"
+           d="M 98,15 V 71 H 95 V 15 Z"
+           fill="#2e671d"
+           id="path1089" />
+        <path
+           fill-rule="evenodd"
+           clip-rule="evenodd"
+           d="m 108,31 h 10 v 1 h -10 z"
+           fill="#2e671d"
+           id="path1091" />
+        <path
+           fill-rule="evenodd"
+           clip-rule="evenodd"
+           d="m 108,38 h 10 v 1 h -10 z"
+           fill="#2e671d"
+           id="path1093" />
+        <path
+           fill-rule="evenodd"
+           clip-rule="evenodd"
+           d="m 108,48 h 10 v 1 h -10 z"
+           fill="#2e671d"
+           id="path1095" />
+        <path
+           fill-rule="evenodd"
+           clip-rule="evenodd"
+           d="m 108,55 h 10 v 1 h -10 z"
+           fill="#2e671d"
+           id="path1097" />
+        <path
+           fill-rule="evenodd"
+           clip-rule="evenodd"
+           d="M 60.5,62 C 66.299,62 71,57.299 71,51.5 71,45.701 66.299,41 60.5,41 54.701,41 50,45.701 50,51.5 50,57.299 54.701,62 60.5,62 Z m 0,2 C 67.4036,64 73,58.4036 73,51.5 73,44.5964 67.4036,39 60.5,39 53.5964,39 48,44.5964 48,51.5 48,58.4036 53.5964,64 60.5,64 Z"
+           fill="#2e671d"
+           id="path1099" />
+        <path
+           fill-rule="evenodd"
+           clip-rule="evenodd"
+           d="M 60.5,45 C 66.299,45 71,40.299 71,34.5 71,28.701 66.299,24 60.5,24 54.701,24 50,28.701 50,34.5 50,40.299 54.701,45 60.5,45 Z m 0,2 C 67.4036,47 73,41.4036 73,34.5 73,27.5964 67.4036,22 60.5,22 53.5964,22 48,27.5964 48,34.5 48,41.4036 53.5964,47 60.5,47 Z"
+           fill="#2e671d"
+           id="path1101" />
+        <path
+           fill-rule="evenodd"
+           clip-rule="evenodd"
+           d="M 62,15 V 71 H 59 V 15 Z"
+           fill="#2e671d"
+           id="path1103" />
+        <path
+           fill-rule="evenodd"
+           clip-rule="evenodd"
+           d="m 72,31 h 10 v 1 H 72 Z"
+           fill="#2e671d"
+           id="path1105" />
+        <path
+           fill-rule="evenodd"
+           clip-rule="evenodd"
+           d="M 60,15 V -1.52238e-5 l 1,-3.5e-8 V 15 Z"
+           fill="#2e671d"
+           id="path1107" />
+        <path
+           fill-rule="evenodd"
+           clip-rule="evenodd"
+           d="M 60,91 V 71 h 1 v 20 z"
+           fill="#2e671d"
+           id="path1109" />
+        <path
+           fill-rule="evenodd"
+           clip-rule="evenodd"
+           d="m 72,38 h 10 v 1 H 72 Z"
+           fill="#2e671d"
+           id="path1111" />
+        <path
+           fill-rule="evenodd"
+           clip-rule="evenodd"
+           d="m 72,48 h 10 v 1 H 72 Z"
+           fill="#2e671d"
+           id="path1113" />
+        <path
+           fill-rule="evenodd"
+           clip-rule="evenodd"
+           d="m 72,55 h 10 v 1 H 72 Z"
+           fill="#2e671d"
+           id="path1115" />
+      </g>
+      <defs
+         id="defs1122">
+        <clipPath
+           id="clip0_53_231">
+          <rect
+             width="121"
+             height="91"
+             fill="#ffffff"
+             id="rect1119"
+             x="0"
+             y="0" />
+        </clipPath>
+      </defs>
+    </g>
+  </g>
+</svg>

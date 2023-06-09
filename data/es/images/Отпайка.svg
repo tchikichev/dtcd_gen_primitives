@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="21"
+   viewBox="0 0 7 7"
+   height="21"
+   id="svg2893"
+   sodipodi:docname="r_Отпайка.svg"
+   inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2897" />
+  <sodipodi:namedview
+     id="namedview2895"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="9.2197802"
+     inkscape:cx="3.5250298"
+     inkscape:cy="3.5250298"
+     inkscape:window-width="1846"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2893" />
+  <g
+     id="g2891"
+     transform="translate(-42,-42)">
+    <g
+       transform="rotate(-90,45.5,45.5)"
+       id="g2889">
+      <circle
+         cx="45.5"
+         cy="45.5"
+         r="3.5"
+         fill="#000000"
+         id="circle2887" />
+    </g>
+  </g>
+</svg>

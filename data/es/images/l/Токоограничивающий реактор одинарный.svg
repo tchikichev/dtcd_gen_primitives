@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="65"
+   viewBox="0 0 65 51"
+   height="51"
+   id="svg2075"
+   sodipodi:docname="r_Токоограничивающий реактор одинарный.svg"
+   inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2079" />
+  <sodipodi:namedview
+     id="namedview2077"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="9.2197802"
+     inkscape:cx="19.523242"
+     inkscape:cy="38.44994"
+     inkscape:window-width="1846"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2075" />
+  <g
+     id="g2073"
+     transform="translate(-13,-7)">
+    <g
+       transform="rotate(-90,45.5,32.5)"
+       id="g2071">
+      <g
+         clip-path="url(#clip0_53_202)"
+         id="g2064">
+        <path
+           fill-rule="evenodd"
+           clip-rule="evenodd"
+           d="M 69,32.5 C 69,19.5213 58.4787,9 45.5,9 V 7 C 59.5833,7 71,18.4167 71,32.5 71,46.5833 59.5833,58 45.5,58 31.4167,58 20,46.5833 20,32.5 h 2 C 22,45.4787 32.5213,56 45.5,56 58.4787,56 69,45.4787 69,32.5 Z"
+           fill="#000000"
+           id="path2056" />
+        <path
+           fill-rule="evenodd"
+           clip-rule="evenodd"
+           d="M 46,33 H 20 v -1 h 26 z"
+           fill="#000000"
+           id="path2058" />
+        <path
+           fill-rule="evenodd"
+           clip-rule="evenodd"
+           d="M 45,65 V 32 h 1 v 33 z"
+           fill="#000000"
+           id="path2060" />
+        <path
+           fill-rule="evenodd"
+           clip-rule="evenodd"
+           d="M 46,0 V 9 H 45 V 4.37115e-8 Z"
+           fill="#000000"
+           id="path2062" />
+      </g>
+      <defs
+         id="defs2069">
+        <clipPath
+           id="clip0_53_202">
+          <rect
+             width="91"
+             height="65"
+             fill="#ffffff"
+             id="rect2066"
+             x="0"
+             y="0" />
+        </clipPath>
+      </defs>
+    </g>
+  </g>
+</svg>

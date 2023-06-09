@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="119"
+   viewBox="0 0 119 49"
+   height="49"
+   id="svg10756"
+   sodipodi:docname="r_Автотрансформатор 3-х обмоточный.svg"
+   inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10758" />
+  <g
+     id="g10754"
+     transform="translate(0,-21)">
+    <g
+       transform="rotate(180,59.5,45.5)"
+       id="g10752">
+      <defs
+         id="defs3783" />
+      <sodipodi:namedview
+         id="namedview3781"
+         pagecolor="#ffffff"
+         bordercolor="#111111"
+         borderopacity="1"
+         inkscape:showpageshadow="0"
+         inkscape:pageopacity="0"
+         inkscape:pagecheckerboard="1"
+         inkscape:deskcolor="#d1d1d1"
+         showgrid="false"
+         inkscape:zoom="9.2197802"
+         inkscape:cx="55.532777"
+         inkscape:cy="18.601311"
+         inkscape:window-width="1846"
+         inkscape:window-height="1016"
+         inkscape:window-x="0"
+         inkscape:window-y="0"
+         inkscape:window-maximized="1"
+         inkscape:current-layer="svg10756" />
+      <g
+         id="g3777"
+         transform="translate(14,-14)">
+        <g
+           transform="rotate(-90,45.5,59.5)"
+           id="g3775">
+          <path
+             fill-rule="evenodd"
+             clip-rule="evenodd"
+             d="M 45.5,75 C 57.9264,75 68,64.9264 68,52.5 68,40.0736 57.9264,30 45.5,30 33.0736,30 23,40.0736 23,52.5 23,64.9264 33.0736,75 45.5,75 Z m 0,2 C 59.031,77 70,66.031 70,52.5 70,38.969 59.031,28 45.5,28 31.969,28 21,38.969 21,52.5 21,66.031 31.969,77 45.5,77 Z"
+             fill="#000000"
+             id="path3763" />
+          <path
+             fill-rule="evenodd"
+             clip-rule="evenodd"
+             d="M 60.9656,29.9952 C 56.8738,24.8203 51.3235,21.669 45.2304,19.963 l 0.5392,-1.926 c 6.4069,1.794 12.3566,5.1427 16.7648,10.7178 4.4103,5.5777 7.2111,13.2998 7.4653,23.7208 l -1.9994,0.0488 C 67.7545,42.4454 65.0553,35.1675 60.9656,29.9952 Z"
+             fill="#000000"
+             id="path3765" />
+          <path
+             fill-rule="evenodd"
+             clip-rule="evenodd"
+             d="M 45.5,117 C 57.9264,117 68,106.926 68,94.5 68,82.0736 57.9264,72 45.5,72 33.0736,72 23,82.0736 23,94.5 23,106.926 33.0736,117 45.5,117 Z m 0,2 C 59.031,119 70,108.031 70,94.5 70,80.969 59.031,70 45.5,70 31.969,70 21,80.969 21,94.5 21,108.031 31.969,119 45.5,119 Z"
+             fill="#000000"
+             id="path3767" />
+          <path
+             fill-rule="evenodd"
+             clip-rule="evenodd"
+             d="M 46,4.37114e-8 V 20 H 45 V 0 Z"
+             fill="#000000"
+             id="path3769" />
+          <path
+             fill-rule="evenodd"
+             clip-rule="evenodd"
+             d="M 45.5,84 35,102 h 21 z m 0,1.9846 L 36.741,101 h 17.518 z"
+             fill="#000000"
+             id="path3771" />
+          <path
+             fill-rule="evenodd"
+             clip-rule="evenodd"
+             d="M 46.6805,51.7942 53.3158,46.3876 52.6842,45.6124 45.5,51.4661 38.3158,45.6124 37.6842,46.3876 45,52.3487 V 61 h 1 v -8.3022 l 6.3438,1.0181 0.1585,-0.9874 z"
+             fill="#000000"
+             id="path3773" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

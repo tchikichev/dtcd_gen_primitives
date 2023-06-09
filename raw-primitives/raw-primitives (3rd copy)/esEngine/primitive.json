@@ -1,0 +1,1 @@
+{"title": "Engine", "layout": {"heigth": 91, "width": 76}, "image": "icon.svg", "properties": {}, "ports": [{"name": "inoutPort", "type": ["IN", "OUT"], "position": {"x": 0.5, "y": 0}}]}

@@ -1,0 +1,1091 @@
+{
+    "graph": {
+        "nodes": [
+                {
+                    "properties": {
+                        "node_name": {
+                            "type": "expression",
+                            "expression": "\"out\"",
+                            "status": "completed",
+                            "value": "out"
+                        },
+                        "node_id": {
+                            "type": "expression",
+                            "expression": "\"eeOut0\"",
+                            "status": "completed",
+                            "value": "eeOut0"
+                        },
+                        "Name": {
+                            "type": "expression",
+                            "expression": "\"out\"",
+                            "status": "completed",
+                            "value": "out"
+                        }
+                    },
+                    "initPorts": [
+                        {
+                            "primitiveName": "inPort1",
+                            "type": "IN",
+                            "properties": {
+                                "status": {
+                                    "expression": "",
+                                    "type": "expression",
+                                    "status": "complete",
+                                    "value": ""
+                                }
+                            },
+                            "primitiveID": "eeOut_1_inPort1",
+                            "location": {
+                                "x": 0.0,
+                                "y": 0.5
+                            }
+                        },
+                        {
+                            "primitiveName": "outPort1",
+                            "type": "OUT",
+                            "properties": {
+                                "status": {
+                                    "expression": "",
+                                    "type": "expression",
+                                    "status": "complete",
+                                    "value": ""
+                                }
+                            },
+                            "primitiveID": "eeOut_1_outPort1",
+                            "location": {
+                                "x": 1.0,
+                                "y": 0.5
+                            }
+                        }
+                    ],
+                    "primitiveName": "eeOut",
+                    "primitiveID": "eeOut_1",
+                    "nodeTitle": "$this.props.Name$",
+                    "layout": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "height": 90,
+                        "width": 90
+                    },
+                    "image": "/rawPrimitives/eeOut/icon.svg"
+                },
+            {
+                "properties": {
+                    "node_name": {
+                        "type": "expression",
+                        "expression": "\"in\"",
+                        "status": "completed",
+                        "value": "in"
+                    },
+                    "node_id": {
+                        "type": "expression",
+                        "expression": "\"eeIn0\"",
+                        "status": "completed",
+                        "value": "eeIn0"
+                    },
+                    "Name": {
+                        "type": "expression",
+                        "expression": "\"in\"",
+                        "status": "completed",
+                        "value": "in"
+                    }
+                },
+                "initPorts": [
+                    {
+                        "primitiveName": "inPort1",
+                        "type": "IN",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeIn_1_inPort1",
+                        "location": {
+                            "x": 0.0,
+                            "y": 0.5
+                        }
+                    },
+                    {
+                        "primitiveName": "outPort1",
+                        "type": "OUT",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeIn_1_outPort1",
+                        "location": {
+                            "x": 1.0,
+                            "y": 0.5
+                        }
+                    }
+                ],
+                "primitiveName": "eeIn",
+                "primitiveID": "eeIn_1",
+                "nodeTitle": "$this.props.Name$",
+                "layout": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "height": 90,
+                    "width": 90
+                },
+                "image": "/rawPrimitives/eeIn/icon.svg"
+            },
+            {
+                "properties": {
+                    "node_name": {
+                        "type": "expression",
+                        "expression": "\"к.88\"",
+                        "status": "completed",
+                        "value": "к.88"
+                    },
+                    "node_id": {
+                        "type": "expression",
+                        "expression": "\"1750037786\"",
+                        "status": "completed",
+                        "value": 1750037786
+                    },
+                    "Name": {
+                        "type": "expression",
+                        "expression": "\"к.88\"",
+                        "status": "completed",
+                        "value": "к.88"
+                    }
+                },
+                "initPorts": [
+                    {
+                        "primitiveName": "inPort1",
+                        "type": "IN",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eePad_1_inPort1",
+                        "location": {
+                            "x": 0.0,
+                            "y": 0.5
+                        }
+                    },
+                    {
+                        "primitiveName": "outPort1",
+                        "type": "OUT",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eePad_1_outPort1",
+                        "location": {
+                            "x": 1.0,
+                            "y": 0.5
+                        }
+                    }
+                ],
+                "primitiveName": "eePad",
+                "primitiveID": "eePad_1",
+                "nodeTitle": "$this.props.Name$",
+                "layout": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "height": 90,
+                    "width": 90
+                },
+                "image": "/rawPrimitives/eePad/icon.svg"
+            },
+            {
+                "properties": {
+                    "node_name": {
+                        "type": "expression",
+                        "expression": "\"к.43\"",
+                        "status": "completed",
+                        "value": "к.43"
+                    },
+                    "node_id": {
+                        "type": "expression",
+                        "expression": "\"1750040926\"",
+                        "status": "completed",
+                        "value": 1750040926
+                    },
+                    "Name": {
+                        "type": "expression",
+                        "expression": "\"к.43\"",
+                        "status": "completed",
+                        "value": "к.43"
+                    }
+                },
+                "initPorts": [
+                    {
+                        "primitiveName": "inPort1",
+                        "type": "IN",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eePad_2_inPort1",
+                        "location": {
+                            "x": 0.0,
+                            "y": 0.5
+                        }
+                    },
+                    {
+                        "primitiveName": "outPort1",
+                        "type": "OUT",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eePad_2_outPort1",
+                        "location": {
+                            "x": 1.0,
+                            "y": 0.5
+                        }
+                    }
+                ],
+                "primitiveName": "eePad",
+                "primitiveID": "eePad_2",
+                "nodeTitle": "$this.props.Name$",
+                "layout": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "height": 90,
+                    "width": 90
+                },
+                "image": "/rawPrimitives/eePad/icon.svg"
+            },
+            {
+                "properties": {
+                    "node_name": {
+                        "type": "expression",
+                        "expression": "\"к.55\"",
+                        "status": "completed",
+                        "value": "к.55"
+                    },
+                    "node_id": {
+                        "type": "expression",
+                        "expression": "\"1750037686\"",
+                        "status": "completed",
+                        "value": 1750037686
+                    },
+                    "Name": {
+                        "type": "expression",
+                        "expression": "\"к.55\"",
+                        "status": "completed",
+                        "value": "к.55"
+                    }
+                },
+                "initPorts": [
+                    {
+                        "primitiveName": "inPort1",
+                        "type": "IN",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eePad_3_inPort1",
+                        "location": {
+                            "x": 0.0,
+                            "y": 0.5
+                        }
+                    },
+                    {
+                        "primitiveName": "outPort1",
+                        "type": "OUT",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eePad_3_outPort1",
+                        "location": {
+                            "x": 1.0,
+                            "y": 0.5
+                        }
+                    }
+                ],
+                "primitiveName": "eePad",
+                "primitiveID": "eePad_3",
+                "nodeTitle": "$this.props.Name$",
+                "layout": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "height": 90,
+                    "width": 90
+                },
+                "image": "/rawPrimitives/eePad/icon.svg"
+            },
+            {
+                "properties": {
+                    "node_name": {
+                        "type": "expression",
+                        "expression": "\"к.96\"",
+                        "status": "completed",
+                        "value": "к.96"
+                    },
+                    "node_id": {
+                        "type": "expression",
+                        "expression": "\"1750048619\"",
+                        "status": "completed",
+                        "value": 1750048619
+                    },
+                    "Name": {
+                        "type": "expression",
+                        "expression": "\"к.96\"",
+                        "status": "completed",
+                        "value": "к.96"
+                    }
+                },
+                "initPorts": [
+                    {
+                        "primitiveName": "inPort1",
+                        "type": "IN",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eePad_4_inPort1",
+                        "location": {
+                            "x": 0.0,
+                            "y": 0.5
+                        }
+                    },
+                    {
+                        "primitiveName": "outPort1",
+                        "type": "OUT",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eePad_4_outPort1",
+                        "location": {
+                            "x": 1.0,
+                            "y": 0.5
+                        }
+                    }
+                ],
+                "primitiveName": "eePad",
+                "primitiveID": "eePad_4",
+                "nodeTitle": "$this.props.Name$",
+                "layout": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "height": 90,
+                    "width": 90
+                },
+                "image": "/rawPrimitives/eePad/icon.svg"
+            },
+            {
+                "properties": {
+                    "node_name": {
+                        "type": "expression",
+                        "expression": "\"к.45\"",
+                        "status": "completed",
+                        "value": "к.45"
+                    },
+                    "node_id": {
+                        "type": "expression",
+                        "expression": "\"1750026636\"",
+                        "status": "completed",
+                        "value": 1750026636
+                    },
+                    "Name": {
+                        "type": "expression",
+                        "expression": "\"к.45\"",
+                        "status": "completed",
+                        "value": "к.45"
+                    }
+                },
+                "initPorts": [
+                    {
+                        "primitiveName": "inPort1",
+                        "type": "IN",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eePad_5_inPort1",
+                        "location": {
+                            "x": 0.0,
+                            "y": 0.5
+                        }
+                    },
+                    {
+                        "primitiveName": "outPort1",
+                        "type": "OUT",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eePad_5_outPort1",
+                        "location": {
+                            "x": 1.0,
+                            "y": 0.5
+                        }
+                    }
+                ],
+                "primitiveName": "eePad",
+                "primitiveID": "eePad_5",
+                "nodeTitle": "$this.props.Name$",
+                "layout": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "height": 90,
+                    "width": 90
+                },
+                "image": "/rawPrimitives/eePad/icon.svg"
+            },
+            {
+                "properties": {
+                    "node_name": {
+                        "type": "expression",
+                        "expression": "\"к.230\"",
+                        "status": "completed",
+                        "value": "к.230"
+                    },
+                    "node_id": {
+                        "type": "expression",
+                        "expression": "\"1751067763\"",
+                        "status": "completed",
+                        "value": 1751067763
+                    },
+                    "Name": {
+                        "type": "expression",
+                        "expression": "\"к.230\"",
+                        "status": "completed",
+                        "value": "к.230"
+                    }
+                },
+                "initPorts": [
+                    {
+                        "primitiveName": "inPort1",
+                        "type": "IN",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eePad_6_inPort1",
+                        "location": {
+                            "x": 0.0,
+                            "y": 0.5
+                        }
+                    },
+                    {
+                        "primitiveName": "outPort1",
+                        "type": "OUT",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eePad_6_outPort1",
+                        "location": {
+                            "x": 1.0,
+                            "y": 0.5
+                        }
+                    }
+                ],
+                "primitiveName": "eePad",
+                "primitiveID": "eePad_6",
+                "nodeTitle": "$this.props.Name$",
+                "layout": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "height": 90,
+                    "width": 90
+                },
+                "image": "/rawPrimitives/eePad/icon.svg"
+            },
+            {
+                "properties": {
+                    "node_name": {
+                        "type": "expression",
+                        "expression": "\"к.37\"",
+                        "status": "completed",
+                        "value": "к.37"
+                    },
+                    "node_id": {
+                        "type": "expression",
+                        "expression": "\"1750023893\"",
+                        "status": "completed",
+                        "value": 1750023893
+                    },
+                    "Name": {
+                        "type": "expression",
+                        "expression": "\"к.37\"",
+                        "status": "completed",
+                        "value": "к.37"
+                    }
+                },
+                "initPorts": [
+                    {
+                        "primitiveName": "inPort1",
+                        "type": "IN",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eePad_7_inPort1",
+                        "location": {
+                            "x": 0.0,
+                            "y": 0.5
+                        }
+                    },
+                    {
+                        "primitiveName": "outPort1",
+                        "type": "OUT",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eePad_7_outPort1",
+                        "location": {
+                            "x": 1.0,
+                            "y": 0.5
+                        }
+                    }
+                ],
+                "primitiveName": "eePad",
+                "primitiveID": "eePad_7",
+                "nodeTitle": "$this.props.Name$",
+                "layout": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "height": 90,
+                    "width": 90
+                },
+                "image": "/rawPrimitives/eePad/icon.svg"
+            },
+            {
+                "properties": {
+                    "node_name": {
+                        "type": "expression",
+                        "expression": "\"к.40б\"",
+                        "status": "completed",
+                        "value": "к.40б"
+                    },
+                    "node_id": {
+                        "type": "expression",
+                        "expression": "\"1750048880\"",
+                        "status": "completed",
+                        "value": 1750048880
+                    },
+                    "Name": {
+                        "type": "expression",
+                        "expression": "\"к.40б\"",
+                        "status": "completed",
+                        "value": "к.40б"
+                    }
+                },
+                "initPorts": [
+                    {
+                        "primitiveName": "inPort1",
+                        "type": "IN",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eePad_8_inPort1",
+                        "location": {
+                            "x": 0.0,
+                            "y": 0.5
+                        }
+                    },
+                    {
+                        "primitiveName": "outPort1",
+                        "type": "OUT",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eePad_8_outPort1",
+                        "location": {
+                            "x": 1.0,
+                            "y": 0.5
+                        }
+                    }
+                ],
+                "primitiveName": "eePad",
+                "primitiveID": "eePad_8",
+                "nodeTitle": "$this.props.Name$",
+                "layout": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "height": 90,
+                    "width": 90
+                },
+                "image": "/rawPrimitives/eePad/icon.svg"
+            },
+            {
+                "properties": {
+                    "node_name": {
+                        "type": "expression",
+                        "expression": "\"к.71\"",
+                        "status": "completed",
+                        "value": "к.71"
+                    },
+                    "node_id": {
+                        "type": "expression",
+                        "expression": "\"1750028316\"",
+                        "status": "completed",
+                        "value": 1750028316
+                    },
+                    "Name": {
+                        "type": "expression",
+                        "expression": "\"к.71\"",
+                        "status": "completed",
+                        "value": "к.71"
+                    }
+                },
+                "initPorts": [
+                    {
+                        "primitiveName": "inPort1",
+                        "type": "IN",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eePad_9_inPort1",
+                        "location": {
+                            "x": 0.0,
+                            "y": 0.5
+                        }
+                    },
+                    {
+                        "primitiveName": "outPort1",
+                        "type": "OUT",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eePad_9_outPort1",
+                        "location": {
+                            "x": 1.0,
+                            "y": 0.5
+                        }
+                    }
+                ],
+                "primitiveName": "eePad",
+                "primitiveID": "eePad_9",
+                "nodeTitle": "$this.props.Name$",
+                "layout": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "height": 90,
+                    "width": 90
+                },
+                "image": "/rawPrimitives/eePad/icon.svg"
+            },
+            {
+                "properties": {
+                    "node_name": {
+                        "type": "expression",
+                        "expression": "\"к.40\"",
+                        "status": "completed",
+                        "value": "к.40"
+                    },
+                    "node_id": {
+                        "type": "expression",
+                        "expression": "\"1750024074\"",
+                        "status": "completed",
+                        "value": 1750024074
+                    },
+                    "Name": {
+                        "type": "expression",
+                        "expression": "\"к.40\"",
+                        "status": "completed",
+                        "value": "к.40"
+                    }
+                },
+                "initPorts": [
+                    {
+                        "primitiveName": "inPort1",
+                        "type": "IN",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eePad_10_inPort1",
+                        "location": {
+                            "x": 0.0,
+                            "y": 0.5
+                        }
+                    },
+                    {
+                        "primitiveName": "outPort1",
+                        "type": "OUT",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eePad_10_outPort1",
+                        "location": {
+                            "x": 1.0,
+                            "y": 0.5
+                        }
+                    }
+                ],
+                "primitiveName": "eePad",
+                "primitiveID": "eePad_10",
+                "nodeTitle": "$this.props.Name$",
+                "layout": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "height": 90,
+                    "width": 90
+                },
+                "image": "/rawPrimitives/eePad/icon.svg"
+            },
+            {
+                "properties": {
+                    "node_name": {
+                        "type": "expression",
+                        "expression": "\"к.44\"",
+                        "status": "completed",
+                        "value": "к.44"
+                    },
+                    "node_id": {
+                        "type": "expression",
+                        "expression": "\"1751054627\"",
+                        "status": "completed",
+                        "value": 1751054627
+                    },
+                    "Name": {
+                        "type": "expression",
+                        "expression": "\"к.44\"",
+                        "status": "completed",
+                        "value": "к.44"
+                    }
+                },
+                "initPorts": [
+                    {
+                        "primitiveName": "inPort1",
+                        "type": "IN",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eePad_11_inPort1",
+                        "location": {
+                            "x": 0.0,
+                            "y": 0.5
+                        }
+                    },
+                    {
+                        "primitiveName": "outPort1",
+                        "type": "OUT",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eePad_11_outPort1",
+                        "location": {
+                            "x": 1.0,
+                            "y": 0.5
+                        }
+                    }
+                ],
+                "primitiveName": "eePad",
+                "primitiveID": "eePad_11",
+                "nodeTitle": "$this.props.Name$",
+                "layout": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "height": 90,
+                    "width": 90
+                },
+                "image": "/rawPrimitives/eePad/icon.svg"
+            }
+        ],
+        "edges": [
+            {
+                "bends": [],
+                "sourceNode": "eeIn_1",
+                "sourcePort": "eeIn_1_outPort1",
+                "targetNode": "eePad_1",
+                "targetPort": "eePad_1_inPort1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "eePad_1",
+                "sourcePort": "eePad_1_outPort1",
+                "targetNode": "eeOut_1",
+                "targetPort": "eeOut_1_inPort1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "eeIn_1",
+                "sourcePort": "eeIn_1_outPort1",
+                "targetNode": "eePad_2",
+                "targetPort": "eePad_2_inPort1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "eePad_2",
+                "sourcePort": "eePad_2_outPort1",
+                "targetNode": "eeOut_1",
+                "targetPort": "eeOut_1_inPort1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "eeIn_1",
+                "sourcePort": "eeIn_1_outPort1",
+                "targetNode": "eePad_3",
+                "targetPort": "eePad_3_inPort1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "eePad_3",
+                "sourcePort": "eePad_3_outPort1",
+                "targetNode": "eeOut_1",
+                "targetPort": "eeOut_1_inPort1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "eeIn_1",
+                "sourcePort": "eeIn_1_outPort1",
+                "targetNode": "eePad_4",
+                "targetPort": "eePad_4_inPort1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "eePad_4",
+                "sourcePort": "eePad_4_outPort1",
+                "targetNode": "eeOut_1",
+                "targetPort": "eeOut_1_inPort1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "eeIn_1",
+                "sourcePort": "eeIn_1_outPort1",
+                "targetNode": "eePad_5",
+                "targetPort": "eePad_5_inPort1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "eePad_5",
+                "sourcePort": "eePad_5_outPort1",
+                "targetNode": "eeOut_1",
+                "targetPort": "eeOut_1_inPort1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "eeIn_1",
+                "sourcePort": "eeIn_1_outPort1",
+                "targetNode": "eePad_6",
+                "targetPort": "eePad_6_inPort1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "eePad_6",
+                "sourcePort": "eePad_6_outPort1",
+                "targetNode": "eeOut_1",
+                "targetPort": "eeOut_1_inPort1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "eeIn_1",
+                "sourcePort": "eeIn_1_outPort1",
+                "targetNode": "eePad_7",
+                "targetPort": "eePad_7_inPort1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "eePad_7",
+                "sourcePort": "eePad_7_outPort1",
+                "targetNode": "eeOut_1",
+                "targetPort": "eeOut_1_inPort1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "eeIn_1",
+                "sourcePort": "eeIn_1_outPort1",
+                "targetNode": "eePad_8",
+                "targetPort": "eePad_8_inPort1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "eePad_8",
+                "sourcePort": "eePad_8_outPort1",
+                "targetNode": "eeOut_1",
+                "targetPort": "eeOut_1_inPort1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "eeIn_1",
+                "sourcePort": "eeIn_1_outPort1",
+                "targetNode": "eePad_9",
+                "targetPort": "eePad_9_inPort1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "eePad_9",
+                "sourcePort": "eePad_9_outPort1",
+                "targetNode": "eeOut_1",
+                "targetPort": "eeOut_1_inPort1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "eeIn_1",
+                "sourcePort": "eeIn_1_outPort1",
+                "targetNode": "eePad_10",
+                "targetPort": "eePad_10_inPort1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "eePad_10",
+                "sourcePort": "eePad_10_outPort1",
+                "targetNode": "eeOut_1",
+                "targetPort": "eeOut_1_inPort1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "eeIn_1",
+                "sourcePort": "eeIn_1_outPort1",
+                "targetNode": "eePad_11",
+                "targetPort": "eePad_11_inPort1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "eePad_11",
+                "sourcePort": "eePad_11_outPort1",
+                "targetNode": "eeOut_1",
+                "targetPort": "eeOut_1_inPort1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            }
+        ],
+        "groups": []
+    }
+}

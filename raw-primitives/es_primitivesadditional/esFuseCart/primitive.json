@@ -1,0 +1,33 @@
+{
+    "title": "Ввод",
+    "layout": {
+        "heigth": 90,
+        "width": 80
+    },
+    "image": "icon.svg",
+    "properties": {},
+    "ports": [
+        {
+            "name": "ioPortLow",
+            "type": [
+                "IN",
+                "OUT"
+            ],
+            "position": {
+                "x": 0.5,
+                "y": 1.0
+            }
+        },
+        {
+            "name": "ioPortTop",
+            "type": [
+                "IN",
+                "OUT"
+            ],
+            "position": {
+                "x": 0.5,
+                "y": 0.0
+            }
+        }
+    ]
+}

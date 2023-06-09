@@ -1,0 +1,80 @@
+{
+    "properties": {
+        "node_name": {
+            "type": "expression",
+            "expression": "let name = this.inPort1['node_name'];\nname",
+            "status": "new",
+            "value": " ",
+            "input": {
+                "component": "textarea"
+            }
+        },
+        "P_text": {
+            "type": "expression",
+            "expression": "let P = this.inPort1['P'];\nlet Pnum = Number(P).toFixed(1);\nlet P_text = '<span style=\"color:\"><b>' + Pnum  + '</b></span>';\nP_text",
+            "status": "new",
+            "value": " ",
+            "input": {
+                "component": "textarea"
+            }
+        },
+        "flow_text": {
+            "type": "expression",
+            "expression": "let x = this.inPort1['X_kg_sec'];\nlet rho = this.inPort1['res_liquid_density_kg_m3'];\nlet fl = x / rho * 86400;\nlet fl_num = Number(fl).toFixed(1);\n\nlet fl_text = '<span style=\"color:\"><b>' + + fl_num + '</b></span>';\nfl_text",
+            "status": "new",
+            "value": " ",
+            "input": {
+                "component": "textarea"
+            }
+        },
+        "wc_text": {
+            "type": "expression",
+            "expression": "let wc = this.inPort1['res_watercut_percent'];\nlet wc_num = Number(wc).toFixed(1);\n\n\nlet wc_text = '<span style=\"color:\"><b>' + wc_num + '</b></span>';\nwc_text",
+            "status": "new",
+            "value": " ",
+            "input": {
+                "component": "textarea"
+            }
+        },
+        "type": {
+            "type": "expression",
+            "expression": "\"oil_pad_indicator\"",
+            "status": "new",
+            "value": " ",
+            "input": {
+                "component": "textarea"
+            }
+        }
+    },
+    "initPorts": [
+        {
+            "primitiveName": "inPort1",
+            "type": [
+                "IN"
+            ],
+            "properties": {
+                "status": {
+                    "expression": "let portOwner = graph.ports.find(port => port.tag.primitiveID === primitiveID).owner;\nlet inEdges = graph.inEdgesAt(portOwner).filter(edge => edge.targetPort.tag.primitiveID === primitiveID).toArray()\nif (inEdges.length < 1) ''\nelse {\neval(inEdges[0].sourcePort.tag.primitiveID).status\n}",
+                    "type": "expression",
+                    "status": "new",
+                    "value": " "
+                }
+            },
+            "primitiveID": "TargetRichLabelNode1_17_inPort1",
+            "location": {
+                "x": -933.6875,
+                "y": -250.795
+            }
+        }
+    ],
+    "extensionName": "ExtensionRiskPrimitives",
+    "primitiveName": "TargetRichLabelNode1",
+    "primitiveID": "TargetRichLabelNode1_17",
+    "nodeTitle": "<p>P: $this.props.P_text$ atm</p><p>Debit: $this.props.flow_text$&nbsp;m3/24h</p><h4>wc: $this.props.wc_text$&nbsp;%</h4>",
+    "layout": {
+        "x": -1011.875,
+        "y": -382.375,
+        "height": 129,
+        "width": 156.375
+    }
+}

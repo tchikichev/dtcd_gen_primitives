@@ -1,0 +1,224 @@
+{
+    "primitiveID": "oil_well_2979",
+    "primitiveName": "oil_well",
+    "properties": {
+        "object_type": {
+            "type": "expression",
+            "expression": "",
+            "status": "complete",
+            "value": ""
+        },
+        "Name": {
+            "type": "expression",
+            "expression": "\"к.44__скв.6003\"",
+            "status": "complete",
+            "value": ""
+        },
+        "node_name": {
+            "type": "expression",
+            "expression": "\"к.44__скв.6003\"",
+            "status": "complete",
+            "value": ""
+        },
+        "node_id": {
+            "type": "expression",
+            "expression": "\"6003\"",
+            "status": "complete",
+            "value": ""
+        },
+        "X": {
+            "type": "expression",
+            "expression": "",
+            "status": "complete",
+            "value": ""
+        },
+        "Y": {
+            "type": "expression",
+            "expression": "",
+            "status": "complete",
+            "value": ""
+        },
+        "Kind": {
+            "type": "expression",
+            "expression": "\"Q\"",
+            "status": "complete",
+            "value": "Q"
+        },
+        "Value": {
+            "type": "expression",
+            "expression": "\"0.4771707176\"",
+            "status": "complete",
+            "value": ""
+        },
+        "T": {
+            "type": "expression",
+            "expression": "this.query_res[0].startT",
+            "status": "complete",
+            "value": "",
+            "input": {
+                "component": "textarea"
+            }
+        },
+        "IsSource": {
+            "type": "expression",
+            "expression": "\"True\"",
+            "status": "complete",
+            "value": "True"
+        },
+        "VolumeWater": {
+            "type": "expression",
+            "expression": "\"95.0\"",
+            "status": "complete",
+            "value": ""
+        },
+        "perforation": {
+            "type": "expression",
+            "expression": "\"3497.0\"",
+            "status": "complete",
+            "value": ""
+        },
+        "pumpDepth": {
+            "type": "expression",
+            "expression": "\"2828.0\"",
+            "status": "complete",
+            "value": ""
+        },
+        "model": {
+            "type": "expression",
+            "expression": "\"ЭЦН5-45-2700\"",
+            "status": "complete",
+            "value": "ЭЦН5-45-2700"
+        },
+        "frequency": {
+            "type": "expression",
+            "expression": "\"45.0\"",
+            "status": "complete",
+            "value": "45.0"
+        },
+        "productivity": {
+            "type": "expression",
+            "expression": "\"0.4348450415\"",
+            "status": "complete",
+            "value": "0.4348450415"
+        },
+        "predict_mode": {
+            "type": "expression",
+            "expression": "\"const\"",
+            "status": "complete",
+            "value": "const"
+        },
+        "shtr_debit": {
+            "type": "expression",
+            "expression": "\"41.0\"",
+            "status": "complete",
+            "value": "41.0"
+        },
+        "K_pump": {
+            "type": "expression",
+            "expression": "\"1.0\"",
+            "status": "complete",
+            "value": "1.0"
+        },
+        "P": {
+            "type": "expression",
+            "expression": "this.query_res[0].startP",
+            "status": "complete",
+            "value": "",
+            "input": {
+                "component": "textarea"
+            }
+        },
+        "Q_m3_day": {
+            "type": "expression",
+            "expression": "this.query_res[0].start_Q_m3_day",
+            "status": "complete",
+            "value": "",
+            "input": {
+                "component": "textarea"
+            }
+        },
+        "query_res": {
+            "type": "datasource",
+            "expression": {
+                "type": "OTL",
+                "tws": 1674154555,
+                "twf": 1674154555,
+                "cache_ttl": 60,
+                "original_otl": "| inputlookup demo_3_corr_ids_dns3_all_wells_Q_fixed.csv\n| fields node_id_start, startP, startT, start_Q_m3_day\n| where node_id_start = 6003"
+            },
+            "status": "complete",
+            "value": "",
+            "input": {
+                "component": "textarea"
+            }
+        }
+    },
+    "nodeTitle": "Скважина $this.props.Name$",
+    "image": "/rawPrimitives/oil_well/icon.svg",
+    "initPorts": [
+        {
+            "primitiveID": "oil_well_2979_outPort1",
+            "primitiveName": "outPort1",
+            "isAddedManually": "true",
+            "portLocation": "right",
+            "type": [
+                "OUT"
+            ],
+            "properties": {
+                "status": {
+                    "type": "expression",
+                    "expression": "let well_props_ext_out ={\n    \"T\": this.T,\n    \"VolumeWater\": this.VolumeWater,\n    \"perforation\": this.perforation,\n    \"pumpDepth\": this.pumpDepth,\n    \"frequency\": this.frequency,\n    \"productivity\": this.productivity,\n    \"shtr_debit\": this.shtr_debit,\n    \"K_pump\": this.K_pump,\n    \"P\": this.P,\n    \"Q_m3_day\": this.Q_m3_day\n}\nwell_props_ext_out",
+                    "input": {
+                        "component": "textarea"
+                    },
+                    "status": "complete",
+                    "value": {
+                        "T": 20,
+                        "VolumeWater": "95.0",
+                        "perforation": "3497.0",
+                        "pumpDepth": "2828.0",
+                        "frequency": "45.0",
+                        "productivity": "0.4348450415",
+                        "shtr_debit": "41.0",
+                        "K_pump": "1.0",
+                        "P": 8.684942087834097,
+                        "Q_m3_day": 40.99111654265911
+                    }
+                }
+            },
+            "initPosition": {
+                "x": 1,
+                "y": 0.5
+            },
+            "location": {
+                "x": 6578.899999999965,
+                "y": -6514.785000000149
+            }
+        },
+        {
+            "primitiveName": "outPort2",
+            "type": [
+                "OUT"
+            ],
+            "properties": {
+                "status": {
+                    "expression": "",
+                    "type": "expression",
+                    "status": "complete",
+                    "value": ""
+                }
+            },
+            "primitiveID": "oil_well_2979_outPort2",
+            "location": {
+                "x": 6578.899999999965,
+                "y": -6514.785000000149
+            }
+        }
+    ],
+    "layout": {
+        "x": 6538.899999999965,
+        "y": -6514.785000000149,
+        "height": 147.25,
+        "width": 80
+    }
+}

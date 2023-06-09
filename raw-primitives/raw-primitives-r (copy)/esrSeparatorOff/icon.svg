@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="91.0px" viewBox="0 0 91.0 91.0" height="91.0px">
+  <g>
+    <g transform=" rotate(90.000000 45.500000 45.500000)"><path fill-rule="evenodd" clip-rule="evenodd" d="M46 4.37114e-08L46 33H45L45 0L46 4.37114e-08Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M40 33H51V34H40L40 33Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M40 57H51V58H40L40 57Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M45 53.7279L62 36.7279L62.7071 37.435L45.7071 54.435L45 53.7279Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M45 91L45 58H46L46 91H45Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M62 46H54V45H62V46Z" fill="black"/>
+<path d="M70 45.5L59 49V42L70 45.5Z" fill="black"/>
+</g>
+  </g>
+</svg>

@@ -1,0 +1,760 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "primitiveID": "esTopTransformer_2",
+                "primitiveName": "esTopTransformer",
+                "properties": {
+                    "name": {
+                        "expression": "//\"Наименование объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "aliasName": {
+                        "expression": "//\"Дополнительное наименование идентифицируемого объекта\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "description": {
+                        "expression": "//\"Описание объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "normallylnService": {
+                        "expression": "//\"Нормальное состояние оборудования - в работе (если присвоено значение Истина)\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "type": {
+                        "expression": "//\"Конструктивный тип\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "accuracyClass": {
+                        "expression": "//\"Класс точности\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$",
+                "image": "/rawPrimitives/esTopTransformer/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortLow1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 1
+                        },
+                        "primitiveID": "esTopTransformer_2_ioPortLow1",
+                        "location": {
+                            "x": -3707.5,
+                            "y": -1574.75
+                        }
+                    },
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortTop2",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esTopTransformer_2_ioPortTop2",
+                        "location": {
+                            "x": -3707.5,
+                            "y": -1665.75
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -3753,
+                    "y": -1665.75,
+                    "height": 91,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esTopStation_1",
+                "primitiveName": "esTopStation",
+                "properties": {},
+                "nodeTitle": "$this.primitiveID$",
+                "image": "/rawPrimitives/esTopStation/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortTop2",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esTopStation_1_ioPortTop2",
+                        "location": {
+                            "x": -4170,
+                            "y": -2084.5
+                        }
+                    },
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortLow1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 1
+                        },
+                        "primitiveID": "esTopStation_1_ioPortLow1",
+                        "location": {
+                            "x": -4170,
+                            "y": -1993.5
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -4208,
+                    "y": -2084.5,
+                    "height": 91,
+                    "width": 76
+                }
+            },
+            {
+                "primitiveID": "esTopTransformer_3",
+                "primitiveName": "esTopTransformer",
+                "properties": {
+                    "name": {
+                        "expression": "//\"Наименование объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "aliasName": {
+                        "expression": "//\"Дополнительное наименование идентифицируемого объекта\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "description": {
+                        "expression": "//\"Описание объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "normallylnService": {
+                        "expression": "//\"Нормальное состояние оборудования - в работе (если присвоено значение Истина)\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "type": {
+                        "expression": "//\"Конструктивный тип\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "accuracyClass": {
+                        "expression": "//\"Класс точности\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$",
+                "image": "/rawPrimitives/esTopTransformer/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortTop2",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esTopTransformer_3_ioPortTop2",
+                        "location": {
+                            "x": -3214,
+                            "y": -1665.75
+                        }
+                    },
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortLow1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 1
+                        },
+                        "primitiveID": "esTopTransformer_3_ioPortLow1",
+                        "location": {
+                            "x": -3214,
+                            "y": -1574.75
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -3259.5,
+                    "y": -1665.75,
+                    "height": 91,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esTopTransformer_1",
+                "primitiveName": "esTopTransformer",
+                "properties": {
+                    "name": {
+                        "expression": "//\"Наименование объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "aliasName": {
+                        "expression": "//\"Дополнительное наименование идентифицируемого объекта\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "description": {
+                        "expression": "//\"Описание объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "normallylnService": {
+                        "expression": "//\"Нормальное состояние оборудования - в работе (если присвоено значение Истина)\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "type": {
+                        "expression": "//\"Конструктивный тип\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "accuracyClass": {
+                        "expression": "//\"Класс точности\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "sel": {
+                        "type": "expression",
+                        "expression": "'1'",
+                        "status": "new",
+                        "value": "",
+                        "input": {
+                            "component": "select",
+                            "type": "const",
+                            "values": [
+                                "1",
+                                "2",
+                                "3"
+                            ]
+                        }
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$",
+                "image": "/rawPrimitives/esTopTransformer/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortLow1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 1
+                        },
+                        "primitiveID": "esTopTransformer_1_ioPortLow1",
+                        "location": {
+                            "x": -4170,
+                            "y": -1574.75
+                        }
+                    },
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortTop2",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esTopTransformer_1_ioPortTop2",
+                        "location": {
+                            "x": -4170,
+                            "y": -1665.75
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -4215.5,
+                    "y": -1665.75,
+                    "height": 91,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esTopPowerLine_2",
+                "primitiveName": "esTopPowerLine",
+                "properties": {
+                    "name": {
+                        "expression": "//\"Наименование объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "aliasName": {
+                        "expression": "//\"Дополнительное наименование идентифицируемого объекта\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "description": {
+                        "expression": "//\"Описание объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "normallylnService": {
+                        "expression": "//\"Нормальное состояние оборудования - в работе (если присвоено значение Истина)\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "isThreePhase\nEquipment": {
+                        "expression": "//\"Трехфазное исполнение оборудования (если присвоено значение Истина)\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "length": {
+                        "expression": "//\"Длина проводника, м\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "g0ch": {
+                        "expression": "//\"Активная проводимость на землю нулевой последовательности, См\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "gch": {
+                        "expression": "//\"Активная проводимость на землю прямой последовательности, См\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "x": {
+                        "expression": "//\"Реактивное сопротивление прямой последовательности, Ом\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "x0": {
+                        "expression": "//\"Реактивное сопротивление нулевой последовательности, Ом\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "r": {
+                        "expression": "//\"Активное сопротивление прямой последовательности, Ом\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "r0": {
+                        "expression": "//\"Активное сопротивление нулевой последовательности, Ом\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "b0ch": {
+                        "expression": "//\"Реактивная проводимость на землю нулевой последовательности, См\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "bch": {
+                        "expression": "//\"Реактивная проводимость на землю прямой последовательности, См\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$",
+                "image": "/rawPrimitives/esTopPowerLine/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioTop3",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esTopPowerLine_2_ioTop3",
+                        "location": {
+                            "x": -4170,
+                            "y": -1917.5
+                        }
+                    },
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioRight2",
+                        "initPosition": {
+                            "x": 1,
+                            "y": 0.5
+                        },
+                        "primitiveID": "esTopPowerLine_2_ioRight2",
+                        "location": {
+                            "x": -4124.5,
+                            "y": -1872
+                        }
+                    },
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioLeft1",
+                        "initPosition": {
+                            "x": 0,
+                            "y": 0.5
+                        },
+                        "primitiveID": "esTopPowerLine_2_ioLeft1",
+                        "location": {
+                            "x": -4215.5,
+                            "y": -1872
+                        }
+                    },
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioLow4",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 1
+                        },
+                        "primitiveID": "esTopPowerLine_2_ioLow4",
+                        "location": {
+                            "x": -4164,
+                            "y": -1826.5
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -4215.5,
+                    "y": -1917.5,
+                    "height": 91,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esEngine_137",
+                "primitiveName": "esEngine",
+                "properties": {},
+                "nodeTitle": "$this.primitiveID$",
+                "image": "/rawPrimitives/esEngine/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "value": "",
+                                "status": "complete"
+                            }
+                        },
+                        "primitiveID": "esEngine_137_inoutPort1",
+                        "primitiveName": "inoutPort1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "location": {
+                            "x": -4170,
+                            "y": -1414
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -4215.5,
+                    "y": -1414,
+                    "height": 76,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esTopStation_2",
+                "primitiveName": "esTopStation",
+                "properties": {},
+                "nodeTitle": "$this.primitiveID$",
+                "image": "/rawPrimitives/esTopStation/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortTop2",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esTopStation_2_ioPortTop2",
+                        "location": {
+                            "x": -3818.75,
+                            "y": -2084.5
+                        }
+                    },
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortLow1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 1
+                        },
+                        "primitiveID": "esTopStation_2_ioPortLow1",
+                        "location": {
+                            "x": -3818.75,
+                            "y": -1993.5
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -3856.75,
+                    "y": -2084.5,
+                    "height": 91,
+                    "width": 76
+                }
+            },
+            {
+                "primitiveID": "esGenerator_2",
+                "primitiveName": "esGenerator",
+                "properties": {},
+                "nodeTitle": "$this.primitiveID$",
+                "image": "/rawPrimitives/esGenerator/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "value": "",
+                                "status": "complete"
+                            }
+                        },
+                        "primitiveID": "esGenerator_2_inoutPort1",
+                        "primitiveName": "inoutPort1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "location": {
+                            "x": -4703,
+                            "y": -1472.25
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -4748.5,
+                    "y": -1472.25,
+                    "height": 76,
+                    "width": 91
+                }
+            }
+        ],
+        "edges": [
+            {
+                "bends": [],
+                "sourceNode": "esTopStation_1",
+                "sourcePort": "esTopStation_1_ioPortLow1",
+                "targetNode": "esTopPowerLine_2",
+                "targetPort": "esTopPowerLine_2_ioTop3",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esTopPowerLine_2",
+                "sourcePort": "esTopPowerLine_2_ioLow4",
+                "targetNode": "esTopTransformer_1",
+                "targetPort": "esTopTransformer_1_ioPortTop2",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esTopPowerLine_2",
+                "sourcePort": "esTopPowerLine_2_ioLow4",
+                "targetNode": "esTopTransformer_3",
+                "targetPort": "esTopTransformer_3_ioPortTop2",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esTopPowerLine_2",
+                "sourcePort": "esTopPowerLine_2_ioLow4",
+                "targetNode": "esTopTransformer_2",
+                "targetPort": "esTopTransformer_2_ioPortTop2",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            }
+        ],
+        "groups": []
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "title": "eeCableLine500Kv",
+    "layout": {
+        "heigth": 91,
+        "width": 91
+    },
+    "image": "icon.svg",
+    "properties": {
+
+        "aliasName": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "description": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "length": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "Name": {
+            "type": "expression",
+            "expression": "",
+            "status": "completed",
+            "value": ""
+        },
+        "node_name": {
+            "type": "expression",
+            "expression": "",
+            "status": "completed",
+            "value": ""
+        },
+        "zagruzka": {
+            "type": "expression",
+            "expression": "",
+            "status": "completed",
+            "value": ""
+        },
+        "current": {
+            "type": "expression",
+            "expression": "",
+            "status": "completed",
+            "value": ""
+        },
+        "kV": {
+            "type": "expression",
+            "expression": "6",
+            "status": "completed",
+            "value": 6
+        }
+    },
+    "ports": [
+        {
+            "name": "inPort1",
+            "type": "IN",
+            "position": {
+                "x": 0.5,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "outPort2",
+            "type": "OUT",
+            "position": {
+                "x": 0.5,
+                "y": 1.0
+            }
+        }
+    ]
+}

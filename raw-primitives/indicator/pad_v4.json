@@ -1,0 +1,71 @@
+{
+    "primitiveName": "outPortIndication",
+    "type": [
+        "OUT"
+    ],
+    "properties": {
+        "status": {
+            "type": "expression",
+            "expression": "let props_out = {\n    \"Q_m3_day\": this.Q_m3_day,\n    \"P\": this.P,\n    \"T\": this.T\n};\nprops_out",
+            "input": {
+                "component": "textarea"
+            },
+            "status": "complete",
+            "value": {
+                "Q_m3_day": 527.6266297082856,
+                "P": "13.44430380460808",
+                "T": "20"
+            }
+        }
+    },
+    "primitiveID": "oil_pad_394_outPortIndication",
+    "location": {
+        "x": -527.9500000000116,
+        "y": -10897.754999999888
+    }
+}
+
+{
+    "Q_m3_day": {
+        "type": "expression",
+        "expression": "this.otl_q_m3[0].e_m3_res",
+        "status": "complete",
+        "value": 527.6266297082856,
+        "input": {
+            "component": "textarea"
+        }
+    },
+    // "query": {
+    //     "type": "expression",
+    //     "expression": "let query = \"| inputlookup demo_3_corr_ids_dns3_all_wells_Q_fixed.csv | fields node_id_start, node_name_start, res_liquid_density_kg_m3, X_kg_sec| where node_name_start=\\\"\" + this.Name + \"\\\"| eval e_m3_res = (X_kg_sec / res_liquid_density_kg_m3) * 86400\";\n\nquery",
+    //     "status": "complete",
+    //     "value": "| inputlookup demo_3_corr_ids_dns3_all_wells_Q_fixed.csv | fields node_id_start, node_name_start, res_liquid_density_kg_m3, X_kg_sec| where node_name_start=\"к.40б\"| eval e_m3_res = (X_kg_sec / res_liquid_density_kg_m3) * 86400",
+    //     "input": {
+    //         "component": "textarea"
+    //     }
+    // },
+    "otl_q_m3": {
+        "type": "datasource",
+        "expression": {
+            "type": "OTL",
+            "tws": 1674149950,
+            "twf": 1674149950,
+            "cache_ttl": 60,
+            "original_otl": "| inputlookup demo_3_corr_ids_dns3_all_wells_Q_fixed.csv\n| fields node_id_start, node_name_start, res_liquid_density_kg_m3, X_kg_sec\n| where node_id_start=1750048880\n| eval e_m3_res = (X_kg_sec / res_liquid_density_kg_m3) * 86400"
+        },
+        "status": "complete",
+        "value": [
+            {
+                "node_id_start": 1750048880,
+                "node_name_start": "к.40б",
+                "res_liquid_density_kg_m3": 952.2014463665923,
+                "X_kg_sec": 5.8148939809,
+                "e_m3_res": 527.6266297082856
+            }
+        ],
+        "input": {
+            "component": "textarea"
+        }
+    }
+
+}

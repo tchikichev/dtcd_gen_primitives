@@ -1,0 +1,105 @@
+{
+    "primitiveID": "oil_dns_48",
+    "primitiveName": "oil_dns",
+    "properties": {
+        "P": {
+            "type": "expression",
+            "expression": "this.query_res[0].endP",
+            "status": "complete",
+            "value": 7.3,
+            "input": {
+                "component": "textarea"
+            }
+        },
+        "T": {
+            "type": "expression",
+            "expression": "this.query_res[0].endT",
+            "status": "complete",
+            "value": 20,
+            "input": {
+                "component": "textarea"
+            }
+        },
+        "Q_m3_day": {
+            "type": "expression",
+            "expression": "this.query_res[0].end_Q_m3_day",
+            "status": "complete",
+            "value": -4707.314662524334,
+            "input": {
+                "component": "textarea"
+            }
+        },
+        "query_res": {
+            "type": "datasource",
+            "expression": {
+                "type": "OTL",
+                "tws": 1674155085,
+                "twf": 1674155085,
+                "cache_ttl": 60,
+                "original_otl": "| inputlookup demo_3_corr_ids_dns3_all_wells_Q_fixed.csv\n| fields node_id_end, endP, endT, end_Q_m3_day\n| where node_id_end = 1751058919"
+            },
+            "status": "complete",
+            "value": "",
+            "input": {
+                "component": "textarea"
+            }
+        }
+    },
+    "nodeTitle": "ДНС: $this.props.Name$",
+    "image": "/rawPrimitives/oil_dns/icon.svg",
+    "initPorts": [
+        {
+            "primitiveID": "oil_dns_48_outPort1",
+            "primitiveName": "outPort1",
+            "isAddedManually": "true",
+            "portLocation": "right",
+            "type": [
+                "OUT"
+            ],
+            "properties": {
+                "status": {
+                    "type": "expression",
+                    "expression": "let res_props_ = {\n    \"P\": this.P,\n    \"T\": this.T,\n    \"Q_m3_day\": this.Q_m3_day\n};\nres_props_",
+                    "input": {
+                        "component": "textarea"
+                    },
+                    "status": "complete",
+                    "value": ""
+                }
+            },
+            "initPosition": {
+                "x": 1,
+                "y": 0.5
+            },
+            "location": {
+                "x": 7223.159999999974,
+                "y": -6705.035000000149
+            }
+        },
+        {
+            "primitiveName": "inPort2",
+            "type": [
+                "IN"
+            ],
+            "properties": {
+                "status": {
+                    "expression": "let portOwner = graph.ports.find(port => port.tag.primitiveID === primitiveID).owner;\nlet inEdges = graph.inEdgesAt(portOwner).filter(edge => edge.targetPort.tag.primitiveID === primitiveID).toArray()\nif (inEdges.length < 1) ''\nelse {\neval(inEdges[0].sourcePort.tag.primitiveID).status\n}",
+                    "type": "expression",
+                    "status": "complete",
+                    "value": ""
+                }
+            },
+            "primitiveID": "oil_dns_48_inPort2",
+            "location": {
+                "x": 7297.534999999974,
+                "y": -6557.785000000149
+            }
+        }
+    ],
+    "layout": {
+        "x": 7223.159999999974,
+        "y": -6705.035000000149,
+        "height": 147.25,
+        "width": 148.75
+    }
+}

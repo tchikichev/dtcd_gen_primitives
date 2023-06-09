@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="59.0px" viewBox="0 0 59.0 91.0" height="91.0px">
+  <g>
+    <g transform=" rotate(-90.000000 29.500000 45.500000)"><g clip-path="url(#clip0_53_291)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M50 7H41V52H50V7ZM40 6V53H51V6H40Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M46 4.37115e-08L46 60H45L45 0L46 4.37115e-08Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_53_291">
+<rect width="91" height="59" fill="white"/>
+</clipPath>
+</defs>
+</g>
+  </g>
+</svg>

@@ -1,0 +1,73 @@
+{
+    "title": "eeIn",
+    "layout": {
+        "heigth": 90,
+        "width": 80
+    },
+    "image": "icon.svg",
+    "properties": {
+        "name": {
+            "expression": "",
+            "type": "expression"
+        },
+        "aliasName": {
+            "expression": "",
+            "type": "expression"
+        },
+        "description": {
+            "expression": "",
+            "type": "expression"
+        },
+        "normallylnService": {
+            "expression": "",
+            "type": "expression"
+        },
+        "model": {
+            "expression": "",
+            "type": "expression"
+        },
+        "Name": {
+            "type": "expression",
+            "expression": "",
+            "status": "completed",
+            "value": ""
+        },
+        "zagruzka": {
+            "type": "expression",
+            "expression": "",
+            "status": "completed",
+            "value": ""
+        },
+        "current": {
+            "type": "expression",
+            "expression": "",
+            "status": "completed",
+            "value": ""
+        },
+        "kV": {
+            "type": "expression",
+            "expression": "",
+            "status": "completed",
+            "value": ""
+        },
+        "power": {
+            "type": "expression",
+            "expression": "",
+            "status": "completed",
+            "value": ""
+        }
+    },
+    "ports": [
+        {
+            "name": "ioPortLow",
+            "type": [
+                "IN",
+                "OUT"
+            ],
+            "position": {
+                "x": 0.5,
+                "y": 1.0
+            }
+        }
+    ]
+}

@@ -1,0 +1,2889 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "primitiveID": "esEngine_25",
+                "primitiveName": "esEngine",
+                "properties": {
+                    "power": {
+                        "type": "expression",
+                        "expression": "100",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": 100
+                    },
+                    "period": {
+                        "type": "expression",
+                        "expression": "//period,work,offset\n\"60,30,10\"",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": "60,30,10"
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$ $this.props.period$",
+                "image": "/rawPrimitives/esEngine/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "inoutPort1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esEngine_25_inoutPort1",
+                        "location": {
+                            "x": -2118,
+                            "y": -742
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -2163.5,
+                    "y": -742,
+                    "height": 76,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esPowerTransformer2Wind_7",
+                "primitiveName": "esPowerTransformer2Wind",
+                "properties": {
+                    "name": {
+                        "expression": "//\"Наименование объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "aliasName": {
+                        "expression": "//\"Дополнительное наименование идентифицируемого объекта\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "description": {
+                        "expression": "//\"Описание объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "normallylnService": {
+                        "expression": "//\"Нормальное состояние оборудования - в работе (если присвоено значение Истина)\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "isThreePhase\nEquipment": {
+                        "expression": "//\"Трехфазное исполнение оборудования (если присвоено значение Истина)\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "vectorGroup": {
+                        "expression": "//\"Группа соединения обмоток\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$",
+                "image": "/rawPrimitives/esPowerTransformer2Wind/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortLow1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 1
+                        },
+                        "primitiveID": "esPowerTransformer2Wind_7_ioPortLow1",
+                        "location": {
+                            "x": -2451,
+                            "y": -1687.5
+                        }
+                    },
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortTop2",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esPowerTransformer2Wind_7_ioPortTop2",
+                        "location": {
+                            "x": -2451,
+                            "y": -1778.5
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -2496.5,
+                    "y": -1778.5,
+                    "height": 91,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esPowerTransformer2Wind_8",
+                "primitiveName": "esPowerTransformer2Wind",
+                "properties": {
+                    "name": {
+                        "expression": "//\"Наименование объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "aliasName": {
+                        "expression": "//\"Дополнительное наименование идентифицируемого объекта\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "description": {
+                        "expression": "//\"Описание объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "normallylnService": {
+                        "expression": "//\"Нормальное состояние оборудования - в работе (если присвоено значение Истина)\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "isThreePhase\nEquipment": {
+                        "expression": "//\"Трехфазное исполнение оборудования (если присвоено значение Истина)\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "vectorGroup": {
+                        "expression": "//\"Группа соединения обмоток\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$",
+                "image": "/rawPrimitives/esPowerTransformer2Wind/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortTop2",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esPowerTransformer2Wind_8_ioPortTop2",
+                        "location": {
+                            "x": -2838,
+                            "y": -2179.5
+                        }
+                    },
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortLow1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 1
+                        },
+                        "primitiveID": "esPowerTransformer2Wind_8_ioPortLow1",
+                        "location": {
+                            "x": -2838,
+                            "y": -2088.5
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -2883.5,
+                    "y": -2179.5,
+                    "height": 91,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esEngine_21",
+                "primitiveName": "esEngine",
+                "properties": {
+                    "power": {
+                        "type": "expression",
+                        "expression": "100",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": 100
+                    },
+                    "period": {
+                        "type": "expression",
+                        "expression": "//period,work,offset\n\"30,3,10\"",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": "30,3,10"
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$ $this.props.period$",
+                "image": "/rawPrimitives/esEngine/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "inoutPort1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esEngine_21_inoutPort1",
+                        "location": {
+                            "x": -2403,
+                            "y": -925.5
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -2448.5,
+                    "y": -925.5,
+                    "height": 76,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esPowerTransformer2Wind_6",
+                "primitiveName": "esPowerTransformer2Wind",
+                "properties": {
+                    "name": {
+                        "expression": "//\"Наименование объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "aliasName": {
+                        "expression": "//\"Дополнительное наименование идентифицируемого объекта\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "description": {
+                        "expression": "//\"Описание объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "normallylnService": {
+                        "expression": "//\"Нормальное состояние оборудования - в работе (если присвоено значение Истина)\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "isThreePhase\nEquipment": {
+                        "expression": "//\"Трехфазное исполнение оборудования (если присвоено значение Истина)\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "vectorGroup": {
+                        "expression": "//\"Группа соединения обмоток\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$",
+                "image": "/rawPrimitives/esPowerTransformer2Wind/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortLow1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 1
+                        },
+                        "primitiveID": "esPowerTransformer2Wind_6_ioPortLow1",
+                        "location": {
+                            "x": -2050,
+                            "y": -1044
+                        }
+                    },
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortTop2",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esPowerTransformer2Wind_6_ioPortTop2",
+                        "location": {
+                            "x": -2050,
+                            "y": -1135
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -2095.5,
+                    "y": -1135,
+                    "height": 91,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esTapConnector_843",
+                "primitiveName": "esTapConnector",
+                "properties": {
+                    "name": {
+                        "expression": "//\"Наименование объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "aliasName": {
+                        "expression": "this.name",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "description": {
+                        "expression": "//\"Описание объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "normallylnService": {
+                        "expression": "true",
+                        "type": "expression",
+                        "status": "complete",
+                        "input": {
+                            "component": "switch"
+                        },
+                        "value": true
+                    },
+                    "length": {
+                        "expression": "//\"Длина проводника, м\"\n300",
+                        "type": "expression",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": 300
+                    },
+                    "model": {
+                        "type": "expression",
+                        "expression": "'АС-120'",
+                        "status": "complete",
+                        "input": {
+                            "component": "select",
+                            "type": "const",
+                            "values": [
+                                "АС-120",
+                                "А-140"
+                            ]
+                        },
+                        "value": "АС-120"
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$",
+                "image": "/rawPrimitives/esTapConnector/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPort1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "primitiveID": "esTapConnector_843_ioPort1",
+                        "location": {
+                            "x": -3958,
+                            "y": -1161.625
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -3968.5,
+                    "y": -1172.125,
+                    "height": 21,
+                    "width": 21
+                }
+            },
+            {
+                "primitiveID": "esEngine_24",
+                "primitiveName": "esEngine",
+                "properties": {
+                    "power": {
+                        "type": "expression",
+                        "expression": "100",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": 100
+                    },
+                    "period": {
+                        "type": "expression",
+                        "expression": "//period,work,offset\n\"30,3,10\"",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": "30,3,10"
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$ $this.props.period$",
+                "image": "/rawPrimitives/esEngine/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "inoutPort1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esEngine_24_inoutPort1",
+                        "location": {
+                            "x": -2403,
+                            "y": -644.5
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -2448.5,
+                    "y": -644.5,
+                    "height": 76,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esLoadBreakSwitchOn_2",
+                "primitiveName": "esLoadBreakSwitchOn",
+                "properties": {
+                    "name": {
+                        "expression": "//\"Наименование объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "aliasName": {
+                        "expression": "//\"Дополнительное наименование идентифицируемого объекта\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "description": {
+                        "expression": "//\"Описание объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "normallylnService": {
+                        "expression": "//\"Нормальное состояние оборудования - в работе (если присвоено значение Истина)\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "isThreePhase\nEquipment": {
+                        "expression": "//\"Трехфазное исполнение оборудования (если присвоено значение Истина)\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "rf:differencelnTransit Time": {
+                        "expression": "//\"Разновременность замыкания контактов полюсов выключателя (только для выключателей с типом привода пофазный), с\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "ratedCurrent": {
+                        "expression": "//\"Номинальный ток, А\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "normalOpen": {
+                        "expression": "//\"Если присвоено значение Истина, нормальное состояние Отключено\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "breakingCapacity": {
+                        "expression": "//\"Номинальный ток отключения выключателя, А\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$",
+                "image": "/rawPrimitives/esLoadBreakSwitchOn/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortLow1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 1
+                        },
+                        "primitiveID": "esLoadBreakSwitchOn_2_ioPortLow1",
+                        "location": {
+                            "x": -3107.5,
+                            "y": -1447
+                        }
+                    },
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortTop2",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esLoadBreakSwitchOn_2_ioPortTop2",
+                        "location": {
+                            "x": -3107.5,
+                            "y": -1538
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -3153,
+                    "y": -1538,
+                    "height": 91,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esEngine_22",
+                "primitiveName": "esEngine",
+                "properties": {
+                    "power": {
+                        "type": "expression",
+                        "expression": "100",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": 100
+                    },
+                    "period": {
+                        "type": "expression",
+                        "expression": "//period,work,offset\n\"60,10,10\"",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": "60,10,10"
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$ $this.props.period$",
+                "image": "/rawPrimitives/esEngine/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "inoutPort1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esEngine_22_inoutPort1",
+                        "location": {
+                            "x": -1997,
+                            "y": -742
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -2042.5,
+                    "y": -742,
+                    "height": 76,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esLoadBreakSwitchOn_4",
+                "primitiveName": "esLoadBreakSwitchOn",
+                "properties": {
+                    "name": {
+                        "expression": "//\"Наименование объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "aliasName": {
+                        "expression": "//\"Дополнительное наименование идентифицируемого объекта\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "description": {
+                        "expression": "//\"Описание объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "normallylnService": {
+                        "expression": "//\"Нормальное состояние оборудования - в работе (если присвоено значение Истина)\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "isThreePhase\nEquipment": {
+                        "expression": "//\"Трехфазное исполнение оборудования (если присвоено значение Истина)\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "rf:differencelnTransit Time": {
+                        "expression": "//\"Разновременность замыкания контактов полюсов выключателя (только для выключателей с типом привода пофазный), с\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "ratedCurrent": {
+                        "expression": "//\"Номинальный ток, А\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "normalOpen": {
+                        "expression": "//\"Если присвоено значение Истина, нормальное состояние Отключено\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "breakingCapacity": {
+                        "expression": "//\"Номинальный ток отключения выключателя, А\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$",
+                "image": "/rawPrimitives/esLoadBreakSwitchOn/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortTop2",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esLoadBreakSwitchOn_4_ioPortTop2",
+                        "location": {
+                            "x": -3294.75,
+                            "y": -1538
+                        }
+                    },
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortLow1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 1
+                        },
+                        "primitiveID": "esLoadBreakSwitchOn_4_ioPortLow1",
+                        "location": {
+                            "x": -3294.75,
+                            "y": -1447
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -3340.25,
+                    "y": -1538,
+                    "height": 91,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esLoadBreakSwitchOn_3",
+                "primitiveName": "esLoadBreakSwitchOn",
+                "properties": {
+                    "name": {
+                        "expression": "//\"Наименование объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "aliasName": {
+                        "expression": "//\"Дополнительное наименование идентифицируемого объекта\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "description": {
+                        "expression": "//\"Описание объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "normallylnService": {
+                        "expression": "//\"Нормальное состояние оборудования - в работе (если присвоено значение Истина)\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "isThreePhase\nEquipment": {
+                        "expression": "//\"Трехфазное исполнение оборудования (если присвоено значение Истина)\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "rf:differencelnTransit Time": {
+                        "expression": "//\"Разновременность замыкания контактов полюсов выключателя (только для выключателей с типом привода пофазный), с\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "ratedCurrent": {
+                        "expression": "//\"Номинальный ток, А\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "normalOpen": {
+                        "expression": "//\"Если присвоено значение Истина, нормальное состояние Отключено\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "breakingCapacity": {
+                        "expression": "//\"Номинальный ток отключения выключателя, А\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$",
+                "image": "/rawPrimitives/esLoadBreakSwitchOn/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortTop2",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esLoadBreakSwitchOn_3_ioPortTop2",
+                        "location": {
+                            "x": -2354.5,
+                            "y": -1581
+                        }
+                    },
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortLow1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 1
+                        },
+                        "primitiveID": "esLoadBreakSwitchOn_3_ioPortLow1",
+                        "location": {
+                            "x": -2354.5,
+                            "y": -1490
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -2400,
+                    "y": -1581,
+                    "height": 91,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esTapConnector_841",
+                "primitiveName": "esTapConnector",
+                "properties": {
+                    "name": {
+                        "expression": "//\"Наименование объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "aliasName": {
+                        "expression": "this.name",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "description": {
+                        "expression": "//\"Описание объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "normallylnService": {
+                        "expression": "true",
+                        "type": "expression",
+                        "status": "complete",
+                        "input": {
+                            "component": "switch"
+                        },
+                        "value": true
+                    },
+                    "length": {
+                        "expression": "//\"Длина проводника, м\"\n2000",
+                        "type": "expression",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": 2000
+                    },
+                    "model": {
+                        "type": "expression",
+                        "expression": "'АС-120'",
+                        "status": "complete",
+                        "input": {
+                            "component": "select",
+                            "type": "const",
+                            "values": [
+                                "АС-120",
+                                "А-140"
+                            ]
+                        },
+                        "value": "АС-120"
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$",
+                "image": "/rawPrimitives/esTapConnector/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPort1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "primitiveID": "esTapConnector_841_ioPort1",
+                        "location": {
+                            "x": -2050,
+                            "y": -1204.625
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -2060.5,
+                    "y": -1215.125,
+                    "height": 21,
+                    "width": 21
+                }
+            },
+            {
+                "primitiveID": "esTapConnector_842",
+                "primitiveName": "esTapConnector",
+                "properties": {
+                    "name": {
+                        "expression": "//\"Наименование объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "aliasName": {
+                        "expression": "this.name",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "description": {
+                        "expression": "//\"Описание объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "normallylnService": {
+                        "expression": "true",
+                        "type": "expression",
+                        "status": "complete",
+                        "input": {
+                            "component": "switch"
+                        },
+                        "value": true
+                    },
+                    "length": {
+                        "expression": "//\"Длина проводника, м\"\n600",
+                        "type": "expression",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": 600
+                    },
+                    "model": {
+                        "type": "expression",
+                        "expression": "'АС-120'",
+                        "status": "complete",
+                        "input": {
+                            "component": "select",
+                            "type": "const",
+                            "values": [
+                                "АС-120",
+                                "А-140"
+                            ]
+                        },
+                        "value": "АС-120"
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$",
+                "image": "/rawPrimitives/esTapConnector/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPort1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "primitiveID": "esTapConnector_842_ioPort1",
+                        "location": {
+                            "x": -3380.5,
+                            "y": -1161.625
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -3391,
+                    "y": -1172.125,
+                    "height": 21,
+                    "width": 21
+                }
+            },
+            {
+                "primitiveID": "esEngine_23",
+                "primitiveName": "esEngine",
+                "properties": {
+                    "power": {
+                        "type": "expression",
+                        "expression": "100",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": 100
+                    },
+                    "period": {
+                        "type": "expression",
+                        "expression": "//period,work,offset\n\"30,3,10\"",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": "30,3,10"
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$ $this.props.period$",
+                "image": "/rawPrimitives/esEngine/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "inoutPort1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esEngine_23_inoutPort1",
+                        "location": {
+                            "x": -2403,
+                            "y": -785
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -2448.5,
+                    "y": -785,
+                    "height": 76,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esEngine_20",
+                "primitiveName": "esEngine",
+                "properties": {
+                    "power": {
+                        "type": "expression",
+                        "expression": "100",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": 100
+                    },
+                    "period": {
+                        "type": "expression",
+                        "expression": "//period,work,offset\n\"60,20,10\"",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": "60,20,10"
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$ $this.props.period$",
+                "image": "/rawPrimitives/esEngine/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "inoutPort1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esEngine_20_inoutPort1",
+                        "location": {
+                            "x": -2239,
+                            "y": -742
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -2284.5,
+                    "y": -742,
+                    "height": 76,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esEngine_15",
+                "primitiveName": "esEngine",
+                "properties": {
+                    "power": {
+                        "type": "expression",
+                        "expression": "100",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": 100
+                    },
+                    "period": {
+                        "type": "expression",
+                        "expression": "//period,work,offset\n\"60,20,10\"",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": "60,20,10"
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$ $this.props.period$",
+                "image": "/rawPrimitives/esEngine/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "inoutPort1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esEngine_15_inoutPort1",
+                        "location": {
+                            "x": -2992,
+                            "y": -699
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -3037.5,
+                    "y": -699,
+                    "height": 76,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esEngine_14",
+                "primitiveName": "esEngine",
+                "properties": {
+                    "power": {
+                        "type": "expression",
+                        "expression": "100",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": 100
+                    },
+                    "period": {
+                        "type": "expression",
+                        "expression": "//period,work,offset\n\"30,3,10\"",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": "30,3,10"
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$ $this.props.period$",
+                "image": "/rawPrimitives/esEngine/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "inoutPort1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esEngine_14_inoutPort1",
+                        "location": {
+                            "x": -3156,
+                            "y": -882.5
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -3201.5,
+                    "y": -882.5,
+                    "height": 76,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esPowerTransformer2Wind_3",
+                "primitiveName": "esPowerTransformer2Wind",
+                "properties": {
+                    "name": {
+                        "expression": "//\"Наименование объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "aliasName": {
+                        "expression": "//\"Дополнительное наименование идентифицируемого объекта\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "description": {
+                        "expression": "//\"Описание объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "normallylnService": {
+                        "expression": "//\"Нормальное состояние оборудования - в работе (если присвоено значение Истина)\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "isThreePhase\nEquipment": {
+                        "expression": "//\"Трехфазное исполнение оборудования (если присвоено значение Истина)\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "vectorGroup": {
+                        "expression": "//\"Группа соединения обмоток\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$",
+                "image": "/rawPrimitives/esPowerTransformer2Wind/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortTop2",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esPowerTransformer2Wind_3_ioPortTop2",
+                        "location": {
+                            "x": -2803,
+                            "y": -1092
+                        }
+                    },
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortLow1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 1
+                        },
+                        "primitiveID": "esPowerTransformer2Wind_3_ioPortLow1",
+                        "location": {
+                            "x": -2803,
+                            "y": -1001
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -2848.5,
+                    "y": -1092,
+                    "height": 91,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esEngine_7",
+                "primitiveName": "esEngine",
+                "properties": {
+                    "power": {
+                        "type": "expression",
+                        "expression": "100",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": 100
+                    },
+                    "period": {
+                        "type": "expression",
+                        "expression": "//period,work,offset\n\"60,20,10\"",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": "60,20,10"
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$ $this.props.period$",
+                "image": "/rawPrimitives/esEngine/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "inoutPort1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esEngine_7_inoutPort1",
+                        "location": {
+                            "x": -4229.5,
+                            "y": -699
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -4275,
+                    "y": -699,
+                    "height": 76,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esEngine_9",
+                "primitiveName": "esEngine",
+                "properties": {
+                    "power": {
+                        "type": "expression",
+                        "expression": "100",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": 100
+                    },
+                    "period": {
+                        "type": "expression",
+                        "expression": "//period,work,offset\n\"60,10,10\"",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": "60,10,10"
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$ $this.props.period$",
+                "image": "/rawPrimitives/esEngine/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "inoutPort1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esEngine_9_inoutPort1",
+                        "location": {
+                            "x": -3987.5,
+                            "y": -699
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -4033,
+                    "y": -699,
+                    "height": 76,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esEngine_17",
+                "primitiveName": "esEngine",
+                "properties": {
+                    "power": {
+                        "type": "expression",
+                        "expression": "100",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": 100
+                    },
+                    "period": {
+                        "type": "expression",
+                        "expression": "//period,work,offset\n\"60,10,10\"",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": "60,10,10"
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$ $this.props.period$",
+                "image": "/rawPrimitives/esEngine/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "inoutPort1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esEngine_17_inoutPort1",
+                        "location": {
+                            "x": -2750,
+                            "y": -699
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -2795.5,
+                    "y": -699,
+                    "height": 76,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esEngine_18",
+                "primitiveName": "esEngine",
+                "properties": {
+                    "power": {
+                        "type": "expression",
+                        "expression": "100",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": 100
+                    },
+                    "period": {
+                        "type": "expression",
+                        "expression": "//period,work,offset\n\"30,3,10\"",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": "30,3,10"
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$ $this.props.period$",
+                "image": "/rawPrimitives/esEngine/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "inoutPort1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esEngine_18_inoutPort1",
+                        "location": {
+                            "x": -3156,
+                            "y": -742
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -3201.5,
+                    "y": -742,
+                    "height": 76,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esTapConnector_839",
+                "primitiveName": "esTapConnector",
+                "properties": {
+                    "name": {
+                        "expression": "//\"Наименование объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "aliasName": {
+                        "expression": "this.name",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "description": {
+                        "expression": "//\"Описание объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "normallylnService": {
+                        "expression": "true",
+                        "type": "expression",
+                        "status": "complete",
+                        "input": {
+                            "component": "switch"
+                        },
+                        "value": true
+                    },
+                    "length": {
+                        "expression": "//\"Длина проводника, м\"\n2000",
+                        "type": "expression",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": 2000
+                    },
+                    "model": {
+                        "type": "expression",
+                        "expression": "'АС-120'",
+                        "status": "complete",
+                        "input": {
+                            "component": "select",
+                            "type": "const",
+                            "values": [
+                                "АС-120",
+                                "А-140"
+                            ]
+                        },
+                        "value": "АС-120"
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$",
+                "image": "/rawPrimitives/esTapConnector/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPort1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "primitiveID": "esTapConnector_839_ioPort1",
+                        "location": {
+                            "x": -2803,
+                            "y": -1161.625
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -2813.5,
+                    "y": -1172.125,
+                    "height": 21,
+                    "width": 21
+                }
+            },
+            {
+                "primitiveID": "esPowerTransformer2Wind_5",
+                "primitiveName": "esPowerTransformer2Wind",
+                "properties": {
+                    "name": {
+                        "expression": "//\"Наименование объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "aliasName": {
+                        "expression": "//\"Дополнительное наименование идентифицируемого объекта\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "description": {
+                        "expression": "//\"Описание объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "normallylnService": {
+                        "expression": "//\"Нормальное состояние оборудования - в работе (если присвоено значение Истина)\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "isThreePhase\nEquipment": {
+                        "expression": "//\"Трехфазное исполнение оборудования (если присвоено значение Истина)\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "vectorGroup": {
+                        "expression": "//\"Группа соединения обмоток\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$",
+                "image": "/rawPrimitives/esPowerTransformer2Wind/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortLow1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 1
+                        },
+                        "primitiveID": "esPowerTransformer2Wind_5_ioPortLow1",
+                        "location": {
+                            "x": -3198.5,
+                            "y": -1687.5
+                        }
+                    },
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortTop2",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esPowerTransformer2Wind_5_ioPortTop2",
+                        "location": {
+                            "x": -3198.5,
+                            "y": -1778.5
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -3244,
+                    "y": -1778.5,
+                    "height": 91,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esEngine_1",
+                "primitiveName": "esEngine",
+                "properties": {
+                    "power": {
+                        "type": "expression",
+                        "expression": "100",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": 100
+                    },
+                    "period": {
+                        "type": "expression",
+                        "expression": "//period,work,offset\n\"30,3,10\"",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": "30,3,10"
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$ $this.props.period$",
+                "image": "/rawPrimitives/esEngine/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "inoutPort1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esEngine_1_inoutPort1",
+                        "location": {
+                            "x": -4282,
+                            "y": -882.5
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -4327.5,
+                    "y": -882.5,
+                    "height": 76,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esEngine_19",
+                "primitiveName": "esEngine",
+                "properties": {
+                    "power": {
+                        "type": "expression",
+                        "expression": "100",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": 100
+                    },
+                    "period": {
+                        "type": "expression",
+                        "expression": "//period,work,offset\n\"30,3,10\"",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": "30,3,10"
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$ $this.props.period$",
+                "image": "/rawPrimitives/esEngine/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "inoutPort1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esEngine_19_inoutPort1",
+                        "location": {
+                            "x": -3156,
+                            "y": -601.5
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -3201.5,
+                    "y": -601.5,
+                    "height": 76,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esEngine_13",
+                "primitiveName": "esEngine",
+                "properties": {
+                    "power": {
+                        "type": "expression",
+                        "expression": "100",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": 100
+                    },
+                    "period": {
+                        "type": "expression",
+                        "expression": "//period,work,offset\n\"60,10,10\"",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": "60,10,10"
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$ $this.props.period$",
+                "image": "/rawPrimitives/esEngine/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "inoutPort1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esEngine_13_inoutPort1",
+                        "location": {
+                            "x": -3410,
+                            "y": -699
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -3455.5,
+                    "y": -699,
+                    "height": 76,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esEngine_10",
+                "primitiveName": "esEngine",
+                "properties": {
+                    "power": {
+                        "type": "expression",
+                        "expression": "100",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": 100
+                    },
+                    "period": {
+                        "type": "expression",
+                        "expression": "//period,work,offset\n\"30,3,10\"",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": "30,3,10"
+                    },
+                    "max_power": {
+                        "type": "expression",
+                        "expression": "this.power * 10",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": 1000
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$ $this.props.period$",
+                "image": "/rawPrimitives/esEngine/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "inoutPort1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esEngine_10_inoutPort1",
+                        "location": {
+                            "x": -3704.5,
+                            "y": -882.5
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -3750,
+                    "y": -882.5,
+                    "height": 76,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esEngine_16",
+                "primitiveName": "esEngine",
+                "properties": {
+                    "power": {
+                        "type": "expression",
+                        "expression": "100",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": 100
+                    },
+                    "period": {
+                        "type": "expression",
+                        "expression": "//period,work,offset\n\"60,30,10\"",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": "60,30,10"
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$ $this.props.period$",
+                "image": "/rawPrimitives/esEngine/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "inoutPort1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esEngine_16_inoutPort1",
+                        "location": {
+                            "x": -2871,
+                            "y": -699
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -2916.5,
+                    "y": -699,
+                    "height": 76,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esEngine_8",
+                "primitiveName": "esEngine",
+                "properties": {
+                    "power": {
+                        "type": "expression",
+                        "expression": "100",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": 100
+                    },
+                    "period": {
+                        "type": "expression",
+                        "expression": "//period,work,offset\n\"60,30,10\"",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": "60,30,10"
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$ $this.props.period$",
+                "image": "/rawPrimitives/esEngine/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "inoutPort1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esEngine_8_inoutPort1",
+                        "location": {
+                            "x": -4108.5,
+                            "y": -699
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -4154,
+                    "y": -699,
+                    "height": 76,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esEngine_11",
+                "primitiveName": "esEngine",
+                "properties": {
+                    "power": {
+                        "type": "expression",
+                        "expression": "100",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": 100
+                    },
+                    "period": {
+                        "type": "expression",
+                        "expression": "//period,work,offset\n\"60,20,10\"",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": "60,20,10"
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$ $this.props.period$",
+                "image": "/rawPrimitives/esEngine/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "inoutPort1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esEngine_11_inoutPort1",
+                        "location": {
+                            "x": -3652,
+                            "y": -699
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -3697.5,
+                    "y": -699,
+                    "height": 76,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esEngine_12",
+                "primitiveName": "esEngine",
+                "properties": {
+                    "power": {
+                        "type": "expression",
+                        "expression": "100",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": 100
+                    },
+                    "period": {
+                        "type": "expression",
+                        "expression": "//period,work,offset\n\"60,30,10\"",
+                        "status": "complete",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "value": "60,30,10"
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$ $this.props.period$",
+                "image": "/rawPrimitives/esEngine/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "inoutPort1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esEngine_12_inoutPort1",
+                        "location": {
+                            "x": -3531,
+                            "y": -699
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -3576.5,
+                    "y": -699,
+                    "height": 76,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esPowerTransformer2Wind_1",
+                "primitiveName": "esPowerTransformer2Wind",
+                "properties": {
+                    "name": {
+                        "expression": "//\"Наименование объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "aliasName": {
+                        "expression": "//\"Дополнительное наименование идентифицируемого объекта\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "description": {
+                        "expression": "//\"Описание объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "normallylnService": {
+                        "expression": "//\"Нормальное состояние оборудования - в работе (если присвоено значение Истина)\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "isThreePhase\nEquipment": {
+                        "expression": "//\"Трехфазное исполнение оборудования (если присвоено значение Истина)\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "vectorGroup": {
+                        "expression": "//\"Группа соединения обмоток\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$",
+                "image": "/rawPrimitives/esPowerTransformer2Wind/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortTop2",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esPowerTransformer2Wind_1_ioPortTop2",
+                        "location": {
+                            "x": -3958,
+                            "y": -1092
+                        }
+                    },
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortLow1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 1
+                        },
+                        "primitiveID": "esPowerTransformer2Wind_1_ioPortLow1",
+                        "location": {
+                            "x": -3958,
+                            "y": -1001
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -4003.5,
+                    "y": -1092,
+                    "height": 91,
+                    "width": 91
+                }
+            },
+            {
+                "primitiveID": "esPowerTransformer2Wind_2",
+                "primitiveName": "esPowerTransformer2Wind",
+                "properties": {
+                    "name": {
+                        "expression": "//\"Наименование объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "aliasName": {
+                        "expression": "//\"Дополнительное наименование идентифицируемого объекта\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "description": {
+                        "expression": "//\"Описание объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "normallylnService": {
+                        "expression": "//\"Нормальное состояние оборудования - в работе (если присвоено значение Истина)\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "isThreePhase\nEquipment": {
+                        "expression": "//\"Трехфазное исполнение оборудования (если присвоено значение Истина)\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    },
+                    "vectorGroup": {
+                        "expression": "//\"Группа соединения обмоток\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": " "
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$",
+                "image": "/rawPrimitives/esPowerTransformer2Wind/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortLow1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 1
+                        },
+                        "primitiveID": "esPowerTransformer2Wind_2_ioPortLow1",
+                        "location": {
+                            "x": -3380.5,
+                            "y": -1001
+                        }
+                    },
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortTop2",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esPowerTransformer2Wind_2_ioPortTop2",
+                        "location": {
+                            "x": -3380.5,
+                            "y": -1092
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -3426,
+                    "y": -1092,
+                    "height": 91,
+                    "width": 91
+                }
+            }
+        ],
+        "edges": [
+            {
+                "bends": [],
+                "sourceNode": "esEngine_25",
+                "sourcePort": "esEngine_25_inoutPort1",
+                "targetNode": "esPowerTransformer2Wind_6",
+                "targetPort": "esPowerTransformer2Wind_6_ioPortLow1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esEngine_21",
+                "sourcePort": "esEngine_21_inoutPort1",
+                "targetNode": "esPowerTransformer2Wind_6",
+                "targetPort": "esPowerTransformer2Wind_6_ioPortLow1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esPowerTransformer2Wind_6",
+                "sourcePort": "esPowerTransformer2Wind_6_ioPortTop2",
+                "targetNode": "esTapConnector_841",
+                "targetPort": "esTapConnector_841_ioPort1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esTapConnector_843",
+                "sourcePort": "esTapConnector_843_ioPort1",
+                "targetNode": "esLoadBreakSwitchOn_4",
+                "targetPort": "esLoadBreakSwitchOn_4_ioPortLow1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esEngine_24",
+                "sourcePort": "esEngine_24_inoutPort1",
+                "targetNode": "esPowerTransformer2Wind_6",
+                "targetPort": "esPowerTransformer2Wind_6_ioPortLow1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esLoadBreakSwitchOn_2",
+                "sourcePort": "esLoadBreakSwitchOn_2_ioPortTop2",
+                "targetNode": "esPowerTransformer2Wind_5",
+                "targetPort": "esPowerTransformer2Wind_5_ioPortLow1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esEngine_22",
+                "sourcePort": "esEngine_22_inoutPort1",
+                "targetNode": "esPowerTransformer2Wind_6",
+                "targetPort": "esPowerTransformer2Wind_6_ioPortLow1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esLoadBreakSwitchOn_4",
+                "sourcePort": "esLoadBreakSwitchOn_4_ioPortTop2",
+                "targetNode": "esPowerTransformer2Wind_5",
+                "targetPort": "esPowerTransformer2Wind_5_ioPortLow1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esLoadBreakSwitchOn_3",
+                "sourcePort": "esLoadBreakSwitchOn_3_ioPortTop2",
+                "targetNode": "esPowerTransformer2Wind_7",
+                "targetPort": "esPowerTransformer2Wind_7_ioPortLow1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esTapConnector_841",
+                "sourcePort": "esTapConnector_841_ioPort1",
+                "targetNode": "esLoadBreakSwitchOn_3",
+                "targetPort": "esLoadBreakSwitchOn_3_ioPortLow1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esTapConnector_842",
+                "sourcePort": "esTapConnector_842_ioPort1",
+                "targetNode": "esLoadBreakSwitchOn_4",
+                "targetPort": "esLoadBreakSwitchOn_4_ioPortLow1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esEngine_23",
+                "sourcePort": "esEngine_23_inoutPort1",
+                "targetNode": "esPowerTransformer2Wind_6",
+                "targetPort": "esPowerTransformer2Wind_6_ioPortLow1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esEngine_20",
+                "sourcePort": "esEngine_20_inoutPort1",
+                "targetNode": "esPowerTransformer2Wind_6",
+                "targetPort": "esPowerTransformer2Wind_6_ioPortLow1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esEngine_15",
+                "sourcePort": "esEngine_15_inoutPort1",
+                "targetNode": "esPowerTransformer2Wind_3",
+                "targetPort": "esPowerTransformer2Wind_3_ioPortLow1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esEngine_14",
+                "sourcePort": "esEngine_14_inoutPort1",
+                "targetNode": "esPowerTransformer2Wind_3",
+                "targetPort": "esPowerTransformer2Wind_3_ioPortLow1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esPowerTransformer2Wind_3",
+                "sourcePort": "esPowerTransformer2Wind_3_ioPortTop2",
+                "targetNode": "esTapConnector_839",
+                "targetPort": "esTapConnector_839_ioPort1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esEngine_7",
+                "sourcePort": "esEngine_7_inoutPort1",
+                "targetNode": "esPowerTransformer2Wind_1",
+                "targetPort": "esPowerTransformer2Wind_1_ioPortLow1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esEngine_9",
+                "sourcePort": "esEngine_9_inoutPort1",
+                "targetNode": "esPowerTransformer2Wind_1",
+                "targetPort": "esPowerTransformer2Wind_1_ioPortLow1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esEngine_17",
+                "sourcePort": "esEngine_17_inoutPort1",
+                "targetNode": "esPowerTransformer2Wind_3",
+                "targetPort": "esPowerTransformer2Wind_3_ioPortLow1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esEngine_18",
+                "sourcePort": "esEngine_18_inoutPort1",
+                "targetNode": "esPowerTransformer2Wind_3",
+                "targetPort": "esPowerTransformer2Wind_3_ioPortLow1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esTapConnector_839",
+                "sourcePort": "esTapConnector_839_ioPort1",
+                "targetNode": "esLoadBreakSwitchOn_2",
+                "targetPort": "esLoadBreakSwitchOn_2_ioPortLow1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esEngine_1",
+                "sourcePort": "esEngine_1_inoutPort1",
+                "targetNode": "esPowerTransformer2Wind_1",
+                "targetPort": "esPowerTransformer2Wind_1_ioPortLow1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esEngine_19",
+                "sourcePort": "esEngine_19_inoutPort1",
+                "targetNode": "esPowerTransformer2Wind_3",
+                "targetPort": "esPowerTransformer2Wind_3_ioPortLow1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esEngine_13",
+                "sourcePort": "esEngine_13_inoutPort1",
+                "targetNode": "esPowerTransformer2Wind_2",
+                "targetPort": "esPowerTransformer2Wind_2_ioPortLow1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esEngine_10",
+                "sourcePort": "esEngine_10_inoutPort1",
+                "targetNode": "esPowerTransformer2Wind_2",
+                "targetPort": "esPowerTransformer2Wind_2_ioPortLow1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esEngine_16",
+                "sourcePort": "esEngine_16_inoutPort1",
+                "targetNode": "esPowerTransformer2Wind_3",
+                "targetPort": "esPowerTransformer2Wind_3_ioPortLow1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esEngine_8",
+                "sourcePort": "esEngine_8_inoutPort1",
+                "targetNode": "esPowerTransformer2Wind_1",
+                "targetPort": "esPowerTransformer2Wind_1_ioPortLow1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esEngine_11",
+                "sourcePort": "esEngine_11_inoutPort1",
+                "targetNode": "esPowerTransformer2Wind_2",
+                "targetPort": "esPowerTransformer2Wind_2_ioPortLow1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esEngine_12",
+                "sourcePort": "esEngine_12_inoutPort1",
+                "targetNode": "esPowerTransformer2Wind_2",
+                "targetPort": "esPowerTransformer2Wind_2_ioPortLow1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esPowerTransformer2Wind_1",
+                "sourcePort": "esPowerTransformer2Wind_1_ioPortTop2",
+                "targetNode": "esTapConnector_843",
+                "targetPort": "esTapConnector_843_ioPort1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esPowerTransformer2Wind_2",
+                "sourcePort": "esPowerTransformer2Wind_2_ioPortTop2",
+                "targetNode": "esTapConnector_842",
+                "targetPort": "esTapConnector_842_ioPort1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esPowerTransformer2Wind_5",
+                "sourcePort": "esPowerTransformer2Wind_5_ioPortLow1",
+                "targetNode": "esPowerTransformer2Wind_8",
+                "targetPort": "esPowerTransformer2Wind_8_ioPortLow1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            },
+            {
+                "bends": [],
+                "sourceNode": "esPowerTransformer2Wind_7",
+                "sourcePort": "esPowerTransformer2Wind_7_ioPortTop2",
+                "targetNode": "esPowerTransformer2Wind_8",
+                "targetPort": "esPowerTransformer2Wind_8_ioPortLow1",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            }
+        ],
+        "groups": []
+    }
+}

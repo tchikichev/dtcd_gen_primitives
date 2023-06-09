@@ -1,0 +1,182 @@
+{
+    "primitiveID": "oil_well_9067",
+    "primitiveName": "oil_well",
+    "properties": {
+        "object_type": {
+            "type": "expression",
+            "expression": "\"well\"",
+            "status": "complete",
+            "value": "well"
+        },
+        "T": {
+            "type": "expression",
+            "expression": "60",
+            "status": "complete",
+            "value": 60
+        },
+        "P": {
+            "type": "expression",
+            "expression": "this.query_res.startP",
+            "status": "complete",
+            "input": {
+                "component": "textarea"
+            },
+            "value": 12.030313654053915
+        },
+        "Q_m3_day": {
+            "type": "expression",
+            "expression": "this.query_res.start_Q_m3_day",
+            "status": "complete",
+            "input": {
+                "component": "textarea"
+            },
+            "value": 152.95588271517917
+        },
+        "query_res": {
+            "type": "expression",
+            "expression": "let id = this.node_id;\n\nlet otl_node = graph.nodes.find(node => node.tag.primitiveName === \"oil_dns\");\n\nlet val = otl_node.tag.properties.res_vals.value.find(row => row.node_id_start === this.node_id);\nconsole.log(\"otl_node\", otl_node);\nval",
+            "status": "complete",
+            "value": {
+                "node_id_start": 1513,
+                "node_id_end": 1750026636,
+                "startP": 12.030313654053915,
+                "startT": 20,
+                "start_Q_m3_day": 152.95588271517917
+            },
+            "input": {
+                "component": "textarea"
+            }
+        },
+        "Name": {
+            "type": "expression",
+            "expression": "\"к.45__скв.1513\"",
+            "status": "complete",
+            "value": "к.45__скв.1513"
+        },
+        "node_name": {
+            "type": "expression",
+            "expression": "\"к.45__скв.1513\"",
+            "status": "complete",
+            "value": "к.45__скв.1513"
+        },
+        "node_id": {
+            "type": "expression",
+            "expression": "1513",
+            "status": "complete",
+            "value": 1513
+        },
+        "X": {
+            "type": "expression",
+            "expression": "",
+            "status": "complete",
+            "value": ""
+        },
+        "Y": {
+            "type": "expression",
+            "expression": "",
+            "status": "complete",
+            "value": ""
+        },
+        "Kind": {
+            "type": "expression",
+            "expression": "\"Q\"",
+            "status": "complete",
+            "value": "Q"
+        },
+        "Value": {
+            "type": "expression",
+            "expression": "1.781330833",
+            "status": "complete",
+            "value": 1.781330833
+        },
+        "IsSource": {
+            "type": "expression",
+            "expression": "true",
+            "status": "complete",
+            "value": true
+        },
+        "VolumeWater": {
+            "type": "expression",
+            "expression": "95.2",
+            "status": "complete",
+            "value": 95.2
+        },
+        "perforation": {
+            "type": "expression",
+            "expression": "3223.0",
+            "status": "complete",
+            "value": 3223
+        },
+        "pumpDepth": {
+            "type": "expression",
+            "expression": "1573.0",
+            "status": "complete",
+            "value": 1573
+        },
+        "model": {
+            "type": "expression",
+            "expression": "\"ЭЦН5А-160-1700\"",
+            "status": "complete",
+            "value": "ЭЦН5А-160-1700"
+        },
+        "frequency": {
+            "type": "expression",
+            "expression": "50.0",
+            "status": "complete",
+            "value": 50
+        },
+        "productivity": {
+            "type": "expression",
+            "expression": "2.089770738",
+            "status": "complete",
+            "value": 2.089770738
+        },
+        "predict_mode": {
+            "type": "expression",
+            "expression": "\"const\"",
+            "status": "complete",
+            "value": "const"
+        },
+        "shtr_debit": {
+            "type": "expression",
+            "expression": "153.0",
+            "status": "complete",
+            "value": 153
+        },
+        "K_pump": {
+            "type": "expression",
+            "expression": "1.0",
+            "status": "complete",
+            "value": 1
+        }
+    },
+    "nodeTitle": "Скважина $this.props.Name$",
+    "image": "/rawPrimitives/oil_well/icon.svg",
+    "initPorts": [
+        {
+            "primitiveName": "outPort1",
+            "type": [
+                "OUT"
+            ],
+            "properties": {
+                "status": {
+                    "expression": "",
+                    "type": "expression",
+                    "status": "complete",
+                    "value": ""
+                }
+            },
+            "primitiveID": "oil_well_9067_outPort1",
+            "location": {
+                "x": 808,
+                "y": 147.625
+            }
+        }
+    ],
+    "layout": {
+        "x": 768,
+        "y": 0.375,
+        "height": 147.25,
+        "width": 80
+    }
+}

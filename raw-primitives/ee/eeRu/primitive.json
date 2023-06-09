@@ -1,0 +1,72 @@
+{
+    "title": "eePad",
+    "layout": {
+        "heigth": 91,
+        "width": 91
+    },
+    "image": "icon.svg",
+    "properties": {
+        "Name": {
+            "expression": "",
+            "type": "expression"
+        },
+        "description": {
+            "expression": "",
+            "type": "expression"
+        },
+        "model": {
+            "expression": "",
+            "type": "expression"
+        },
+        "zagruzka": {
+            "expression": "",
+            "type": "expression"
+        },
+        "current": {
+            "expression": "",
+            "type": "expression"
+        },
+        "kV_in": {
+            "expression": "",
+            "type": "expression"
+        },
+        "kV_out": {
+            "expression": "",
+            "type": "expression"
+        },
+        "power": {
+            "expression": "",
+            "type": "expression"
+        },
+        "normallylnService": {
+            "expression": "",
+            "type": "expression"
+        },
+        "measured_kWh": {
+            "expression": "",
+            "type": "expression"
+        },
+        "model_kWh": {
+            "expression": "",
+            "type": "expression"
+        }
+    },
+    "ports": [
+        {
+            "name": "inPort1",
+            "type": "IN",
+            "position": {
+                "x": 0.5,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "outPort1",
+            "type": "OUT",
+            "position": {
+                "x": 0.5,
+                "y": 1.0
+            }
+        }
+    ]
+}

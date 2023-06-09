@@ -1,0 +1,1 @@
+{"title": "Воздушная линия 750 кВ", "layout": {"heigth": 91, "width": 91}, "image": "icon.svg", "properties": {}, "ports": [{"name": "ioPortLeft", "type": ["IN", "OUT"], "position": {"x": 0.0, "y": 0.5}}, {"name": "ioPortRight", "type": ["IN", "OUT"], "position": {"x": 1.0, "y": 0.5}}]}

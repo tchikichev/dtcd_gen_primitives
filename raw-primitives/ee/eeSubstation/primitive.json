@@ -1,0 +1,86 @@
+{
+    "title": "Трансформатор напряжения 2-х обмоточный",
+    "layout": {
+        "heigth": 91,
+        "width": 91
+    },
+    "image": "icon.svg",
+    "properties": {
+        "aliasName": {
+            "expression": "",
+            "type": "expression"
+        },
+        "description": {
+            "expression": "",
+            "type": "expression"
+        },
+        "normallylnService": {
+            "expression": "",
+            "type": "expression"
+        },
+        "model": {
+            "expression": "",
+            "type": "expression"
+        },
+        "Name": {
+            "type": "expression",
+            "expression": "",
+            "status": "completed",
+            "value": ""
+        },
+        "zagruzka": {
+            "type": "expression",
+            "expression": "",
+            "status": "completed",
+            "value": ""
+        },
+        "current": {
+            "type": "expression",
+            "expression": "",
+            "status": "completed",
+            "value": ""
+        },
+        "kV_in": {
+            "type": "expression",
+            "expression": "",
+            "status": "completed",
+            "value": ""
+        },
+        "kV_out": {
+            "type": "expression",
+            "expression": "",
+            "status": "completed",
+            "value": ""
+        },
+        "power": {
+            "type": "expression",
+            "expression": "",
+            "status": "completed",
+            "value": ""
+        }
+    },
+    "ports": [
+        {
+            "name": "ioPortLow",
+            "type": [
+                "IN",
+                "OUT"
+            ],
+            "position": {
+                "x": 0.5,
+                "y": 1.0
+            }
+        },
+        {
+            "name": "ioPortTop",
+            "type": [
+                "IN",
+                "OUT"
+            ],
+            "position": {
+                "x": 0.5,
+                "y": 0.0
+            }
+        }
+    ]
+}

@@ -1,0 +1,123 @@
+{
+    "primitiveID": "oil_pipe_3824",
+    "primitiveName": "oil_pipe",
+    "properties": {
+        "watercut_percent": {
+            "type": "expression",
+            "expression": "this.query_res[0].res_watercut_percent\n",
+            "status": "complete",
+            "value": 91,
+            "input": {
+                "component": "textarea"
+            }
+        },
+        "liquid_density_kg_m3": {
+            "type": "expression",
+            "expression": "this.query_res[0].res_liquid_density_kg_m3\n",
+            "status": "complete",
+            "value": 998.3822533007843,
+            "input": {
+                "component": "textarea"
+            }
+        },
+        "pump_power_watt": {
+            "type": "expression",
+            "expression": "this.query_res[0].res_pump_power_watt\n",
+            "status": "complete",
+            "value": "",
+            "input": {
+                "component": "textarea"
+            }
+        },
+        "X_kg_sec": {
+            "type": "expression",
+            "expression": "this.query_res[0].X_kg_sec\n",
+            "status": "complete",
+            "value": 0.3450972222,
+            "input": {
+                "component": "textarea"
+            }
+        },
+        "velocity_m_sec": {
+            "type": "expression",
+            "expression": "this.query_res[0].velocity_m_sec\n",
+            "status": "complete",
+            "value": 0.013141730521152783,
+            "input": {
+                "component": "textarea"
+            }
+        },
+        "query_res": {
+            "type": "datasource",
+            "expression": {
+                "type": "OTL",
+                "tws": 1674157330,
+                "twf": 1674157330,
+                "cache_ttl": 60,
+                "original_otl": "| inputlookup demo_3_corr_ids_dns3_all_wells_Q_fixed.csv\n| fields node_id_start, node_id_end, res_watercut_percent, res_liquid_density_kg_m3, res_pump_power_watt, X_kg_sec, velocity_m_sec\n| where node_id_start = 6001 AND node_id_end = 1751054627"
+            },
+            "status": "complete",
+            "value": [
+                {
+                    "node_id_start": 6001,
+                    "node_id_end": 1751054627,
+                    "res_watercut_percent": 91,
+                    "res_liquid_density_kg_m3": 998.3822533007843,
+                    "X_kg_sec": 0.3450972222,
+                    "velocity_m_sec": 0.013141730521152783
+                }
+            ],
+            "input": {
+                "component": "textarea"
+            }
+        }
+    },
+    "nodeTitle": "Труба: $this.props.Name$",
+    "image": "/rawPrimitives/oil_pipe/icon.svg",
+    "initPorts": [
+        {
+            "primitiveName": "inPort1",
+            "type": [
+                "IN"
+            ],
+            "properties": {
+                "status": {
+                    "expression": "let portOwner = graph.ports.find(port => port.tag.primitiveID === primitiveID).owner;\nlet inEdges = graph.inEdgesAt(portOwner).filter(edge => edge.targetPort.tag.primitiveID === primitiveID).toArray()\nif (inEdges.length < 1) ''\nelse {\neval(inEdges[0].sourcePort.tag.primitiveID).status\n}",
+                    "type": "expression",
+                    "status": "complete",
+                    "value": ""
+                }
+            },
+            "primitiveID": "oil_pipe_3824_inPort1",
+            "location": {
+                "x": 6872.984999999986,
+                "y": -6700.030000000261
+            }
+        },
+        {
+            "primitiveName": "outPort2",
+            "type": [
+                "OUT"
+            ],
+            "properties": {
+                "status": {
+                    "expression": "",
+                    "type": "expression",
+                    "status": "complete",
+                    "value": ""
+                }
+            },
+            "primitiveID": "oil_pipe_3824_outPort2",
+            "location": {
+                "x": 6872.984999999986,
+                "y": -6780.030000000261
+            }
+        }
+    ],
+    "layout": {
+        "x": 6832.984999999986,
+        "y": -6780.030000000261,
+        "height": 80,
+        "width": 80
+    }
+}

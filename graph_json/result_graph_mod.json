@@ -1,0 +1,1709 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "title": "eeSubstation",
+                "layout": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "heigth": 91,
+                    "width": 91
+                },
+                "image": "icon.svg",
+                "properties": {
+                    "description": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "normallylnService": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "model": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "Name": {
+                        "expression": "Абазаров",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "object_type": {
+                        "expression": "ПС 35/6 кВ",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "zagruzka": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "current": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "kV_in": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "kV_out": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "power": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    }
+                },
+                "initPorts": [
+                    {
+                        "primitiveName": "inPort1",
+                        "type": "IN",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeSubstation_1_inPort1",
+                        "location": {
+                            "x": 0.0,
+                            "y": 0.5
+                        }
+                    },
+                    {
+                        "primitiveName": "outPort1",
+                        "type": "OUT",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeSubstation_1_outPort1",
+                        "location": {
+                            "x": 1.0,
+                            "y": 0.5
+                        }
+                    }
+                ],
+                "primitiveName": "eeSubstation",
+                "primitiveID": "eeSubstation_1",
+                "nodeTitle": "$this.props.Name$"
+            },
+            {
+                "title": "eeSubstation",
+                "layout": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "heigth": 91,
+                    "width": 91
+                },
+                "image": "icon.svg",
+                "properties": {
+                    "description": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "normallylnService": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "model": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "Name": {
+                        "expression": "Рынковой",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "object_type": {
+                        "expression": "ПС 35/6 кВ",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "zagruzka": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "current": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "kV_in": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "kV_out": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "power": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    }
+                },
+                "initPorts": [
+                    {
+                        "primitiveName": "inPort1",
+                        "type": "IN",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeSubstation_2_inPort1",
+                        "location": {
+                            "x": 0.0,
+                            "y": 0.5
+                        }
+                    },
+                    {
+                        "primitiveName": "outPort1",
+                        "type": "OUT",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeSubstation_2_outPort1",
+                        "location": {
+                            "x": 1.0,
+                            "y": 0.5
+                        }
+                    }
+                ],
+                "primitiveName": "eeSubstation",
+                "primitiveID": "eeSubstation_2",
+                "nodeTitle": "$this.props.Name$"
+            },
+            {
+                "title": "eeRu",
+                "layout": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "heigth": 91,
+                    "width": 91
+                },
+                "image": "icon.svg",
+                "properties": {
+                    "Name": {
+                        "expression": "ЭЦ ГПЭС-1",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "object_type": {
+                        "expression": "РУ 6 кВ",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "description": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "model": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "zagruzka": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "current": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "kV_in": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "kV_out": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "power": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "normallylnService": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "measured_kWh": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "model_kWh": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    }
+                },
+                "initPorts": [
+                    {
+                        "primitiveName": "inPort1",
+                        "type": "IN",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeRu_1_inPort1",
+                        "location": {
+                            "x": 0.0,
+                            "y": 0.5
+                        }
+                    },
+                    {
+                        "primitiveName": "outPort1",
+                        "type": "OUT",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeRu_1_outPort1",
+                        "location": {
+                            "x": 1.0,
+                            "y": 0.5
+                        }
+                    }
+                ],
+                "primitiveName": "eeRu",
+                "primitiveID": "eeRu_1",
+                "nodeTitle": "$this.props.Name$"
+            },
+            {
+                "title": "eeSubstation",
+                "layout": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "heigth": 91,
+                    "width": 91
+                },
+                "image": "icon.svg",
+                "properties": {
+                    "description": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "normallylnService": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "model": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "Name": {
+                        "expression": "Кузьмин",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "object_type": {
+                        "expression": "ПС 35/6 кВ",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "zagruzka": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "current": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "kV_in": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "kV_out": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "power": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    }
+                },
+                "initPorts": [
+                    {
+                        "primitiveName": "inPort1",
+                        "type": "IN",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeSubstation_3_inPort1",
+                        "location": {
+                            "x": 0.0,
+                            "y": 0.5
+                        }
+                    },
+                    {
+                        "primitiveName": "outPort1",
+                        "type": "OUT",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeSubstation_3_outPort1",
+                        "location": {
+                            "x": 1.0,
+                            "y": 0.5
+                        }
+                    }
+                ],
+                "primitiveName": "eeSubstation",
+                "primitiveID": "eeSubstation_3",
+                "nodeTitle": "$this.props.Name$"
+            },
+            {
+                "title": "eeSubstation",
+                "layout": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "heigth": 91,
+                    "width": 91
+                },
+                "image": "icon.svg",
+                "properties": {
+                    "description": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "normallylnService": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "model": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "Name": {
+                        "expression": "Абазаров",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "object_type": {
+                        "expression": "ПС 35/6 кВ",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "zagruzka": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "current": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "kV_in": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "kV_out": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "power": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    }
+                },
+                "initPorts": [
+                    {
+                        "primitiveName": "inPort1",
+                        "type": "IN",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeSubstation_4_inPort1",
+                        "location": {
+                            "x": 0.0,
+                            "y": 0.5
+                        }
+                    },
+                    {
+                        "primitiveName": "outPort1",
+                        "type": "OUT",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeSubstation_4_outPort1",
+                        "location": {
+                            "x": 1.0,
+                            "y": 0.5
+                        }
+                    }
+                ],
+                "primitiveName": "eeSubstation",
+                "primitiveID": "eeSubstation_4",
+                "nodeTitle": "$this.props.Name$"
+            },
+            {
+                "title": "eeSubstation",
+                "layout": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "heigth": 91,
+                    "width": 91
+                },
+                "image": "icon.svg",
+                "properties": {
+                    "description": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "normallylnService": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "model": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "Name": {
+                        "expression": "Кузьмин",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "object_type": {
+                        "expression": "ПС 35/6 кВ",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "zagruzka": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "current": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "kV_in": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "kV_out": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "power": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    }
+                },
+                "initPorts": [
+                    {
+                        "primitiveName": "inPort1",
+                        "type": "IN",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeSubstation_5_inPort1",
+                        "location": {
+                            "x": 0.0,
+                            "y": 0.5
+                        }
+                    },
+                    {
+                        "primitiveName": "outPort1",
+                        "type": "OUT",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeSubstation_5_outPort1",
+                        "location": {
+                            "x": 1.0,
+                            "y": 0.5
+                        }
+                    }
+                ],
+                "primitiveName": "eeSubstation",
+                "primitiveID": "eeSubstation_5",
+                "nodeTitle": "$this.props.Name$"
+            },
+            {
+                "title": "eeRu",
+                "layout": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "heigth": 91,
+                    "width": 91
+                },
+                "image": "icon.svg",
+                "properties": {
+                    "Name": {
+                        "expression": "ДНС-1",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "object_type": {
+                        "expression": "РУ 6 кВ",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "description": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "model": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "zagruzka": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "current": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "kV_in": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "kV_out": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "power": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "normallylnService": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "measured_kWh": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "model_kWh": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    }
+                },
+                "initPorts": [
+                    {
+                        "primitiveName": "inPort1",
+                        "type": "IN",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeRu_2_inPort1",
+                        "location": {
+                            "x": 0.0,
+                            "y": 0.5
+                        }
+                    },
+                    {
+                        "primitiveName": "outPort1",
+                        "type": "OUT",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeRu_2_outPort1",
+                        "location": {
+                            "x": 1.0,
+                            "y": 0.5
+                        }
+                    }
+                ],
+                "primitiveName": "eeRu",
+                "primitiveID": "eeRu_2",
+                "nodeTitle": "$this.props.Name$"
+            },
+            {
+                "title": "eeSubstation",
+                "layout": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "heigth": 91,
+                    "width": 91
+                },
+                "image": "icon.svg",
+                "properties": {
+                    "description": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "normallylnService": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "model": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "Name": {
+                        "expression": "Рынковой",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "object_type": {
+                        "expression": "ПС 35/6 кВ",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "zagruzka": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "current": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "kV_in": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "kV_out": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "power": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    }
+                },
+                "initPorts": [
+                    {
+                        "primitiveName": "inPort1",
+                        "type": "IN",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeSubstation_6_inPort1",
+                        "location": {
+                            "x": 0.0,
+                            "y": 0.5
+                        }
+                    },
+                    {
+                        "primitiveName": "outPort1",
+                        "type": "OUT",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeSubstation_6_outPort1",
+                        "location": {
+                            "x": 1.0,
+                            "y": 0.5
+                        }
+                    }
+                ],
+                "primitiveName": "eeSubstation",
+                "primitiveID": "eeSubstation_6",
+                "nodeTitle": "$this.props.Name$"
+            },
+            {
+                "title": "eeSubstation",
+                "layout": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "heigth": 91,
+                    "width": 91
+                },
+                "image": "icon.svg",
+                "properties": {
+                    "description": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "normallylnService": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "model": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "Name": {
+                        "expression": "Салманов",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "object_type": {
+                        "expression": "ПС 35/6 кВ",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "zagruzka": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "current": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "kV_in": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "kV_out": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "power": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    }
+                },
+                "initPorts": [
+                    {
+                        "primitiveName": "inPort1",
+                        "type": "IN",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeSubstation_7_inPort1",
+                        "location": {
+                            "x": 0.0,
+                            "y": 0.5
+                        }
+                    },
+                    {
+                        "primitiveName": "outPort1",
+                        "type": "OUT",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeSubstation_7_outPort1",
+                        "location": {
+                            "x": 1.0,
+                            "y": 0.5
+                        }
+                    }
+                ],
+                "primitiveName": "eeSubstation",
+                "primitiveID": "eeSubstation_7",
+                "nodeTitle": "$this.props.Name$"
+            },
+            {
+                "title": "eeKrun",
+                "layout": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "heigth": 91,
+                    "width": 91
+                },
+                "image": "icon.svg",
+                "properties": {
+                    "description": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "normallylnService": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "model": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "Name": {
+                        "expression": "ДНС-2",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "object_type": {
+                        "expression": "КРУН 6 кВ",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "zagruzka": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "current": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "kV_in": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "kV_out": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "power": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    }
+                },
+                "initPorts": [
+                    {
+                        "primitiveName": "inPort1",
+                        "type": "IN",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeKrun_1_inPort1",
+                        "location": {
+                            "x": 0.0,
+                            "y": 0.5
+                        }
+                    },
+                    {
+                        "primitiveName": "outPort1",
+                        "type": "OUT",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeKrun_1_outPort1",
+                        "location": {
+                            "x": 1.0,
+                            "y": 0.5
+                        }
+                    }
+                ],
+                "primitiveName": "eeKrun",
+                "primitiveID": "eeKrun_1",
+                "nodeTitle": "$this.props.Name$"
+            },
+            {
+                "title": "eeSubstation",
+                "layout": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "heigth": 91,
+                    "width": 91
+                },
+                "image": "icon.svg",
+                "properties": {
+                    "description": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "normallylnService": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "model": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "Name": {
+                        "expression": "Норкин",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "object_type": {
+                        "expression": "ПС 35/6 кВ",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "zagruzka": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "current": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "kV_in": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "kV_out": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "power": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    }
+                },
+                "initPorts": [
+                    {
+                        "primitiveName": "inPort1",
+                        "type": "IN",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeSubstation_8_inPort1",
+                        "location": {
+                            "x": 0.0,
+                            "y": 0.5
+                        }
+                    },
+                    {
+                        "primitiveName": "outPort1",
+                        "type": "OUT",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeSubstation_8_outPort1",
+                        "location": {
+                            "x": 1.0,
+                            "y": 0.5
+                        }
+                    }
+                ],
+                "primitiveName": "eeSubstation",
+                "primitiveID": "eeSubstation_8",
+                "nodeTitle": "$this.props.Name$"
+            },
+            {
+                "title": "eeRu",
+                "layout": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "heigth": 91,
+                    "width": 91
+                },
+                "image": "icon.svg",
+                "properties": {
+                    "Name": {
+                        "expression": "ДНС-2",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "object_type": {
+                        "expression": "РУ 6 кВ",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "description": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "model": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "zagruzka": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "current": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "kV_in": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "kV_out": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "power": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "normallylnService": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "measured_kWh": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "model_kWh": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    }
+                },
+                "initPorts": [
+                    {
+                        "primitiveName": "inPort1",
+                        "type": "IN",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeRu_3_inPort1",
+                        "location": {
+                            "x": 0.0,
+                            "y": 0.5
+                        }
+                    },
+                    {
+                        "primitiveName": "outPort1",
+                        "type": "OUT",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeRu_3_outPort1",
+                        "location": {
+                            "x": 1.0,
+                            "y": 0.5
+                        }
+                    }
+                ],
+                "primitiveName": "eeRu",
+                "primitiveID": "eeRu_3",
+                "nodeTitle": "$this.props.Name$"
+            },
+            {
+                "title": "eeSubstation",
+                "layout": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "heigth": 91,
+                    "width": 91
+                },
+                "image": "icon.svg",
+                "properties": {
+                    "description": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "normallylnService": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "model": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "Name": {
+                        "expression": "Норкин",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "object_type": {
+                        "expression": "ПС 35/6 кВ",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "zagruzka": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "current": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "kV_in": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "kV_out": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "power": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    }
+                },
+                "initPorts": [
+                    {
+                        "primitiveName": "inPort1",
+                        "type": "IN",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeSubstation_9_inPort1",
+                        "location": {
+                            "x": 0.0,
+                            "y": 0.5
+                        }
+                    },
+                    {
+                        "primitiveName": "outPort1",
+                        "type": "OUT",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeSubstation_9_outPort1",
+                        "location": {
+                            "x": 1.0,
+                            "y": 0.5
+                        }
+                    }
+                ],
+                "primitiveName": "eeSubstation",
+                "primitiveID": "eeSubstation_9",
+                "nodeTitle": "$this.props.Name$"
+            },
+            {
+                "title": "eePad",
+                "layout": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "heigth": 91,
+                    "width": 91
+                },
+                "image": "icon.svg",
+                "properties": {
+                    "description": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "normallylnService": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "model": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "Name": {
+                        "expression": "ГТЭС ДНС-2",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "object_type": {
+                        "expression": "КРУ 6кВ",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "zagruzka": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "current": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "kV_in": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "kV_out": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "power": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    }
+                },
+                "initPorts": [
+                    {
+                        "primitiveName": "inPort1",
+                        "type": "IN",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeKru_1_inPort1",
+                        "location": {
+                            "x": 0.0,
+                            "y": 0.5
+                        }
+                    },
+                    {
+                        "primitiveName": "outPort1",
+                        "type": "OUT",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeKru_1_outPort1",
+                        "location": {
+                            "x": 1.0,
+                            "y": 0.5
+                        }
+                    }
+                ],
+                "primitiveName": "eeKru",
+                "primitiveID": "eeKru_1",
+                "nodeTitle": "$this.props.Name$"
+            },
+            {
+                "title": "eeSubstation",
+                "layout": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "heigth": 91,
+                    "width": 91
+                },
+                "image": "icon.svg",
+                "properties": {
+                    "description": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "normallylnService": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "model": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "Name": {
+                        "expression": "Салманов",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "object_type": {
+                        "expression": "ПС 35/6 кВ",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "zagruzka": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "current": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "kV_in": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "kV_out": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "power": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    }
+                },
+                "initPorts": [
+                    {
+                        "primitiveName": "inPort1",
+                        "type": "IN",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeSubstation_10_inPort1",
+                        "location": {
+                            "x": 0.0,
+                            "y": 0.5
+                        }
+                    },
+                    {
+                        "primitiveName": "outPort1",
+                        "type": "OUT",
+                        "properties": {
+                            "status": {
+                                "expression": "",
+                                "type": "expression",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "eeSubstation_10_outPort1",
+                        "location": {
+                            "x": 1.0,
+                            "y": 0.5
+                        }
+                    }
+                ],
+                "primitiveName": "eeSubstation",
+                "primitiveID": "eeSubstation_10",
+                "nodeTitle": "$this.props.Name$"
+            }
+        ],
+        "edges": [],
+        "groups": []
+    }
+}

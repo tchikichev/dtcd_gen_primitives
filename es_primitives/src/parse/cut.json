@@ -1,0 +1,118 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "primitiveID": "esTopTransformer_2",
+                "primitiveName": "esTopTransformer",
+                "properties": {
+                    "name": {
+                        "expression": "//\"Наименование объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "aliasName": {
+                        "expression": "//\"Дополнительное наименование идентифицируемого объекта\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "description": {
+                        "expression": "//\"Описание объекта информационной модели\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "normallylnService": {
+                        "expression": "//\"Нормальное состояние оборудования - в работе (если присвоено значение Истина)\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "type": {
+                        "expression": "//\"Конструктивный тип\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "accuracyClass": {
+                        "expression": "//\"Класс точности\"\n' '",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    }
+                },
+                "nodeTitle": "$this.primitiveID$",
+                "image": "/rawPrimitives/esTopTransformer/icon.svg",
+                "initPorts": [
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortLow1",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 1
+                        },
+                        "primitiveID": "esTopTransformer_2_ioPortLow1",
+                        "location": {
+                            "x": -3707.5,
+                            "y": -1574.75
+                        }
+                    },
+                    {
+                        "type": [
+                            "IN",
+                            "OUT"
+                        ],
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveName": "ioPortTop2",
+                        "initPosition": {
+                            "x": 0.5,
+                            "y": 0
+                        },
+                        "primitiveID": "esTopTransformer_2_ioPortTop2",
+                        "location": {
+                            "x": -3707.5,
+                            "y": -1665.75
+                        }
+                    }
+                ],
+                "layout": {
+                    "x": -3753,
+                    "y": -1665.75,
+                    "height": 91,
+                    "width": 91
+                }
+            }
+        ],
+        "edges": [
+            {
+                "bends": [],
+                "sourceNode": "esTopStation_1",
+                "sourcePort": "esTopStation_1_ioPortLow1",
+                "targetNode": "esTopPowerLine_2",
+                "targetPort": "esTopPowerLine_2_ioTop3",
+                "extensionName": "ExtensionCommonPrimitives",
+                "primitiveName": "SimpleEdge"
+            }
+        ],
+        "groups": []
+    }
+}

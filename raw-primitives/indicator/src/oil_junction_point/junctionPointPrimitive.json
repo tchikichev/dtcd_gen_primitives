@@ -1,0 +1,40 @@
+{
+    'properties': {
+        "Name": {
+            "type": "expression",
+            "expression": "",
+            "status": "new",
+            "value": ""
+        },
+        "X": {
+            "type": "expression",
+            "expression": "",
+            "status": "new",
+            "value": ""
+        },
+        "Y": {
+            "type": "expression",
+            "expression": "",
+            "status": "new",
+            "value": ""
+        },
+        "Pressures_bar": {
+            "type": "expression",
+            "expression": "",
+            "status": "new",
+            "value": ""
+        }
+    }, 
+    'df_node_id': "None",
+    'initPorts': [], 
+    'extensionName': 'ExtensionRiskPrimitives', 
+    'primitiveName': 'UncontrolledRichLabelNode11', 
+    'primitiveID': 'UncontrolledRichLabelNode11_737', 
+    'nodeTitle': '<p><large style="font-size: 1.5em">Точка ветвления: $this.props.Name$</large></p><p><large style="font-size: 1.5em"></large></p>', 
+    'layout': {
+        'x': 377.375, 
+        'y': -500, 
+        'height': 148, 
+        'width': 294
+    }
+}

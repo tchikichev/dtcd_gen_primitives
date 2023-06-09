@@ -1,0 +1,69 @@
+{
+    "title": "eeConnector",
+    "layout": {
+        "heigth": 21,
+        "width": 21
+    },
+    "image": "icon.svg",
+    "properties": {
+        "aliasName": {
+            "expression": "",
+            "type": "expression"
+        },
+        "description": {
+            "expression": "",
+            "type": "expression"
+        },
+        "normallylnService": {
+            "expression": "",
+            "type": "expression"
+        },
+        "model": {
+            "expression": "",
+            "type": "expression"
+        },
+        "Name": {
+            "type": "expression",
+            "expression": "",
+            "status": "completed",
+            "value": ""
+        },
+        "zagruzka": {
+            "type": "expression",
+            "expression": "",
+            "status": "completed",
+            "value": ""
+        },
+        "current": {
+            "type": "expression",
+            "expression": "",
+            "status": "completed",
+            "value": ""
+        },
+        "kV": {
+            "type": "expression",
+            "expression": "",
+            "status": "completed",
+            "value": ""
+        },
+        "power": {
+            "type": "expression",
+            "expression": "",
+            "status": "completed",
+            "value": ""
+        }
+    },
+    "ports": [
+        {
+            "name": "ioPort",
+            "type": [
+                "IN",
+                "OUT"
+            ],
+            "position": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ]
+}
